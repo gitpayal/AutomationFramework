@@ -1,0 +1,10 @@
+sub Backup_Approved_Documents
+    service.copydoc(doc, "Backup Files/")
+end sub
+
+
+sub example_of_approved_email
+    rem service.SendApprovedMail(doc, doc.meta.author, "Document Library with Autobackup/forms/approved.htm")
+    rem doc.meta.assignedTo = doc.meta("vti_author")
+end sub
+

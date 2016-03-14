@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" %>
+<html dir="ltr">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" x-undefined />
+    <title>Unbenannte Seite</title>
+    <asp:contentplaceholder id="head" runat="server">
+    </asp:contentplaceholder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </form>
+</body>
+</html>

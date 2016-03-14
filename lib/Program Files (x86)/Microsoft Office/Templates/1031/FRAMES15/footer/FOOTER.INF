@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Navigationsframe unten
+description=Erstellt einen Hauptframe und darunter einen Navigationsframe. Hyperlinks im Navigationsframe bewirken Änderungen im Hauptframe.
+noframesURL=
+layout=[R(*,64)F("Hauptframe","Navigationsframe")]
+contributorModeRequirements=AllowCreatingFramesPages

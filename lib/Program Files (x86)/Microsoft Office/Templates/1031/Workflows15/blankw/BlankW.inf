@@ -1,0 +1,5 @@
+﻿[info]
+_lcid=1031
+title=Listenworkflow
+description=Erstellen Sie einen Workflow, der einer Liste angefügt ist und von einem Listenelement initiiert werden kann. Der hier angegebene Workflowname wird zur Identifizierung des Workflows für Endbenutzer verwendet.
+isBlank=true

@@ -1,0 +1,27 @@
+sub customize
+    rem new doc lib template customization
+    
+    rem cause doc lib to have expire view and related fields
+    service.ProvisionExpire(doc)
+
+    rem set archive option for -1 lookups
+    service.SetArchiveOption(doc, 5)
+
+    rem archive options -1 to 10
+    rem BF-backup folder name
+    rem DL-DocLib folder name
+    rem DLS-DocLib sub folder name
+    rem DATE-reverse sort date string
+    rem -1 -- lookup value, 3rd arg to service.copydoc, movedoc, or archivedoc
+    rem 0 -- BF
+    rem 1 -- BF/DATE
+    rem 2 -- BF/DLS
+    rem 3 -- BF/DATE/DLS
+    rem 4 -- BF/DLS/DATE
+    rem 5 -- BF/DL/DLS
+    rem 6 -- BF/DATE/DL/DLS
+    rem 7 -- BF/DL/DLS/DATE
+    rem 8 -- BF/DL
+    rem 9 -- BF/DL/DATE
+    rem 10 -- BF/DL/DATE/DLS
+end sub

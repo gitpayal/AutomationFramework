@@ -1,0 +1,272 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Eigenschaft ändern</title>
+		<meta http-equiv="msthemecompatible" content="yes">
+		<meta name="DHTMLScriptName" content="Eigenschaft ändern">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="425,400">
+		
+		<style> 
+			button { width: 8em; }					
+			table { border: none; border-collapse: collapse }					
+		</style>
+		<script type="text/JavaScript">
+			var L_strPropertiesCol1_TopicTitle		= "Eigenschaftsname";
+			var L_strPropertiesCol2_TopicTitle		= "Eigenschaftswert";
+			var L_strNoElements_Text				= "(Keine Elemente)";
+			var L_strNoID_Text						= "(Keine ID: Wird generiert)";
+			var L_nInsertDialogWidth_Number			= 425;
+			var L_nInsertDialogHeight_Number		= 250;
+			var L_NoSelection_ErrorMessage			= "Sie müssen ein Zielelement wählen und Eigenschaften zuweisen, um fortzufahren.";
+			var L_OkFailed_ErrorMessage				= "Sie müssen ein Zielelement wählen und Eigenschaften zuweisen, um fortzufahren.";
+			var L_strSelectedNotFound_ErrorMessage	= "Das vorherige Zielelement wurde nicht gefunden.";
+		</script>
+		<script src="FPLib.js" type="text/JavaScript"></script>
+		<script src="DOM.js" type="text/JavaScript"></script>
+		<script src="Strings.js" type="text/JavaScript"></script>
+		<script src="GetObj.js" type="text/JavaScript"></script>
+		<script src="ChngProp.js" type="text/JavaScript"></script>
+	</head>
+	<body onload="initializeForm()">
+		<form id="theForm" name="theForm" onsubmit="onOk(); return false;">
+			<object id="object1" classid="clsid:5220cb21-c88d-11cf-b347-00aa00a28331" viewastext>
+				<param name="LPKPath" value="license.lpk">
+			</object>
+			<table height="100%" width="100%">
+				<tr>
+					<td width="100%">
+						<table>
+							<tr>
+								<td>
+									<input id="radCurrentElement" onclick="onClickElementGroup()" tabIndex="1" type="radio" CHECKED value="1" name="ElementGroup">
+								</td>
+								<td nowrap>
+									<label accesskey="a" for="radCurrentElement">
+									
+									
+										<u>A</u>ktuelles&nbsp;Element 
+									</label>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input id="radSelectElement" onclick="onClickElementGroup()" tabIndex="2" type="radio" value="2" name="ElementGroup">
+								</td>
+								<td nowrap>
+									<label accessKey="w" for="radSelectElement">
+									
+									
+										Element&nbsp;aus<u>w</u>ählen </label>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+								<td nowrap>
+									<label accessKey="t" for="ddTagType">
+									
+									
+										Element<u>t</u>yp 
+									</label>
+								</td>
+								<td width="100%">
+									<select id="ddTagType" style="WIDTH: 100%" tabIndex="3" onchange="onTagTypeChange()" name="ddSelectedTagType">
+										<!-- elements filled in programmatically -->
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+								<td nowrap>
+									<label accessKey="i" for="ddTagID">
+									
+									
+										Element-<u>I</u>D 
+									</label>
+								</td>
+								<td width="100%">
+									<select id="ddTagID" style="WIDTH: 100%" tabIndex="4" onchange="onTagIDChange()" name="ddTagID">
+										<!-- elements filled in programmatically -->
+									</select>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" height="100%">
+						<table height="100%" width="100%">
+							<tr>
+								<td height="100%" width="100%">
+									<object classid="clsid:BDD1F04B-858B-11D1-B16A-00C0F0283628" height="100%" id="lvProperties" tabIndex="5"  width="100%" VIEWASTEXT>
+										<PARAM NAME="_ExtentX" VALUE="13018">
+										<PARAM NAME="_ExtentY" VALUE="8520">
+										<PARAM NAME="SortKey" VALUE="0">
+										<PARAM NAME="View" VALUE="3">
+										<PARAM NAME="Arrange" VALUE="0">
+										<PARAM NAME="LabelEdit" VALUE="1">
+										<PARAM NAME="SortOrder" VALUE="0">
+										<PARAM NAME="Sorted" VALUE="-1">
+										<PARAM NAME="MultiSelect" VALUE="0">
+										<PARAM NAME="LabelWrap" VALUE="-1">
+										<PARAM NAME="HideSelection" VALUE="0">
+										<PARAM NAME="HideColumnHeaders" VALUE="0">
+										<PARAM NAME="OLEDragMode" VALUE="0">
+										<PARAM NAME="OLEDropMode" VALUE="0">
+										<PARAM NAME="AllowReorder" VALUE="0">
+										<PARAM NAME="Checkboxes" VALUE="0">
+										<PARAM NAME="FlatScrollBar" VALUE="0">
+										<param name="FullRowSelect" value="1">
+										<PARAM NAME="GridLines" VALUE="0">
+										<PARAM NAME="HotTracking" VALUE="0">
+										<PARAM NAME="HoverSelection" VALUE="0">
+										<PARAM NAME="PictureAlignment" VALUE="0">
+										<PARAM NAME="TextBackground" VALUE="0">
+										<PARAM NAME="_Version" VALUE="393217">
+										<PARAM NAME="ForeColor" VALUE="-2147483640">
+										<PARAM NAME="BackColor" VALUE="-2147483643">
+										<PARAM NAME="BorderStyle" VALUE="1">
+										<PARAM NAME="Appearance" VALUE="1">
+										<PARAM NAME="MousePointer" VALUE="0">
+										<PARAM NAME="Enabled" VALUE="1">
+										<PARAM NAME="NumItems" VALUE="0">
+										<param name="OLEDragMode" value="0">
+										<param name="OLEDropMode" value="0">
+									</object>
+								</td>
+								<td>
+									<table height="100%">
+										<tr>
+											<td valign="top">
+												<table>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnFont" accessKey="f" onclick="onFont()" tabIndex="6" type="button">
+																															
+															
+																Schri<u>f</u>tart...
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnPosition" accessKey="p" onclick="onPosition()" tabIndex="7" type="button">
+																															
+															
+																<u>P</u>osition...
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnBorders" accessKey="r" onclick="onBorders()" tabIndex="8" type="button">
+																															
+															
+																<u>R</u>ahmen...
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnVisibility" accessKey="s" onclick="onVisibility()" tabIndex="9" type="button">
+																															
+															
+																<u>S</u>ichtbarkeit...
+															</button>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td valign="bottom">
+												<table>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnInsert" accessKey="e" onclick="onInsert()" tabIndex="10" type="button">
+																															
+															
+																Hinzufüg<u>e</u>n...
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnEdit" accessKey="d" onclick="onEdit()" tabIndex="11" type="button">
+																															
+															
+																Än<u>d</u>ern...
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding-top: 0.5ex; padding-bottom: 0.5ex;">
+															<button id="btnDelete" accessKey="n" onclick="onDelete()" tabIndex="12" type="button">
+																															
+															
+																E<u>n</u>tfernen
+															</button>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<hr>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td width="100%" nowrap>
+									<input tabindex="13" type="checkbox" name="chkRestore" value="OFF" id="chkRestore">
+									<label for="chkRestore" accesskey="w">	
+									
+																			
+										&nbsp;<u>W</u>iederherstellen bei mouseout-Ereignis
+									</label>
+								</td>
+								<td>
+									<button id="btnOk" tabIndex="14" type="submit">
+										
+										OK
+									</button>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									<button id="btnCancel" onclick="onCancel()" tabindex="15" type="button">
+										
+										Abbrechen
+									</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,7 @@
+sub example_of_approval_request
+    rem cause pending script to run.
+    rem doc.SetApprovalPending()
+
+    rem --note: completely automatic approval request processing only
+    rem --requires the following: service.ApprovalRequest("email-address")
+end sub

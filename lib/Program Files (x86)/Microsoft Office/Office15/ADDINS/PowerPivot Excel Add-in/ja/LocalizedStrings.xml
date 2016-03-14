@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">住所</s>
+  <s _locID="Classification.Address.Description">配送先としての人または組織の場所の説明</s>
+  <s _locID="Classification.Address.Group">地理</s>
+  <s _locID="Classification.City.LabelName">市区町村</s>
+  <s _locID="Classification.City.Description">人口、商業、文化の永続的な中心都市</s>
+  <s _locID="Classification.City.Group">地理</s>
+  <s _locID="Classification.Continent.LabelName">大陸</s>
+  <s _locID="Classification.Continent.Description">地球上の主要な陸地の 1 つ</s>
+  <s _locID="Classification.Continent.Group">地理</s>
+  <s _locID="Classification.Country.LabelName">国/地域</s>
+  <s _locID="Classification.Country.Description">国または州</s>
+  <s _locID="Classification.Country.Group">地理</s>
+  <s _locID="Classification.County.LabelName">郡</s>
+  <s _locID="Classification.County.Description">地方行政区画、都道府県の一部</s>
+  <s _locID="Classification.County.Group">地理</s>
+  <s _locID="Classification.PostalCode.LabelName">郵便番号</s>
+  <s _locID="Classification.PostalCode.Description">郵便物の配送を補助するために住所に追加される一連の文字または数字</s>
+  <s _locID="Classification.PostalCode.Group">地理</s>
+  <s _locID="Classification.StateorProvince.LabelName">都道府県</s>
+  <s _locID="Classification.StateorProvince.Description">国または地域内で行政または政治的単位として統治されている領域</s>
+  <s _locID="Classification.StateorProvince.Group">地理</s>
+  <s _locID="Classification.ImageURL.LabelName">画像の URL</s>
+  <s _locID="Classification.ImageURL.Description">画像を指す URL (Uniform Resource Locator)</s>
+  <s _locID="Classification.ImageURL.Group">画像</s>
+  <s _locID="Classification.WebUrl.LabelName">Web URL</s>
+  <s _locID="Classification.WebUrl.Description">Web 上の場所を指す URL (Uniform Resource Locator)</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">画像</s>
+  <s _locID="Classification.Image.Description">写真またはその他の絵 (通常は JPEG、GIFF、BMP ファイル形式)</s>
+  <s _locID="Classification.Image.Group">画像</s>
+  <s _locID="Classification.Latitude.LabelName">緯度</s>
+  <s _locID="Classification.Latitude.Description">地球の表面での南北の位置を決める地理座標系</s>
+  <s _locID="Classification.Latitude.Group">地理</s>
+  <s _locID="Classification.Longitude.LabelName">経度</s>
+  <s _locID="Classification.Longitude.Description">地球の表面での東西の位置を決める地理座標系</s>
+  <s _locID="Classification.Longitude.Group">地理</s>
+  <s _locID="Classification.Place.LabelName">場所</s>
+  <s _locID="Classification.Place.Description">地理的地域または場所</s>
+  <s _locID="Classification.Place.Group">地理</s>
+  <s _locID="Classification.Organization.LabelName">組織</s>
+  <s _locID="Classification.Organization.Description">特定の目的のために組織された人々の集団、会</s>
+  <s _locID="Classification.Organization.Group">組織</s>
+  <s _locID="Classification.Company.LabelName">会社</s>
+  <s _locID="Classification.Company.Description">企業組織</s>
+  <s _locID="Classification.Company.Group">組織</s>
+  <s _locID="Classification.Product.LabelName">製品</s>
+  <s _locID="Classification.Product.Description">販売できるように製作、生産、または取得されるもの</s>
+  <s _locID="Classification.Product.Group">製品</s>
+  <s _locID="Classification.Date.LabelName">日付</s>
+  <s _locID="Classification.Date.Description">年、四半期、月、または日で示した時</s>
+  <s _locID="Classification.Date.Group">カレンダー</s>
+</strings>

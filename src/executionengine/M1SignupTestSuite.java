@@ -1,0 +1,87 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package executionengine;
+
+import Config.ActionKeywords;
+import Utility.ExcelUtils;
+import java.lang.reflect.Method;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author payal.verma
+ */
+public class M1SignupTestSuite {
+     //This is a class object, declared as 'public static'
+	//So that it can be used outside the scope of main[] method
+	public static ActionKeywords actionKeywords;
+	public static String sActionKeyword;
+	//This is reflection class object, declared as 'public static'
+	//So that it can be used outside the scope of main[] method
+	public static Method method[];
+ 
+        //public static loginModule LoginModule;
+	public static String sLoginModule;
+	//This is reflection class object, declared as 'public static'
+	//So that it can be used outside the scope of main[] method
+	public static Method methodLoginModule[];
+	//Here we are instantiating a new object of class 'ActionKeywords'
+        String sPath = "H://ExecutionEngine//DataEngine.xlsx";
+        
+    	//Here we are passing the Excel path and SheetName to connect with the Excel file
+        //This method was created in the last chapter of 'Set up Data Engine' 	
+        public void LexwareSignUpTestSuite() {
+        try {
+            ExcelUtils.setExcelFile(sPath, "TestSteps");
+            
+            actionKeywords = new ActionKeywords();
+            //This will load all the methods of the class 'ActionKeywords' in it.
+            //It will be like array of method, use the break point here and do the watch
+            method = actionKeywords.getClass().getMethods();
+            
+            //Hard coded values are used for Excel row & columns for now
+            //In later chapters we will use these hard coded value much efficiently
+            //This is the loop for reading the values of the column 3 (Action Keyword) row by row
+            //It means this loop will execute all the steps mentioned for the test case in Test Steps sheet
+            for (int iRow = 1;iRow <= 5;iRow++){
+                try {
+                    //This to get the value of column Action Keyword from the excel
+                    sActionKeyword = ExcelUtils.getCellData(iRow, 3);
+                    //A new separate method is created with the name 'execute_Actions'
+                    //You will find this method below of the this test
+                    //So this statement is doing nothing but calling that piece of code to execute
+                    execute_Actions();
+                } catch (Exception ex) {
+                    Logger.getLogger(LexwareSignUpTestSuite.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        } catch (Exception ex) {
+            Logger.getLogger(LexwareSignUpTestSuite.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    	
+}
+	//This method contains the code to perform some action
+	//As it is completely different set of logic, which revolves around the action only,
+	//It makes sense to keep it separate from the main driver script
+	//This is to execute test step (Action)
+    private static void execute_Actions() throws Exception {
+		//This is a loop which will run for the number of actions in the Action Keyword class 
+		//method variable contain all the method and method.length returns the total number of methods
+		for(int i = 0;i < method.length;i++){
+                    
+			//This is now comparing the method name with the ActionKeyword value got from excel
+			if(method[i].getName().equals(sActionKeyword)){
+				//In case of match found, it will execute the matched method
+				method[i].invoke(actionKeywords);
+				//Once any method is executed, this break statement will take the flow outside of for loop
+				break;
+				}
+			}
+		}
+    
+    
+}

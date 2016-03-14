@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vps>
+  <vendorProductSets>
+    <vendorProductSet vendorID="65" vendor="Printec" copyright="copyright 1998 - 2012, Printec Co., Ltd." version="1" schemaVersion="1">
+
+      <product productID="5000" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5420</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">glossy photo paper 5"X7"</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="129" width="180"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="2" horizGap="0" vertGap="5" posX="15" posY="11"/>
+        </sheet>
+      </product>
+
+      <product productID="5001" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5430</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">glossy photo paper 4"x6"</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5002" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6110</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="148" width="105"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5003" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6120</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="53.3" width="37"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="2" horizGap="1.4" vertGap="1" posX="15" posY="20"/>
+        </sheet>
+      </product>
+
+      <product productID="5004" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6130</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="26" width="18"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="4" numDown="4" horizGap="1.4" vertGap="1" posX="15" posY="20"/>
+        </sheet>
+      </product>
+
+      <product productID="5005" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6140</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="26" width="18"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="4" numDown="4" horizGap="1.4" vertGap="1" posX="15" posY="20"/>
+        </sheet>
+      </product>
+
+      <product productID="5006" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">K6020</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="59" width="72"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="2" horizGap="0" vertGap="4" posX="16" posY="13"/>
+        </sheet>
+      </product>
+
+      <product productID="5007" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">K6060</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="34" width="42"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="3" horizGap="2" vertGap="2" posX="9" posY="21"/>
+        </sheet>
+      </product>
+
+      <product productID="5008" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">K6080</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="26" width="34"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="4" horizGap="2" vertGap="4" posX="17" posY="16"/>
+        </sheet>
+      </product>
+
+      <product productID="5009" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">K6130</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">AnyPhoto</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="17" width="22"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="3" numDown="6" horizGap="2" vertGap="2" posX="17" posY="19"/>
+        </sheet>
+      </product>
+
+      <product productID="5010" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6210</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5011" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6310</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5012" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V6320</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="420" width="297"/>
+        <sheet height="420" width="297" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5013" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7300</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">super high glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="148" width="105"/>
+        <sheet height="148" width="105" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5014" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7301</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">super high glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="152" width="102"/>
+        <sheet height="152" width="102" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5015" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7310</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">super high glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5016" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7320</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">super high glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="420" width="297"/>
+        <sheet height="420" width="297" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5017" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7401</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">semi glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="152" width="102"/>
+        <sheet height="152" width="102" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5018" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7330</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">semi glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5019" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V7340</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">semi glossy photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="420" width="297"/>
+        <sheet height="420" width="297" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5020" units="mm" layoutGroup="photoPaper">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5500</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">laser photo paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5021" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">L5142</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="49.9" width="89.9"/>
+        <sheet height="279.4" width="215.9" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="18" posY="15"/>
+        </sheet>
+      </product>
+
+      <product productID="5022" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">L5400</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="49.9" width="89.9"/>
+        <sheet height="279.4" width="215.9" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="18" posY="15"/>
+        </sheet>
+      </product>
+
+      <product productID="5023" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5110</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="50" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="23.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5024" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5130</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="50" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="23.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5025" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5142</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="50" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="23.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5026" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5310</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="54" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="13.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5027" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5330</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="54" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="13.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5028" units="mm" layoutGroup="businessCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5400</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="50" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="23.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5029" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">B0100M</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="50" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="23.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5030" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">LB0100M</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="49.9" width="89.9"/>
+        <sheet height="279.4" width="215.9" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="18" posY="15"/>
+        </sheet>
+      </product>
+
+      <product productID="5031" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">B0100G</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="50" width="90"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="15" posY="23.5"/>
+        </sheet>
+      </product>
+
+      <product productID="5032" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">LB0100G</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">business card</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="49.9" width="89.9"/>
+        <sheet height="279.4" width="215.9" allowPartialSheet="true">
+          <sheetGrid numAcross="2" numDown="5" horizGap="0" vertGap="0" posX="18" posY="15"/>
+        </sheet>
+      </product>
+
+      <product productID="5033" units="mm" layoutGroup="greetingCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5000</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">card paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5034" units="mm" layoutGroup="greetingCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5100</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">card paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5035" units="mm" layoutGroup="greetingCard">
+        <prodName nameGroup="custom">
+          <locName locale="all">V5300</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">card paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5036" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">L5000</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">card paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="279.4" width="215.9"/>
+        <sheet height="279.4" width="215.9" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5037" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">I0010W</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">card paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="297" width="210"/>
+        <sheet height="297" width="210" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+      <product productID="5038" units="mm" layoutGroup="otherLabel">
+        <prodName nameGroup="custom">
+          <locName locale="all">LI0010W</locName>
+        </prodName>
+        <desc descGroup="custom">
+			<locDesc locale="all">card paper</locDesc>
+		</desc>
+        <masterPanel masterID="0" height="279.4" width="215.9"/>
+        <sheet height="279.4" width="215.9" allowPartialSheet="true">
+          <sheetGrid numAcross="1" numDown="1" horizGap="0" vertGap="0" posX="0" posY="0"/>
+        </sheet>
+      </product>
+
+    </vendorProductSet>
+  </vendorProductSets>
+</vps>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">地址</s>
+  <s _locID="Classification.Address.Description">人員或組織位置的描述，做為遞送指引</s>
+  <s _locID="Classification.Address.Group">地理位置</s>
+  <s _locID="Classification.City.LabelName">縣 (市)</s>
+  <s _locID="Classification.City.Description">人口、商業和文化的永久都會中心</s>
+  <s _locID="Classification.City.Group">地理位置</s>
+  <s _locID="Classification.Continent.LabelName">大陸</s>
+  <s _locID="Classification.Continent.Description">地球上的其中一個主要陸地</s>
+  <s _locID="Classification.Continent.Group">地理位置</s>
+  <s _locID="Classification.Country.LabelName">國家 (地區)</s>
+  <s _locID="Classification.Country.Description">國家或省份</s>
+  <s _locID="Classification.Country.Group">地理位置</s>
+  <s _locID="Classification.County.LabelName">縣市</s>
+  <s _locID="Classification.County.Description">地方政府區域; 屬於省份的一部分</s>
+  <s _locID="Classification.County.Group">地理位置</s>
+  <s _locID="Classification.PostalCode.LabelName">郵遞區號</s>
+  <s _locID="Classification.PostalCode.Description">加入至郵寄地址以協助遞送郵件的一連串字母及/或數字</s>
+  <s _locID="Classification.PostalCode.Group">地理位置</s>
+  <s _locID="Classification.StateorProvince.LabelName">省份</s>
+  <s _locID="Classification.StateorProvince.Description">在國家或地區內，當做行政或政治單位管理的領土。</s>
+  <s _locID="Classification.StateorProvince.Group">地理位置</s>
+  <s _locID="Classification.ImageURL.LabelName">影像 URL</s>
+  <s _locID="Classification.ImageURL.Description">指向影像的 URL (統一資源定位器)</s>
+  <s _locID="Classification.ImageURL.Group">影像</s>
+  <s _locID="Classification.WebUrl.LabelName">Web URL</s>
+  <s _locID="Classification.WebUrl.Description">指向 Web 位置的 URL (統一資源定位器)</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">影像</s>
+  <s _locID="Classification.Image.Description">相片或其他圖片，通常採用 JPEG、GIFF 或 BMP 檔案格式</s>
+  <s _locID="Classification.Image.Group">影像</s>
+  <s _locID="Classification.Latitude.LabelName">緯度</s>
+  <s _locID="Classification.Latitude.Description">在地球表面上決定南北位置的地理座標</s>
+  <s _locID="Classification.Latitude.Group">地理位置</s>
+  <s _locID="Classification.Longitude.LabelName">經度</s>
+  <s _locID="Classification.Longitude.Description">在地球表面上決定東西位置的地理座標</s>
+  <s _locID="Classification.Longitude.Group">地理位置</s>
+  <s _locID="Classification.Place.LabelName">地點</s>
+  <s _locID="Classification.Place.Description">地理區域或位置</s>
+  <s _locID="Classification.Place.Group">地理位置</s>
+  <s _locID="Classification.Organization.LabelName">組織</s>
+  <s _locID="Classification.Organization.Description">針對特定目的而組織的一群人員; 協會</s>
+  <s _locID="Classification.Organization.Group">組織</s>
+  <s _locID="Classification.Company.LabelName">公司</s>
+  <s _locID="Classification.Company.Description">企業</s>
+  <s _locID="Classification.Company.Group">組織</s>
+  <s _locID="Classification.Product.LabelName">產品</s>
+  <s _locID="Classification.Product.Description">製造、開發或取得以便進行銷售的物品</s>
+  <s _locID="Classification.Product.Group">產品</s>
+  <s _locID="Classification.Date.LabelName">日期</s>
+  <s _locID="Classification.Date.Description">依照日、月份、季度或年份陳述的時間</s>
+  <s _locID="Classification.Date.Group">日曆</s>
+</strings>

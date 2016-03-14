@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2813.0
+title=Sitemap
+description=Erstellt eine Sitemap. Diese Datei erfordert ASP.NET 2.0 oder höher.
+filename=Sitemap.sitemap
+contributorModeRequirements=AllowCreatingASPNetSiteMaps

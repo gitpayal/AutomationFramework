@@ -1,0 +1,46 @@
+﻿a:link
+{
+	color: rgb(255,204,0); 
+}
+a:visited
+{
+	color: rgb(153,204,204); 
+} 
+a:active 
+{
+	color: rgb(102,255,0);
+}
+body
+{
+	font-family: Garamond, Times New Roman, Times;
+	background-color: rgb(51,102,204);
+	color: rgb(255,255,153);
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Verdana, Arial, Helvetica;
+}
+h1
+{
+	color: rgb(255,204,0);
+}
+h2
+{
+	color: rgb(153,255,51); 
+}
+h3
+{
+	color: rgb(0,255,204); 
+}
+h4
+{
+	color: rgb(255,204,0);
+}
+h5
+{
+	color: rgb(153,255,51);
+}
+h6
+{
+	color: rgb(0,255,204);
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adresa</s>
+  <s _locID="Classification.Address.Description">Opis mjesta na kojemu se nalazi osoba ili tvrtka ili ustanova kao upute za dostavu</s>
+  <s _locID="Classification.Address.Group">Zemljopis</s>
+  <s _locID="Classification.City.LabelName">Grad</s>
+  <s _locID="Classification.City.Description">Trajno urbano središte stanovanja, gospodarstva i kulture</s>
+  <s _locID="Classification.City.Group">Zemljopis</s>
+  <s _locID="Classification.Continent.LabelName">Kontinent</s>
+  <s _locID="Classification.Continent.Description">Jedna od glavnih kopnenih masa na Zemlji</s>
+  <s _locID="Classification.Continent.Group">Zemljopis</s>
+  <s _locID="Classification.Country.LabelName">Država/regija</s>
+  <s _locID="Classification.Country.Description">Nacija ili država</s>
+  <s _locID="Classification.Country.Group">Zemljopis</s>
+  <s _locID="Classification.County.LabelName">Županija</s>
+  <s _locID="Classification.County.Description">Lokalno područje uprave; dio države ili pokrajine</s>
+  <s _locID="Classification.County.Group">Zemljopis</s>
+  <s _locID="Classification.PostalCode.LabelName">Poštanski broj</s>
+  <s _locID="Classification.PostalCode.Description">Niz slova i/ili brojeva dodanih poštanskoj adresi kao pomoć prilikom dostavljanja pošte</s>
+  <s _locID="Classification.PostalCode.Group">Zemljopis</s>
+  <s _locID="Classification.StateorProvince.LabelName">Država ili pokrajina</s>
+  <s _locID="Classification.StateorProvince.Description">Područje kojim se upravlja kao administrativnom ili političkom jedinicom unutar države ili regije.</s>
+  <s _locID="Classification.StateorProvince.Group">Zemljopis</s>
+  <s _locID="Classification.ImageURL.LabelName">URL slike</s>
+  <s _locID="Classification.ImageURL.Description">URL (Uniform resource locator) koji upućuje na sliku</s>
+  <s _locID="Classification.ImageURL.Group">Slika</s>
+  <s _locID="Classification.WebUrl.LabelName">URL na webu</s>
+  <s _locID="Classification.WebUrl.Description">URL (Uniform resource locator) koji upućuje na web-mjesto</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Slika</s>
+  <s _locID="Classification.Image.Description">Fotografija ili druga slika, često u obliku datoteke JPEG, GIFF ili BMP</s>
+  <s _locID="Classification.Image.Group">Slika</s>
+  <s _locID="Classification.Latitude.LabelName">Zemljopisna širina</s>
+  <s _locID="Classification.Latitude.Description">Zemljopisna koordinata koja određuje položaj prema osi sjever - jug na Zemljinoj površini</s>
+  <s _locID="Classification.Latitude.Group">Zemljopis</s>
+  <s _locID="Classification.Longitude.LabelName">Zemljopisna dužina</s>
+  <s _locID="Classification.Longitude.Description">Zemljopisna koordinata koja određuje položaj prema osi istok - zapad na Zemljinoj površini</s>
+  <s _locID="Classification.Longitude.Group">Zemljopis</s>
+  <s _locID="Classification.Place.LabelName">Mjesto</s>
+  <s _locID="Classification.Place.Description">Zemljopisno područje ili lokacija</s>
+  <s _locID="Classification.Place.Group">Zemljopis</s>
+  <s _locID="Classification.Organization.LabelName">Tvrtka ili ustanova</s>
+  <s _locID="Classification.Organization.Description">Grupa ljudi okupljena s određenom svrhom; udruženje</s>
+  <s _locID="Classification.Organization.Group">Tvrtka ili ustanova</s>
+  <s _locID="Classification.Company.LabelName">Tvrtka</s>
+  <s _locID="Classification.Company.Description">Poslovno poduzeće</s>
+  <s _locID="Classification.Company.Group">Tvrtka ili ustanova</s>
+  <s _locID="Classification.Product.LabelName">Proizvod</s>
+  <s _locID="Classification.Product.Description">Nešto načinjeno, uzgojeno ili nabavljeno s ciljem prodaje</s>
+  <s _locID="Classification.Product.Group">Proizvod</s>
+  <s _locID="Classification.Date.LabelName">Datum</s>
+  <s _locID="Classification.Date.Description">Vrijeme navedeno u obliku dana, mjeseca, tromjesečja ili godine</s>
+  <s _locID="Classification.Date.Group">Kalendar</s>
+</strings>

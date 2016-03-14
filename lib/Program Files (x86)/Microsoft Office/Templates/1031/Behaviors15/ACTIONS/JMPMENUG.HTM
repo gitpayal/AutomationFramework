@@ -1,0 +1,75 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">			
+		
+		<title>Hyperlinkmenü starten</title>
+		<meta name="DHTMLScriptName" content="Jump-Menü &Go">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="300,150">
+		
+		<style>
+		button	{ width: 8em;  }				
+		table	{ border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+		var L_JumpMenu_ListBox		=  "Jump-Menü";
+		var L_Unnamed_Text		=  "unbenannt"; //Used when a text field or form has no name or id
+		var L_NOTAG_ErrorMessage	= "Fehler: Kann Tag nicht im Dokument finden.";
+		var L_JUMPMENUNOTFOUND_ErrorMessage	= "Das angegebene Jump-Menü konnte nicht gefunden werden.";
+		var L_NoSelection_ErrorMessage		= "Sie müssen ein Ziel-Jump-Menü auswählen um fortzufahren.";
+		</script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="GetObj.js"></script>
+		<script type="text/JavaScript" src="_JmpMenu.js"></script>
+		<script type="text/JavaScript" src="JmpMenuG.JS"></script>
+	</head>
+	<body onload="initDialog(); safeFocus(theForm.JumpMenuName)">
+		<form id="theForm" name="theForm" onsubmit="onOk(); return false;">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+				<tr>
+					<td>
+						<label for="JumpMenuName">
+					
+					<u>G</u>ehe&nbsp;zu&nbsp;URL&nbsp;basierend&nbsp;auf&nbsp;dem&nbsp;angegebenen&nbsp;Index&nbsp;des&nbsp;Hyperlinkmenü:
+				</label>
+						<p>						
+							<select size="1" name="JumpMenuName" style="width: 100%" accesskey="g" id="JumpMenuName">
+																		
+							
+							</select>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%">
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						<hr>
+						<table width="100%">
+							<tr>
+								<td width="100%"></td>
+								<td>
+									<button name="OK" value="OK" type="submit">
+							
+							OK
+						</button>
+								</td>
+								<td>&nbsp;</td>
+								<td>
+									<button name="Cancel" value="Cancel" onclick="CancelAction();">
+	  						
+							Abbrechen
+	  					</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

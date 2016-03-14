@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adres</s>
+  <s _locID="Classification.Address.Description">Teslimat için yol tarifi olarak bir kişinin veya kuruluşun konumunun açıklaması</s>
+  <s _locID="Classification.Address.Group">Coğrafya</s>
+  <s _locID="Classification.City.LabelName">Şehir</s>
+  <s _locID="Classification.City.Description">Sabit kentsel bir yerleşim, ticaret veya kültür merkezi</s>
+  <s _locID="Classification.City.Group">Coğrafya</s>
+  <s _locID="Classification.Continent.LabelName">Kıta</s>
+  <s _locID="Classification.Continent.Description">Dünya üzerindeki ana kara kütlelerinden biri</s>
+  <s _locID="Classification.Continent.Group">Coğrafya</s>
+  <s _locID="Classification.Country.LabelName">Ülke/Bölge</s>
+  <s _locID="Classification.Country.Description">Bir ülke veya eyalet</s>
+  <s _locID="Classification.Country.Group">Coğrafya</s>
+  <s _locID="Classification.County.LabelName">İlçe</s>
+  <s _locID="Classification.County.Description">Yerel bir yönetim bölgesi; bir eyalet veya ilin parçasıdır</s>
+  <s _locID="Classification.County.Group">Coğrafya</s>
+  <s _locID="Classification.PostalCode.LabelName">Posta Kodu</s>
+  <s _locID="Classification.PostalCode.Description">Postanın dağıtımına yardımcı olmak için posta adresine eklenen bir dizi harf ve/veya rakam</s>
+  <s _locID="Classification.PostalCode.Group">Coğrafya</s>
+  <s _locID="Classification.StateorProvince.LabelName">Eyalet veya İl</s>
+  <s _locID="Classification.StateorProvince.Description">Bir ülke veya bölgede idari veya siyasi bir birim olarak yönetilen alan.</s>
+  <s _locID="Classification.StateorProvince.Group">Coğrafya</s>
+  <s _locID="Classification.ImageURL.LabelName">Görüntü URL'si</s>
+  <s _locID="Classification.ImageURL.Description">Bir görüntüye işaret eden URL (Tekdüzen kaynak konum belirleyicisi)</s>
+  <s _locID="Classification.ImageURL.Group">Görüntü</s>
+  <s _locID="Classification.WebUrl.LabelName">Web URL'si</s>
+  <s _locID="Classification.WebUrl.Description">Bir web konumuna işaret eden URL (Tekdüzen kaynak konum belirleyicisi)</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Görüntü</s>
+  <s _locID="Classification.Image.Description">Sıklıkla bir JPEG, GIFF veya BMP dosyası biçiminde olan bir fotoğraf veya başka tür resim</s>
+  <s _locID="Classification.Image.Group">Görüntü</s>
+  <s _locID="Classification.Latitude.LabelName">Enlem</s>
+  <s _locID="Classification.Latitude.Description">Dünya yüzeyinde kuzey-güney konumunu belirleyen coğrafi koordinat</s>
+  <s _locID="Classification.Latitude.Group">Coğrafya</s>
+  <s _locID="Classification.Longitude.LabelName">Boylam</s>
+  <s _locID="Classification.Longitude.Description">Dünya yüzeyinde doğu-batı konumunu belirleyen coğrafi koordinat</s>
+  <s _locID="Classification.Longitude.Group">Coğrafya</s>
+  <s _locID="Classification.Place.LabelName">Yer</s>
+  <s _locID="Classification.Place.Description">Coğrafi bir alan veya konum</s>
+  <s _locID="Classification.Place.Group">Coğrafya</s>
+  <s _locID="Classification.Organization.LabelName">Kuruluş</s>
+  <s _locID="Classification.Organization.Description">Belirli bir amaç için örgütlenmiş bir grup kişi; bir topluluk</s>
+  <s _locID="Classification.Organization.Group">Kuruluş</s>
+  <s _locID="Classification.Company.LabelName">Şirket</s>
+  <s _locID="Classification.Company.Description">Ticari bir kurum</s>
+  <s _locID="Classification.Company.Group">Kuruluş</s>
+  <s _locID="Classification.Product.LabelName">Ürün</s>
+  <s _locID="Classification.Product.Description">Satmak amacıyla yapılan, büyütülen veya edinilen bir şey</s>
+  <s _locID="Classification.Product.Group">Ürün</s>
+  <s _locID="Classification.Date.LabelName">Tarih</s>
+  <s _locID="Classification.Date.Description">Gün, ay, çeyrek veya yıl terimleriyle ifade edilen zaman</s>
+  <s _locID="Classification.Date.Group">Takvim</s>
+</strings>

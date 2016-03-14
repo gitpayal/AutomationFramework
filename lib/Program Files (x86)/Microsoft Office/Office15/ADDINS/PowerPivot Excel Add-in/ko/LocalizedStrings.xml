@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">주소</s>
+  <s _locID="Classification.Address.Description">사용자 또는 조직의 위치에 대한 설명(배달 안내)</s>
+  <s _locID="Classification.Address.Group">지리</s>
+  <s _locID="Classification.City.LabelName">구/군/시</s>
+  <s _locID="Classification.City.Description">인구, 상업 및 문화의 영구 도심지</s>
+  <s _locID="Classification.City.Group">지리</s>
+  <s _locID="Classification.Continent.LabelName">대륙</s>
+  <s _locID="Classification.Continent.Description">지구상의 주요 육지 중 하나</s>
+  <s _locID="Classification.Continent.Group">지리</s>
+  <s _locID="Classification.Country.LabelName">국가/지역</s>
+  <s _locID="Classification.Country.Description">나라 또는 시/도</s>
+  <s _locID="Classification.Country.Group">지리</s>
+  <s _locID="Classification.County.LabelName">지방</s>
+  <s _locID="Classification.County.Description">지방 자치 지역(시/도의 일부)</s>
+  <s _locID="Classification.County.Group">지리</s>
+  <s _locID="Classification.PostalCode.LabelName">우편 번호</s>
+  <s _locID="Classification.PostalCode.Description">우편물 배달에 도움이 되도록 우편 주소에 추가되는 일련의 문자 및/또는 숫자</s>
+  <s _locID="Classification.PostalCode.Group">지리</s>
+  <s _locID="Classification.StateorProvince.LabelName">시/도</s>
+  <s _locID="Classification.StateorProvince.Description">국가 또는 지역 내에서 관리 또는 정치 단위로 관리되는 영토</s>
+  <s _locID="Classification.StateorProvince.Group">지리</s>
+  <s _locID="Classification.ImageURL.LabelName">이미지 URL</s>
+  <s _locID="Classification.ImageURL.Description">이미지를 가리키는 URL(Uniform Resource Locator)</s>
+  <s _locID="Classification.ImageURL.Group">이미지</s>
+  <s _locID="Classification.WebUrl.LabelName">웹 URL</s>
+  <s _locID="Classification.WebUrl.Description">웹 위치를 가리키는 URL(Uniform Resource Locator)</s>
+  <s _locID="Classification.WebUrl.Group">웹</s>
+  <s _locID="Classification.Image.LabelName">이미지</s>
+  <s _locID="Classification.Image.Description">대개 JPEG, GIFF 또는 BMP 파일 형식의 사진 또는 기타 그림</s>
+  <s _locID="Classification.Image.Group">이미지</s>
+  <s _locID="Classification.Latitude.LabelName">위도</s>
+  <s _locID="Classification.Latitude.Description">지표의 남북 위치를 결정하는 지리적 좌표</s>
+  <s _locID="Classification.Latitude.Group">지리</s>
+  <s _locID="Classification.Longitude.LabelName">경도</s>
+  <s _locID="Classification.Longitude.Description">지표의 동서 위치를 결정하는 지리적 좌표</s>
+  <s _locID="Classification.Longitude.Group">지리</s>
+  <s _locID="Classification.Place.LabelName">장소</s>
+  <s _locID="Classification.Place.Description">지리적 영역 또는 위치</s>
+  <s _locID="Classification.Place.Group">지리</s>
+  <s _locID="Classification.Organization.LabelName">조직</s>
+  <s _locID="Classification.Organization.Description">특정 목적의 공동 그룹(협회)</s>
+  <s _locID="Classification.Organization.Group">조직</s>
+  <s _locID="Classification.Company.LabelName">회사</s>
+  <s _locID="Classification.Company.Description">기업</s>
+  <s _locID="Classification.Company.Group">조직</s>
+  <s _locID="Classification.Product.LabelName">제품</s>
+  <s _locID="Classification.Product.Description">판매를 위해 제조, 재배 또는 획득되는 것</s>
+  <s _locID="Classification.Product.Group">제품</s>
+  <s _locID="Classification.Date.LabelName">날짜</s>
+  <s _locID="Classification.Date.Description">일, 월, 분기 또는 연으로 지정되는 시간</s>
+  <s _locID="Classification.Date.Group">일정</s>
+</strings>

@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Banner und Inhaltsverzeichnis
+description=Erstellt einen Bannerframe am oberen Rand und darunter einen Haupt- und einen Inhaltsverzeichnisframe. Hyperlinks im Banner bewirken Änderungen im Inhaltsverzeichnis.
+noframesURL=
+layout=[R(64,*)F("Banner",[C(150,*)F("Inhalt","Hauptframe")])]
+contributorModeRequirements=AllowCreatingFramesPages

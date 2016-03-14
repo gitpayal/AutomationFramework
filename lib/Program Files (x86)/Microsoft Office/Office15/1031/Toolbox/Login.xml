@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--_lcid="1031" _version="5013" _dal="1" -->
+<!--_LocalBinding -->
+<Toolbox>
+	<ToolboxItem Type="2" Name="ChangePassword" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="ChangePassword" />
+	
+	
+	<ToolboxItem Type="2" Name="CreateUserWizard" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="CreateUserWizard" />
+	
+	
+	<ToolboxItem Type="2" Name="Login" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Login" />
+	
+	
+	<ToolboxItem Type="2" Name="LoginName" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="LoginName" />
+	
+	
+	<ToolboxItem Type="2" Name="LoginStatus" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="LoginStatus" />
+	
+	
+	<ToolboxItem Type="2" Name="LoginView" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="LoginView" />
+	
+	
+	<ToolboxItem Type="2" Name="PasswordRecovery" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="PasswordRecovery" />
+	
+	
+</Toolbox>

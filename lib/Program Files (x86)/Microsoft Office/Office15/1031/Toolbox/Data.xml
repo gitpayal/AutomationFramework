@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--_lcid="1031" _version="5013" _dal="1" -->
+<!--_LocalBinding -->
+<Toolbox>
+	
+	<ToolboxItem Type="2" Name="DataList" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="DataList" />
+	
+	
+	<ToolboxItem Type="2" Name="DetailsView" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="DetailsView" />
+	
+	
+	<ToolboxItem Type="2" Name="FormView" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="FormView" />
+	
+	
+	<ToolboxItem Type="2" Name="GridView" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="GridView" />
+	
+	
+	<ToolboxItem Type="2" Name="Repeater" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Repeater" />
+	
+	
+	<ToolboxItem Type="2" Name="SiteMapDataSource" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="SiteMapDataSource" />
+	
+	
+	<ToolboxItem Type="2" Name="SqlDataSource" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="SqlDataSource" />
+	
+	
+</Toolbox>

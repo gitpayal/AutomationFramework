@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Bogen
+description=Erstellt ein Stylesheet mit braunem Text in Verdana, braunen Überschriften in Times New Roman und zartgelbem Hintergrund.
+contributorModeRequirements=AllowCreatingCSSFiles

@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Feedbackformular
+description=Erstellt eine Seite, mit der Benutzer Kommentare zu Ihrer Website, Ihren Produkten und Ihrer Organisation absenden können. Erfordert FrontPage-Servererweiterungen.
+needsFPSE=true
+contributorModeRequirements=AllowCreatingFPSEPages

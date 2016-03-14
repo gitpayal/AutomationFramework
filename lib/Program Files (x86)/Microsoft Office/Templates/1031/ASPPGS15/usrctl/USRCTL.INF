@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2813.0
+title=Web-Benutzersteuerelement
+description=Ein ASP.NET-Serversteuerelement.
+filename=UserCtrl.ascx
+needsProgLang=true
+contributorModeRequirements=AllowCreatingASPNetASCXPages

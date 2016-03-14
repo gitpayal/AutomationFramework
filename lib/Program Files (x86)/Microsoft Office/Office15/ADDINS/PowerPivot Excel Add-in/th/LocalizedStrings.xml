@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">ที่อยู่</s>
+  <s _locID="Classification.Address.Description">คำอธิบายที่ตั้งของบุคคลหรือองค์กร สำหรับใช้ในการจัดส่ง</s>
+  <s _locID="Classification.Address.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.City.LabelName">เมือง</s>
+  <s _locID="Classification.City.Description">ใจกลางเมืองที่เป็นศูนย์รวมประชากร การค้า และวัฒนธรรมอย่างถาวร</s>
+  <s _locID="Classification.City.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.Continent.LabelName">ทวีป</s>
+  <s _locID="Classification.Continent.Description">หนึ่งในผืนดินขนาดใหญ่บนโลก</s>
+  <s _locID="Classification.Continent.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.Country.LabelName">ประเทศ/ภูมิภาค</s>
+  <s _locID="Classification.Country.Description">ประเทศหรือรัฐ</s>
+  <s _locID="Classification.Country.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.County.LabelName">เขต</s>
+  <s _locID="Classification.County.Description">เขตการปกครองท้องถิ่น เป็นส่วนหนึ่งของรัฐหรือจังหวัด</s>
+  <s _locID="Classification.County.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.PostalCode.LabelName">รหัสไปรษณีย์</s>
+  <s _locID="Classification.PostalCode.Description">ลำดับอักษรและ/หรือตัวเลขที่ต่อท้ายที่อยู่ไปรษณีย์ สำหรับช่วยในการส่งจดหมาย</s>
+  <s _locID="Classification.PostalCode.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.StateorProvince.LabelName">รัฐหรือจังหวัด</s>
+  <s _locID="Classification.StateorProvince.Description">อาณาเขตที่ปกครองโดยหน่วยงานบริหารหรือหน่วยงานของรัฐภายในประเทศหรือภูมิภาค</s>
+  <s _locID="Classification.StateorProvince.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.ImageURL.LabelName">URL รูป</s>
+  <s _locID="Classification.ImageURL.Description">URL (Uniform resource locator) ที่ชี้ไปยังรูป</s>
+  <s _locID="Classification.ImageURL.Group">รูป</s>
+  <s _locID="Classification.WebUrl.LabelName">URL เว็บ</s>
+  <s _locID="Classification.WebUrl.Description">URL (Uniform resource locator) ที่ชี้ไปยังตำแหน่งบนเว็บ</s>
+  <s _locID="Classification.WebUrl.Group">เว็บ</s>
+  <s _locID="Classification.Image.LabelName">รูป</s>
+  <s _locID="Classification.Image.Description">รูปถ่ายหรือรูปภาพอื่นๆ มักอยู่ในรูปแบบแฟ้ม JPEG, GIFF หรือ BMP</s>
+  <s _locID="Classification.Image.Group">รูป</s>
+  <s _locID="Classification.Latitude.LabelName">ละติจูด</s>
+  <s _locID="Classification.Latitude.Description">พิกัดทางภูมิศาสตร์ที่ระบุตำแหน่งเหนือใต้บนพื้นผิวโลก</s>
+  <s _locID="Classification.Latitude.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.Longitude.LabelName">ลองจิจูด</s>
+  <s _locID="Classification.Longitude.Description">พิกัดทางภูมิศาสตร์ที่ระบุตำแหน่งตะวันออกตะวันตกบนพื้นผิวโลก</s>
+  <s _locID="Classification.Longitude.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.Place.LabelName">สถานที่</s>
+  <s _locID="Classification.Place.Description">พื้นที่หรือตำแหน่งทางภูมิศาสตร์</s>
+  <s _locID="Classification.Place.Group">ภูมิศาสตร์</s>
+  <s _locID="Classification.Organization.LabelName">องค์กร</s>
+  <s _locID="Classification.Organization.Description">กลุ่มของบุคคลที่รวมตัวกันเพื่อจุดประสงค์บางอย่าง สมาคม</s>
+  <s _locID="Classification.Organization.Group">องค์กร</s>
+  <s _locID="Classification.Company.LabelName">บริษัท</s>
+  <s _locID="Classification.Company.Description">สถานประกอบการทางธุรกิจ</s>
+  <s _locID="Classification.Company.Group">องค์กร</s>
+  <s _locID="Classification.Product.LabelName">ผลิตภัณฑ์</s>
+  <s _locID="Classification.Product.Description">สิ่งที่สร้างขึ้น เพาะปลูก หรือได้รับมาสำหรับนำไปจำหน่าย</s>
+  <s _locID="Classification.Product.Group">ผลิตภัณฑ์</s>
+  <s _locID="Classification.Date.LabelName">วันที่</s>
+  <s _locID="Classification.Date.Description">เวลาในรูปของวัน เดือน ไตรมาส หรือปี</s>
+  <s _locID="Classification.Date.Group">ปฏิทิน</s>
+</strings>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Aadress</s>
+  <s _locID="Classification.Address.Description">Isiku või organisatsiooni asukoha kirjeldus tarnejuhistena</s>
+  <s _locID="Classification.Address.Group">Geograafia</s>
+  <s _locID="Classification.City.LabelName">Linn</s>
+  <s _locID="Classification.City.Description">Rahvastiku, äri ja kultuuri alaline linnakeskus</s>
+  <s _locID="Classification.City.Group">Geograafia</s>
+  <s _locID="Classification.Continent.LabelName">Kontinent</s>
+  <s _locID="Classification.Continent.Description">Üks peamisi maa-alasid planeedil Maa</s>
+  <s _locID="Classification.Continent.Group">Geograafia</s>
+  <s _locID="Classification.Country.LabelName">Riik/regioon</s>
+  <s _locID="Classification.Country.Description">Riik või osariik</s>
+  <s _locID="Classification.Country.Group">Geograafia</s>
+  <s _locID="Classification.County.LabelName">Maakond</s>
+  <s _locID="Classification.County.Description">Kohalik valitsuspiirkond; osariigi või provintsi osa</s>
+  <s _locID="Classification.County.Group">Geograafia</s>
+  <s _locID="Classification.PostalCode.LabelName">Sihtnumber</s>
+  <s _locID="Classification.PostalCode.Description">Tähtede ja/või numbrite jada, mis lisatakse postiaadressile posti kohaletoimetamise hõlbustamiseks</s>
+  <s _locID="Classification.PostalCode.Group">Geograafia</s>
+  <s _locID="Classification.StateorProvince.LabelName">Osariik või provints</s>
+  <s _locID="Classification.StateorProvince.Description">Haldus- või poliitilise üksusena valitsetav territoorium riigis või regioonis.</s>
+  <s _locID="Classification.StateorProvince.Group">Geograafia</s>
+  <s _locID="Classification.ImageURL.LabelName">Pildi URL</s>
+  <s _locID="Classification.ImageURL.Description">URL (universaalne ressursilokaator), mis viitab pildile</s>
+  <s _locID="Classification.ImageURL.Group">Pilt</s>
+  <s _locID="Classification.WebUrl.LabelName">Veebi URL</s>
+  <s _locID="Classification.WebUrl.Description">URL (universaalne ressursilokaator), mis viitab veebiasukohale</s>
+  <s _locID="Classification.WebUrl.Group">Veeb</s>
+  <s _locID="Classification.Image.LabelName">Pilt</s>
+  <s _locID="Classification.Image.Description">Foto või muu pilt, mis on sageli JPEG-, GIFF- või BMP-failivormingus</s>
+  <s _locID="Classification.Image.Group">Pilt</s>
+  <s _locID="Classification.Latitude.LabelName">Laiuskraad</s>
+  <s _locID="Classification.Latitude.Description">Geograafiline koordinaat, mis määrab asukoha Maa pinnal põhja-lõuna suunas</s>
+  <s _locID="Classification.Latitude.Group">Geograafia</s>
+  <s _locID="Classification.Longitude.LabelName">Pikkuskraad</s>
+  <s _locID="Classification.Longitude.Description">Geograafiline koordinaat, mis määrab asukoha Maa pinnal ida-lääne suunas</s>
+  <s _locID="Classification.Longitude.Group">Geograafia</s>
+  <s _locID="Classification.Place.LabelName">Koht</s>
+  <s _locID="Classification.Place.Description">Geograafiline piirkond või asukoht</s>
+  <s _locID="Classification.Place.Group">Geograafia</s>
+  <s _locID="Classification.Organization.LabelName">Organisatsioon</s>
+  <s _locID="Classification.Organization.Description">Rühm kindla eesmärgiga organiseeritud inimesi, kollektiiv</s>
+  <s _locID="Classification.Organization.Group">Organisatsioon</s>
+  <s _locID="Classification.Company.LabelName">Ettevõte</s>
+  <s _locID="Classification.Company.Description">Äriettevõte</s>
+  <s _locID="Classification.Company.Group">Organisatsioon</s>
+  <s _locID="Classification.Product.LabelName">Toode</s>
+  <s _locID="Classification.Product.Description">Miski, mis on valmistatud, kasvatatud või hangitud ning mida saab müüa</s>
+  <s _locID="Classification.Product.Group">Toode</s>
+  <s _locID="Classification.Date.LabelName">Kuupäev</s>
+  <s _locID="Classification.Date.Description">Päeva, kuu, kvartali või aastana esitatud aeg</s>
+  <s _locID="Classification.Date.Group">Kalender</s>
+</strings>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adress</s>
+  <s _locID="Classification.Address.Description">Beskrivning av den plats där en person eller företag befinner sig</s>
+  <s _locID="Classification.Address.Group">Geografi</s>
+  <s _locID="Classification.City.LabelName">Ort</s>
+  <s _locID="Classification.City.Description">Ett permanent urbant centrum för befolkning, handel och kultur</s>
+  <s _locID="Classification.City.Group">Geografi</s>
+  <s _locID="Classification.Continent.LabelName">Kontinent</s>
+  <s _locID="Classification.Continent.Description">En av de huvudsakliga landmassorna på Jorden</s>
+  <s _locID="Classification.Continent.Group">Geografi</s>
+  <s _locID="Classification.Country.LabelName">Land/region</s>
+  <s _locID="Classification.Country.Description">En nation eller en delstat</s>
+  <s _locID="Classification.Country.Group">Geografi</s>
+  <s _locID="Classification.County.LabelName">Län</s>
+  <s _locID="Classification.County.Description">En region med en lokal myndighet; en del av ett land, en delstat eller en provins</s>
+  <s _locID="Classification.County.Group">Geografi</s>
+  <s _locID="Classification.PostalCode.LabelName">Postnummer</s>
+  <s _locID="Classification.PostalCode.Description">En serie bokstäver och/eller siffror som läggs till i en postadress för att underlätta postgången</s>
+  <s _locID="Classification.PostalCode.Group">Geografi</s>
+  <s _locID="Classification.StateorProvince.LabelName">Delstat eller provins</s>
+  <s _locID="Classification.StateorProvince.Description">En område som styrs som en administrativ eller politisk enhet inom ett land eller en region.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografi</s>
+  <s _locID="Classification.ImageURL.LabelName">Bild-URL</s>
+  <s _locID="Classification.ImageURL.Description">URL-adress (Uniform resource locator) som pekar på en bild</s>
+  <s _locID="Classification.ImageURL.Group">Bild</s>
+  <s _locID="Classification.WebUrl.LabelName">Webb-URL</s>
+  <s _locID="Classification.WebUrl.Description">URL-adress (Uniform resource locator) som pekar på en webbplats</s>
+  <s _locID="Classification.WebUrl.Group">Webb</s>
+  <s _locID="Classification.Image.LabelName">Bild</s>
+  <s _locID="Classification.Image.Description">Ett foto eller annan typ av bild, ofta i något av formaten JPEG, GIFF eller BMP</s>
+  <s _locID="Classification.Image.Group">Bild</s>
+  <s _locID="Classification.Latitude.LabelName">Latitud</s>
+  <s _locID="Classification.Latitude.Description">Den geografiska koordinat som anger positionen på en nord-sydlig linje på jordytan</s>
+  <s _locID="Classification.Latitude.Group">Geografi</s>
+  <s _locID="Classification.Longitude.LabelName">Longitud</s>
+  <s _locID="Classification.Longitude.Description">Den geografiska koordinat som anger positionen på en öst-västlig linje på jordytan</s>
+  <s _locID="Classification.Longitude.Group">Geografi</s>
+  <s _locID="Classification.Place.LabelName">Plats</s>
+  <s _locID="Classification.Place.Description">Ett geografiskt område eller plats</s>
+  <s _locID="Classification.Place.Group">Geografi</s>
+  <s _locID="Classification.Organization.LabelName">Organisation</s>
+  <s _locID="Classification.Organization.Description">En grupp människor som organiserats i ett visst syfte; en förening</s>
+  <s _locID="Classification.Organization.Group">Organisation</s>
+  <s _locID="Classification.Company.LabelName">Företag</s>
+  <s _locID="Classification.Company.Description">Ett affärsföretag</s>
+  <s _locID="Classification.Company.Group">Organisation</s>
+  <s _locID="Classification.Product.LabelName">Produkt</s>
+  <s _locID="Classification.Product.Description">Någonting som tillverkas, odlas eller anskaffas så att det kan säljas</s>
+  <s _locID="Classification.Product.Group">Produkt</s>
+  <s _locID="Classification.Date.LabelName">Datum</s>
+  <s _locID="Classification.Date.Description">Tid uttryckt i termer om dag, månad, kvartal eller år</s>
+  <s _locID="Classification.Date.Group">Kalender</s>
+</strings>

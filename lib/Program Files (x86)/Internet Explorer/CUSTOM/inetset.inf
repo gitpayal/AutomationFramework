@@ -1,0 +1,49 @@
+[Version]
+Signature=$CHICAGO$
+SetupClass=Base
+[DefaultInstall]
+AddReg=AddRegSection.HKLM,AddRegSection.HKCU
+RequiredEngine=Setupapi,"missing setupapi.dll"
+[DefaultInstall.HKLM]
+AddReg=AddRegSection.HKLM
+RequiredEngine=Setupapi,"missing setupapi.dll"
+[IEAKInstall.HKLM]
+AddReg=AddRegSection.HKLM
+RequiredEngine=Setupapi,"missing setupapi.dll"
+[DefaultInstall.HKCU]
+AddReg=AddRegSection.HKCU
+RequiredEngine=Setupapi,"missing setupapi.dll"
+[IEAKInstall.HKCU]
+AddReg=AddRegSection.HKCU
+RequiredEngine=Setupapi,"missing setupapi.dll"
+[AddRegSection.HKLM]
+[AddRegSection.HKCU]
+HKCU,"Software\Microsoft\Internet Explorer\Main","Disable Script Debugger",0,"no"
+HKCU,"Software\Microsoft\Internet Explorer\Main","Disable Diagnostics Mode",0,"no"
+HKCU,"Software\Microsoft\Internet Explorer\Main","SmoothScroll",0x10001,1,0,0,0
+HKCU,"Software\Microsoft\Internet Explorer\Main","Page_Transitions",0x10001,1,0,0,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Webcheck","NoChannelLogging",0x10001,0,0,0,0
+HKCU,"Software\Microsoft\Internet Explorer\Main","Anchor Underline",0,"yes"
+HKCU,"SOFTWARE\Microsoft\Ftp","Use Web Based FTP",0,"yes"
+HKCU,"Software\Microsoft\Internet Explorer\Main","Friendly http errors",0,"yes"
+HKCU,"Software\Microsoft\Internet Explorer\Main","Error Dlg Displayed On Every Error",0,"no"
+HKCU,"Software\Microsoft\Internet Explorer\Main","FullScreen",0,"no"
+HKCU,"Software\Microsoft\Internet Explorer\Main\CaretBrowsingMode","EnableOnStartup",0x10001,0,0,0,0
+HKCU,"Software\Microsoft\Internet Explorer\Main","Display Inline Images",0,"yes"
+HKCU,"Software\Microsoft\Internet Explorer\Main","Enable AutoImageResize",0,"yes"
+HKCU,"Software\Microsoft\Internet Explorer\Main","Play_Animations",0,"yes"
+HKCU,"Software\Microsoft\Internet Explorer\Main","Play_Background_Sounds",0,"yes"
+HKCU,"SOFTWARE\Microsoft\Internet Explorer","SmartDithering",0x10001,1,0,0,0
+HKCU,"Software\Microsoft\Internet Explorer\Main","Show image placeholders",0x10001,0,0,0,0
+HKCU,"Software\Microsoft\Internet Explorer\Security\P3Global","Enabled",0x10001,1,0,0,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache","Persistent",0x10001,1,0,0,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings","DisableCachingOfSSLPages",0x10001,0,0,0,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings","WarnonZoneCrossing",0x10001,1,0,0,0
+HKCU,"Software\Microsoft\Internet Explorer\PageSetup","Print_Background",0,"no"
+HKCU,"Software\Microsoft\Internet Explorer\Main","AutoSearch",0x10001,6,0,0,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings","EnableHttp1_1",0x10001,1,0,0,0
+HKCU,"SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings","ProxyHttp1.1",0x10001,0,0,0,0
+HKCU,"Software\Microsoft\IEAK","NoAutomaticSignup",0,"0"
+HKCU,"Software\Microsoft\Internet Connection Wizard","Completed",0x10001,0,0,0,0
+[Strings]
+49100=C:\Program Files\Internet Explorer\

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--_lcid="1031" _version="5013" _dal="1" -->
+<!--_LocalBinding -->
+<Toolbox>
+	<ToolboxItem Type="2" Name="Menu" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Menu" />
+	
+	
+	<ToolboxItem Type="2" Name="SiteMapPath" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="SiteMapPath" />
+	
+	
+	<ToolboxItem Type="2" Name="TreeView" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="TreeView" />
+	
+	
+</Toolbox>

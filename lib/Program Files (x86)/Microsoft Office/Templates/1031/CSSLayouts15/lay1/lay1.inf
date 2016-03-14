@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=12.0.0000.0
+title=Kopfzeile, Navigationsleiste, 1 Spalte, Fußzeile
+description=Erstellen Sie ein Seitenlayout, das eine Kopfzeile, eine Navigationsleiste und eine Fußzeile enthält.
+contributorModeRequirements=AllowCreatingCSSFiles

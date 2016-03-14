@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2804.0
+title=Dynamische Webvorlage
+description=Erstellt eine dynamische Webvorlage.
+filename=dwt.dwt
+isBlank=true
+contributorModeRequirements=AllowCreatingDWTs

@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=12.0.0000.0
+title=Zwei Spalten, linke mit fester Breite
+description=Erstellen Sie ein Layout mit zwei Spalten, bei dem die linke Spalte eine feste Breite hat.
+contributorModeRequirements=AllowCreatingCSSFiles

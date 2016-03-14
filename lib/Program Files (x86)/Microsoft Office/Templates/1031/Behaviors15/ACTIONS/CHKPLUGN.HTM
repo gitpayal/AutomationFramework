@@ -1,0 +1,171 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Plug-In überprüfen</title>
+		<meta name="DHTMLScriptName" content="Plug-In überprüfen">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="500,200">
+		
+		<style>
+		button	{ width: 8em;  }				
+		table	{ border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+		var L_NOURL_ErrorMessage		= "Geben Sie eine URL ein.";
+		var L_NOOPTION_ErrorMessage		= "Wählen Sie eine Option.";
+		</script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="ChkPlugn.js"></script>
+	</head>
+	<body onload="safeFocus(theForm.Plugin)">
+		<form id="theForm" name="theForm" onsubmit="Validate(); return false;">
+			<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="threedshadow" id="AutoNumber1" width="100%" height="100%">
+				<tr>
+					<td colspan="7" nowrap>
+						<label for="Plugin">
+						
+							Aktuelles <u>P</u>lug-In: 
+						</label>
+						<select size="1" name="Plugin" accesskey="p" id="Plugin">
+							
+							<option>Flash</option>
+							<option>QuickTime</option>
+							<option>RealPlayer</option>
+							<option>Shockwave</option>
+							<option selected>Windows Media Player</option>
+						</select>
+						<br>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td nowrap>
+						<input type="checkbox" name="GoToURL1" value="ON" id="GoToURL1" accesskey="g">
+						
+					</td>
+					<td nowrap>
+						<label for="GoToURL1">
+	    					
+							<u>G</u>ehe zu URL:
+						</label>
+					</td>
+					<td width="100%" colspan="2" dir="ltr">
+						<input type="text" name="URL1" id="URL1" style="width: 100%" disabled="true" style="background-color: threedface"></td>
+					<td>
+						&nbsp;</td>
+					<td>
+						<button name="BrowseURL1" value="Browse..." onclick="PickURL(URL1);" disabled="true" accesskey="d">
+						
+  						
+							<u>D</u>urchsuchen... 
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="7" nowrap>
+						<br>
+						
+						Alle anderen Plug-Ins:
+						<br>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</td>
+					<td>
+						<input type="checkbox" name="GoToURL2" value="ON" accesskey="u" id="GoToURL2">
+						
+					</td>
+					<td nowrap>
+						<label for="GoToURL2">
+						
+							Gehe&nbsp;zu&nbsp;<u>U</u>RL:&nbsp;
+						</label>
+					</td>
+					<td width="100%" dir="ltr">
+						<input type="text" name="URL2" id="URL2" style="width: 100%" disabled="true" style="background-color: threedface"></td>
+					<td>
+						&nbsp;</td>
+					<td colspan="2">
+						<button name="BrowseURL2" value="Browse..." onclick="PickURL(URL2);" disabled="true" accesskey="r">
+							
+							
+							Du<u>r</u>chsuchen...
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td height="80%"></td>
+				</tr>
+				<tr>
+					<td colspan="7">
+						<hr>
+						<table width="100%">
+							<tr>
+								<td width="100%">&nbsp;</td>
+								<td>
+									<button name="OK" value="OK" type="submit">
+								  		
+										OK
+									</button>
+								</td>
+								<td>&nbsp;</td>
+								<td>
+									<button name="Cancel" value="Cancel" onclick="CancelAction();">
+										
+										Abbrechen
+									</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+		</form>
+		</table>
+	</body>
+	<script language="javascript" id="EventHandler">
+
+theForm.GoToURL1.onclick = e_GoToURLonclick;
+theForm.GoToURL2.onclick = e_GoToURLonclick;
+
+//Click event for the go to URL check box
+function e_GoToURLonclick()
+{
+	if (event.srcElement.name == "GoToURL1")
+	{
+		theForm.URL1.disabled = !(theForm.URL1.disabled);
+		theForm.BrowseURL1.disabled = theForm.URL1.disabled;
+		if (theForm.URL1.disabled == false)
+			theForm.URL1.style.backgroundColor = "window";
+		else
+			theForm.URL1.style.backgroundColor = "threedface";
+	}
+	if (event.srcElement.name == "GoToURL2")
+	{
+		theForm.URL2.disabled = !(theForm.URL2.disabled);
+		theForm.BrowseURL2.disabled = theForm.URL2.disabled;
+		if (theForm.URL2.disabled == false)
+			theForm.URL2.style.backgroundColor = "window";
+
+		else
+			theForm.URL2.style.backgroundColor = "threedface";
+
+	}
+}
+
+function PickURL(eURL)
+{
+	var url = FrontPage.ShowPickURLDialog(FrontPage.ActiveDocument.url, eURL.value);
+	if (url != '') 
+		eURL.value = url;
+	eURL.focus();
+}
+	</script>
+</html>

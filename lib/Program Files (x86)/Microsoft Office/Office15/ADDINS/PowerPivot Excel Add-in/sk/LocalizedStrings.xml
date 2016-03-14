@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adresa</s>
+  <s _locID="Classification.Address.Description">Popis umiestnenia osoby alebo organizácie v rámci pokynov pre doručenie</s>
+  <s _locID="Classification.Address.Group">Geografia</s>
+  <s _locID="Classification.City.LabelName">Mesto</s>
+  <s _locID="Classification.City.Description">Trvalo zastavané a osídlené obchodné a kultúrne centrum</s>
+  <s _locID="Classification.City.Group">Geografia</s>
+  <s _locID="Classification.Continent.LabelName">Kontinent</s>
+  <s _locID="Classification.Continent.Description">Jedna zo základných častí pevniny na Zemi</s>
+  <s _locID="Classification.Continent.Group">Geografia</s>
+  <s _locID="Classification.Country.LabelName">Krajina alebo oblasť</s>
+  <s _locID="Classification.Country.Description">Krajina alebo štát</s>
+  <s _locID="Classification.Country.Group">Geografia</s>
+  <s _locID="Classification.County.LabelName">Okres</s>
+  <s _locID="Classification.County.Description">Miestna správna oblasť, súčasť štátu, kraja alebo oblasti</s>
+  <s _locID="Classification.County.Group">Geografia</s>
+  <s _locID="Classification.PostalCode.LabelName">PSČ</s>
+  <s _locID="Classification.PostalCode.Description">Sekvencia písmen alebo číslic, ktorá sa pridáva do poštovej adresy ako pomôcka na doručenie pošty</s>
+  <s _locID="Classification.PostalCode.Group">Geografia</s>
+  <s _locID="Classification.StateorProvince.LabelName">Štát alebo oblasť</s>
+  <s _locID="Classification.StateorProvince.Description">Územie spravované ako určitá administratívna alebo politická jednotka v rámci krajiny alebo regiónu.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografia</s>
+  <s _locID="Classification.ImageURL.LabelName">Adresa URL obrázka</s>
+  <s _locID="Classification.ImageURL.Description">Adresa URL (uniform resource locator), ktorá smeruje na obrázok</s>
+  <s _locID="Classification.ImageURL.Group">Obrázok</s>
+  <s _locID="Classification.WebUrl.LabelName">Adresa URL webovej lokality</s>
+  <s _locID="Classification.WebUrl.Description">Adresa URL (uniform resource locator), ktorá smeruje na určité miesto na webe</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Obrázok</s>
+  <s _locID="Classification.Image.Description">Fotografia alebo iný obrázok, často vo formáte súboru JPEG, GIFF alebo BMP</s>
+  <s _locID="Classification.Image.Group">Obrázok</s>
+  <s _locID="Classification.Latitude.LabelName">Zemepisná šírka</s>
+  <s _locID="Classification.Latitude.Description">Zemepisná súradnica, ktorá označuje severojužnú polohu určitého bodu na povrchu Zeme</s>
+  <s _locID="Classification.Latitude.Group">Geografia</s>
+  <s _locID="Classification.Longitude.LabelName">Zemepisná dĺžka</s>
+  <s _locID="Classification.Longitude.Description">Zemepisná súradnica, ktorá označuje východozápadnú polohu určitého bodu na povrchu Zeme</s>
+  <s _locID="Classification.Longitude.Group">Geografia</s>
+  <s _locID="Classification.Place.LabelName">Miesto</s>
+  <s _locID="Classification.Place.Description">Zemepisná oblasť alebo poloha</s>
+  <s _locID="Classification.Place.Group">Geografia</s>
+  <s _locID="Classification.Organization.LabelName">Organizácia</s>
+  <s _locID="Classification.Organization.Description">Organizovaná skupina ľudí, ktorá plní určitý účel (združenie)</s>
+  <s _locID="Classification.Organization.Group">Organizácia</s>
+  <s _locID="Classification.Company.LabelName">Spoločnosť</s>
+  <s _locID="Classification.Company.Description">Obchodný podnik</s>
+  <s _locID="Classification.Company.Group">Organizácia</s>
+  <s _locID="Classification.Product.LabelName">Produkt</s>
+  <s _locID="Classification.Product.Description">Niečo, čo sa vyrába, pestuje alebo získava, aby sa to potom mohlo predať</s>
+  <s _locID="Classification.Product.Group">Produkt</s>
+  <s _locID="Classification.Date.LabelName">Dátum</s>
+  <s _locID="Classification.Date.Description">Čas vyjadrený ako deň, mesiac, štvrťrok alebo rok</s>
+  <s _locID="Classification.Date.Group">Kalendár</s>
+</strings>

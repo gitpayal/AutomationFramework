@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Top-Down-Hierarchie
+description=Erstellt eine hierarchische Struktur zur Informationsdarstellung. Allgemeinere Hyperlinks im Frame am oberen Rand bewirken Änderungen im spezifischeren mittleren Frame.
+noframesURL=
+layout=[R(64,25%,*)F("oben","Mitte","unten")]
+contributorModeRequirements=AllowCreatingFramesPages

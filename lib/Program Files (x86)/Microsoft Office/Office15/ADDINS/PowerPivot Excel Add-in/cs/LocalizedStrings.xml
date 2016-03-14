@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adresa</s>
+  <s _locID="Classification.Address.Description">Popis umístění uživatele nebo organizace, který slouží jako pokyny pro doručení</s>
+  <s _locID="Classification.Address.Group">Zeměpis</s>
+  <s _locID="Classification.City.LabelName">Město</s>
+  <s _locID="Classification.City.Description">Trvalé urbanistické centrum populace, obchodu a kultury</s>
+  <s _locID="Classification.City.Group">Zeměpis</s>
+  <s _locID="Classification.Continent.LabelName">Kontinent</s>
+  <s _locID="Classification.Continent.Description">Jedna z hlavních pevninských ploch Země</s>
+  <s _locID="Classification.Continent.Group">Zeměpis</s>
+  <s _locID="Classification.Country.LabelName">Země/oblast</s>
+  <s _locID="Classification.Country.Description">Národ nebo stát</s>
+  <s _locID="Classification.Country.Group">Zeměpis</s>
+  <s _locID="Classification.County.LabelName">Okres</s>
+  <s _locID="Classification.County.Description">Místní samosprávná oblast, část státu nebo provincie</s>
+  <s _locID="Classification.County.Group">Zeměpis</s>
+  <s _locID="Classification.PostalCode.LabelName">Poštovní směrovací číslo</s>
+  <s _locID="Classification.PostalCode.Description">Kombinace písmen a čísel, která je součástí poštovní adresy a usnadňuje doručování pošty</s>
+  <s _locID="Classification.PostalCode.Group">Zeměpis</s>
+  <s _locID="Classification.StateorProvince.LabelName">Stát nebo provincie</s>
+  <s _locID="Classification.StateorProvince.Description">Teritorium v rámci země či oblasti, které představuje správní nebo politickou jednotku</s>
+  <s _locID="Classification.StateorProvince.Group">Zeměpis</s>
+  <s _locID="Classification.ImageURL.LabelName">Adresa URL obrázku</s>
+  <s _locID="Classification.ImageURL.Description">Adresa URL (Uniform Resource Locator), která odkazuje na obrázek</s>
+  <s _locID="Classification.ImageURL.Group">Obrázek</s>
+  <s _locID="Classification.WebUrl.LabelName">Adresa URL webu</s>
+  <s _locID="Classification.WebUrl.Description">Adresa URL (Uniform Resource Locator), která odkazuje na umístění na webu</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Obrázek</s>
+  <s _locID="Classification.Image.Description">Fotografie nebo jiný obrázek, často ve formátu souboru JPEG, GIFF nebo BMP</s>
+  <s _locID="Classification.Image.Group">Obrázek</s>
+  <s _locID="Classification.Latitude.LabelName">Zeměpisná šířka</s>
+  <s _locID="Classification.Latitude.Description">Zeměpisná souřadnice označující pozici na povrchu Země na severojižní ose</s>
+  <s _locID="Classification.Latitude.Group">Zeměpis</s>
+  <s _locID="Classification.Longitude.LabelName">Zeměpisná délka</s>
+  <s _locID="Classification.Longitude.Description">Zeměpisná souřadnice označující pozici na povrchu Země na východozápadní ose</s>
+  <s _locID="Classification.Longitude.Group">Zeměpis</s>
+  <s _locID="Classification.Place.LabelName">Místo</s>
+  <s _locID="Classification.Place.Description">Zeměpisná oblast nebo umístění</s>
+  <s _locID="Classification.Place.Group">Zeměpis</s>
+  <s _locID="Classification.Organization.LabelName">Organizace</s>
+  <s _locID="Classification.Organization.Description">Skupina lidí sdružených za nějakým účelem, spolek</s>
+  <s _locID="Classification.Organization.Group">Organizace</s>
+  <s _locID="Classification.Company.LabelName">Společnost</s>
+  <s _locID="Classification.Company.Description">Obchodní podnik</s>
+  <s _locID="Classification.Company.Group">Organizace</s>
+  <s _locID="Classification.Product.LabelName">Produkt</s>
+  <s _locID="Classification.Product.Description">Věc vytvořená, vypěstovaná nebo získaná za účelem prodeje</s>
+  <s _locID="Classification.Product.Group">Produkt</s>
+  <s _locID="Classification.Date.LabelName">Datum</s>
+  <s _locID="Classification.Date.Description">Čas vyjádřený jako den, měsíc, čtvrtletí nebo rok</s>
+  <s _locID="Classification.Date.Group">Kalendář</s>
+</strings>

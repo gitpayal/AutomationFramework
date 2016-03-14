@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--_lcid="1031" _version="5013" _dal="1" -->
+<!--_LocalBinding -->
+<Toolbox>
+
+	<ToolboxItem Type="3" Name="Check Box" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="CheckBox" />
+	
+	
+	
+	<ToolboxItem Type="3" Name="Data View CheckBoxList" Description="" Assembly="Microsoft.SharePoint" Namespace="Microsoft.SharePoint.WebControls" Class="CheckBoxList" Prefix="SharePoint" ToolboxData="&lt;{0}:DVCheckBoxList runat='server'&gt;&lt;/{0}:DVCheckBoxList&gt;"/>
+	
+	
+	
+	<ToolboxItem Type="3" Name="Data View DropDownList" Description="" Assembly="Microsoft.SharePoint" Namespace="Microsoft.SharePoint.WebControls" Class="DropDownList" Prefix="SharePoint" ToolboxData="&lt;{0}:DVDropDownList runat='server'&gt;&lt;/{0}:DVDropDownList&gt;"/>
+	
+	
+	
+	<ToolboxItem Type="4" Name="Form Action Button" Description="">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/nylPglQidDwA
+			dDwAdDwAdDwAdDwAdDwAdDwAdDwAdDwAdDwAfUwUnylP/wD/nylPiF8wtK6jxdDWxdDWxdDWxdDW
+			xdDWxdDWxdDWxdDWxdDWxdDWtrexhl0vnylPfUwUyse/6O3u6O3u6Ozt6Ozu6Ozu6O3u6Ozu6O3u
+			6O3t6Ozu6O3u6u/uvb22fUwUdDwA5uvs6u/v6u7v6+/w6+7v6+/v6+/w6u7v6+/v6u/w6+7v6u/v
+			1t/i1t/idDwAdDwA6/Dw7vHy7vHyAAAAAAAAAAAA7vHyAAAAAAAAAAAA7vHy7fHx2+Ll2uLldDwA
+			dDwA7PHx8fP0AAAA8fP08fP0AAAA8fT0AAAA8PP08PT0AAAA8fP03+Xo3+XodDwAdDwA8vb29Pb2
+			8/b2AAAAAAAAAAAA8/b2AAAA9PX29PX2AAAA8/X24+nr4+nrdDwAdDwA8/b29/j49/j59/j49/j5
+			AAAA9/j4AAAA9vj49/j4AAAA9/j45+zu5+zudDwAdDwA9Pb2+vv6+vr6AAAAAAAA+fv7+vr6AAAA
+			AAAAAAAA+fv7+fv76+/x6+/xdDwAdDwA9/j4/P39/Pz9/P38/Pz8/Pz8/Pz8AAAA/Pz9/f39/Pz9
+			/P398PL07/L0dDwAdDwA/P39/v7+/v7+/v7+/v7+/v7+/v7+AAAA/v7+/v7+/v7+/v7+/v7+8vT2
+			dDwAglQi3M6//v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+286/glQinylPkmY3
+			3c/A////////////////////////////////////////6N/VkmY3nylP/wD/nylPglQidDwAdDwA
+			dDwAdDwAdDwAdDwAdDwAdDwAdDwAdDwAfUwUnylP/wD//wD//wD//wD//wD//wD//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD/
+		</Bitmap>
+    <HTML>
+      
+      <![CDATA[
+			<input type="button" value="Formularaktion" name="btnFormAction"/>
+		]]>
+		</HTML>
+	</ToolboxItem>
+	
+	<ToolboxItem Type="4" Name="Form Action Hyperlink" Description="">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wD/
+			/wD//wD//wD//wD/RyYMRyYMRyYMRyYM/wD/RyYMRyYMRyYMRyYM/wD//wD//wD//wD//wD//wD/
+			RyYMyLKk48/C3cS1rZF9RyYMyLKk48/C3cS1rZF9RyYM/wD//wD//wD//wD/RyYM3s/ERyYMRyYM
+			RyYMRyYMRyYMRyYMRyYMRyYMRyYMtJiERyYM/wD//wD//wD/RyYM///9RyYM/wD/RyYMrZF9rZF9
+			rZF9RyYM/wD/RyYM58/BRyYM/wD//wD//wD/RyYM6t7WRyYMRyYMRyYMRyYMRyYMRyYMRyYMRyYM
+			RyYMxKydRyYM/wD//wD/RyYM5NnQRyYM+e/o0b6xnX9sf2dMRyYM5NnQ/vb0+e/o0b6xRyYM/wD/
+			/wD/RyYM1otkuY1rp5Z5RyYMRyYMRyYMRyYMjWZNRyYMRyYMRyYMRyYM/wD//wD/jWZNwY1v+ZZl
+			3I1hZ3RLUKExSqMpfJInzHZHamk6WFU8jWZN/wD//wD//wD//wD/jWZN7Zhs6JdpXHBWXJZEWqw4
+			k6A53oVZ031QTGlDP3csRyYM/wD//wD//wD//wD/jWZN+51vf35aOqFBUrNCjZFY5JRq5o5i24VX
+			X54lOpceRyYM/wD//wD//wD//wD/jWZN3pNoY5hSQMVfRMlqc51ttp9p0ZVj5Ixgo5M2RqAjRyYM
+			/wD//wD//wD//wD/jWZNpY5cUrhmWtaBjeGbguOentCTqKNm7ZVk34lWTpopRyYM/wD//wD//wD/
+			/wD/jWZNjWZNNcdid9+WxOy30/PK6/fVsOSmgpRg1ZRAgIU7jWZN/wD//wD//wD//wD//wD/jWZN
+			jrV7edmHv+y23vbMfKloddiJQ61hkYNERyYM/wD//wD//wD//wD//wD//wD//wD/jWZNjWZNqc2T
+			mtaSgdyRUL9ujY9hRyYM/wD//wD//wD//wD//wD//wD//wD//wD//wD/jWZNjWZNjWZNjWZNjWZN
+			jWZN/wD//wD//wD//wD//wD//wD//wD/
+		</Bitmap>
+		<HTML>
+      
+      <![CDATA[
+			<a>Formularaktion</a>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="3" Name="Data View ListBox" Description="" Assembly="Microsoft.SharePoint" Namespace="Microsoft.SharePoint.WebControls" Class="ListBox" Prefix="SharePoint" ToolboxData="&lt;{0}:DVListBox runat='server'&gt;&lt;/{0}:DVListBox&gt;"/>
+	
+	
+	
+	<ToolboxItem Type="3" Name="Multi-line Text Box" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="TextBox">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuKOU
+			/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/
+			Y0k1/7ijlP/Eu7T/raGX/6qaj/+Zblb/6bqa/+m6mv+QZEz/xLu0/62hl/+qmo//h1pB/8S7tP+t
+			oZf/qpqP/2NJNf+5pJX/zszI/4daQf+toZf/nXJa//bZxP/22cT/k2dP/87MyP+HWkH/raGX/4hc
+			Q//OzMj/h1pB/62hl/9jSTX/uqWW/9fY1//OzMj/xLu0/6B1Xv//7+P//+/j/5ZqU//X2Nf/zszI
+			/8S7tP+LXkb/19jX/87MyP/Eu7T/Y0k1/7uml/+sgmz/qX9o/6Z8Zf+jeWH/oHVe/51yWv+Zblb/
+			lmpT/5NnT/+QZEz/jWFI/4teRv+IXEP/h1pB/2NJNf+8p5j/+f78//X9/P/v/Pz/6fv7/+L7+//a
+			+vv/0/n7/8z4+//F9/r/wPb6/5BkTP/pupr/9tnE///v4/9jSTX/vaiZ//v+/P+ohnT/gVpG/7Oh
+			lP/m+/v/1efk/5uOgf9wTz3/eGhb/8P3+v+TZ0//6bqa//bZxP//7+P/Y0k1/7+pmv/8/vz/q25Q
+			//X9/P/w/Pz/6fz7/97q5f+7fFz/wNDL/4ZzZP/G9/r/lmpT/+m6mv/22cT//+/j/2NJNf/Aqpv/
+			/P78/9aqkv+5i3T/mnFa/+38/P/m+/v/2rSd/8CWff+AW0b/yvf7/5luVv/pupr/9tnE///v4/9j
+			STX/wauc//z+/P/8/vz/+v78//b9/P/w/Pz/6vz7/+P7+//W2dD/jmRM/834+/+dclr/6bqa//bZ
+			xP//7+P/Y0k1/8Ksnf/8/vz/jF1F/3lUQP9oRzX/sqif/+78/P+KW0T/j25c/6KbkP/R+Pv/oHVe
+			/+m6mv/22cT//+/j/2NJNf/DrZ7//P78/8qOcP/k2dH/flhE//b9/P/x/fz/pmtN/+T7+/97Uz3/
+			1fn7/6N5Yf+gdV7/nXJa/5luVv9jSTX/xK6f//z+/P/rz77/yoNh/6yAZ//5/vz/9P38/69wUf+q
+			emH/r5iH/9r6+/+mfGX/xLu0/62hl/+qmo//Y0k1/8Sun//8/vz//P78//z+/P/8/vz/+/78//f9
+			/P+la03/7Pz8/+X7+//e+vv/qX9o/87MyP+HWkH/raGX/2NJNf/Fr6D//P78//z+/P/8/vz//P78
+			//z+/P/5/vz/9f38/+/8/P/p+/v/4vv7/6yCbP/X2Nf/zszI/8S7tP9jSTX/xa+g/8WvoP/Erp//
+			xK6f/8Otnv/CrJ3/wauc/8Cqm/+/qZr/vaiZ/7ynmP+7ppf/uqWW/7mklf+4o5T/uKOU/w==
+		</Bitmap>
+		<ToolboxData>
+		<![CDATA[
+			<{0}:TextBox TextMode="MultiLine" Runat="server" />
+		]]>
+		</ToolboxData>
+	</ToolboxItem>
+
+	<ToolboxItem Type="3" Name="Password Text Box" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="TextBox">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/
+			uZ1/uZ1//wD/uZ1/////////////////////////////////////////////////////uZ1//wD/
+			uZ1/////////cldC////cldC////////////cldC////cldC////////uZ1//wD/uZ1/////////
+			////cldC////////////////////cldC////////////uZ1//wD/uZ1/////cldCcldCcldCcldC
+			cldC////cldCcldCcldCcldCcldC////uZ1//wD/uZ1/////////////cldC////////////////
+			////cldC////////////uZ1//wD/uZ1/////////cldC////cldC////////////cldC////cldC
+			////////uZ1//wD/uZ1/////////////////////////////////////////////////////uZ1/
+			/wD/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+			/wD//wD//wD//wD//wD//wD//wD//wD/
+		</Bitmap>
+    <ToolboxData>
+      <![CDATA[
+			<{0}:TextBox TextMode="Password" Runat="server" />
+		]]>
+		</ToolboxData>
+	</ToolboxItem>
+	
+	<ToolboxItem Type="3" Name="Text Box" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="TextBox" />
+	
+	
+		
+	<ToolboxItem Type="3" Name="RadioButton" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="RadioButton" />
+	
+	
+	
+	<ToolboxItem Type="3" Name="Data View RadioButtonList" Description="" Assembly="Microsoft.SharePoint" Namespace="Microsoft.SharePoint.WebControls" Class="RadioButtonList" Prefix="SharePoint" ToolboxData="&lt;{0}:DVRadioButtonList runat='server'&gt;&lt;/{0}:DVRadioButtonList&gt;"/>
+	
+	
+		
+</Toolbox>

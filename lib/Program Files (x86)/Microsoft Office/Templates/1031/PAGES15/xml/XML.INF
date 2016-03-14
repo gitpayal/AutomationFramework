@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2804.0
+title=XML
+description=Erstellt eine Extensible Markup Language-Datei.
+filename=Blkxml.xml
+isBlank=true
+contributorModeRequirements=AllowCreatingXMLFiles

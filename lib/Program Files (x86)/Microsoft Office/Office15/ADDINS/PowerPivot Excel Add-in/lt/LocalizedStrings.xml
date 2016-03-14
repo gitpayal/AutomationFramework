@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adresas</s>
+  <s _locID="Classification.Address.Description">Asmens arba organizacijos vietos aprašas, naudojamas kaip pristatymo nuoroda</s>
+  <s _locID="Classification.Address.Group">Geografija</s>
+  <s _locID="Classification.City.LabelName">Miestas</s>
+  <s _locID="Classification.City.Description">Nuolatinis miesto tipo gyventojų, prekybos ir kultūros centras</s>
+  <s _locID="Classification.City.Group">Geografija</s>
+  <s _locID="Classification.Continent.LabelName">Žemynas</s>
+  <s _locID="Classification.Continent.Description">Vienas iš didžiausių Žemės sausumos masyvų</s>
+  <s _locID="Classification.Continent.Group">Geografija</s>
+  <s _locID="Classification.Country.LabelName">Šalis / regionas</s>
+  <s _locID="Classification.Country.Description">Tauta arba valstybė</s>
+  <s _locID="Classification.Country.Group">Geografija</s>
+  <s _locID="Classification.County.LabelName">Apskritis</s>
+  <s _locID="Classification.County.Description">Vietinis valstybinis regionas; rajono arba apskrities dalis</s>
+  <s _locID="Classification.County.Group">Geografija</s>
+  <s _locID="Classification.PostalCode.LabelName">Pašto indeksas</s>
+  <s _locID="Classification.PostalCode.Description">Į pašto adresą įtraukta raidžių ir (arba) skaičių seka, pagal kurią lengviau pristatyti paštą</s>
+  <s _locID="Classification.PostalCode.Group">Geografija</s>
+  <s _locID="Classification.StateorProvince.LabelName">Rajonas arba apskritis</s>
+  <s _locID="Classification.StateorProvince.Description">Teritorija, valdoma kaip administracinis arba politinis šalies arba regiono vienetas.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografija</s>
+  <s _locID="Classification.ImageURL.LabelName">Vaizdo URL</s>
+  <s _locID="Classification.ImageURL.Description">URL (universalusis ištekliaus adresas), nurodantis vaizdą</s>
+  <s _locID="Classification.ImageURL.Group">Vaizdas</s>
+  <s _locID="Classification.WebUrl.LabelName">Žiniatinklio URL</s>
+  <s _locID="Classification.WebUrl.Description">URL (universalusis ištekliaus adresas), nurodantis žiniatinklio vietą</s>
+  <s _locID="Classification.WebUrl.Group">Žiniatinklis</s>
+  <s _locID="Classification.Image.LabelName">Vaizdas</s>
+  <s _locID="Classification.Image.Description">Nuotrauka arba kitoks paveikslėlis, dažnai įrašytas JPEG, GIFF arba BMP failų formatu</s>
+  <s _locID="Classification.Image.Group">Vaizdas</s>
+  <s _locID="Classification.Latitude.LabelName">Platuma</s>
+  <s _locID="Classification.Latitude.Description">Geografinė koordinatė, nurodanti padėtį šiaurės ir pietų atžvilgiu ant Žemės paviršiaus</s>
+  <s _locID="Classification.Latitude.Group">Geografija</s>
+  <s _locID="Classification.Longitude.LabelName">Ilguma</s>
+  <s _locID="Classification.Longitude.Description">Geografinė koordinatė, nurodanti padėtį rytų ir vakarų atžvilgiu ant Žemės paviršiaus</s>
+  <s _locID="Classification.Longitude.Group">Geografija</s>
+  <s _locID="Classification.Place.LabelName">Vieta</s>
+  <s _locID="Classification.Place.Description">Geografinė teritorija arba vieta</s>
+  <s _locID="Classification.Place.Group">Geografija</s>
+  <s _locID="Classification.Organization.LabelName">Organizacija</s>
+  <s _locID="Classification.Organization.Description">Grupė žmonių, vienijama konkretaus tikslo; asociacija</s>
+  <s _locID="Classification.Organization.Group">Organizacija</s>
+  <s _locID="Classification.Company.LabelName">Įmonė</s>
+  <s _locID="Classification.Company.Description">Verslo įmonė</s>
+  <s _locID="Classification.Company.Group">Organizacija</s>
+  <s _locID="Classification.Product.LabelName">Produktas</s>
+  <s _locID="Classification.Product.Description">Kas nors pagaminto, išauginto arba įgyto ir parduodamo</s>
+  <s _locID="Classification.Product.Group">Produktas</s>
+  <s _locID="Classification.Date.LabelName">Data</s>
+  <s _locID="Classification.Date.Description">Laikas, nurodytas kaip diena, mėnuo, ketvirtis arba metai</s>
+  <s _locID="Classification.Date.Group">Kalendorius</s>
+</strings>

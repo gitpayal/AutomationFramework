@@ -1,0 +1,308 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title></title>
+		<meta http-equiv="msthemecompatible" content="yes">
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="350,125">
+		
+		<style> 
+			button	{ width: 8em; }				
+			table	{ border: none; border-collapse: collapse }
+		</style>
+		<script src="FPLib.js" type="text/JavaScript"></script>
+		<script src="Strings.js" type="text/JavaScript"></script>
+		<script type="text/JavaScript">
+			var L_strInsert_DialogTitle		= "Eigenschaft einfügen";							// HTML dialog title
+			var L_strEdit_DialogTitle		= "Eigenschaft bearbeiten";								// HTML dialog title	
+			var L_strVisibility_DialogTitle	= "Sichtbarkeit";									// HTML dialog title			
+			var L_strInvalidPropertyName_ErrorMessage	= "Sie müssen einen zulässigen Eigenschaftsnamen eingeben, um fortzufahren.";				// error message
+			var L_strInvalidPropertyValue_ErrorMessage	= "Sie müssen einen zulässigen Eigenschaftswert eingeben, um fortzufahren.";				// error message
+		</script>
+		<script type="text/JavaScript">		
+		
+			var g_strDialogType 	= "";		// set in initializeForm();
+				
+			function onOk()
+			{
+				if( "edit" == g_strDialogType || "insert" == g_strDialogType )
+				{
+					var strPropertyName		= trimStringLeft( trimStringRight( String( theForm.edPropertyName.value ) ) );
+					var strPropertyValue	= trimStringLeft( trimStringRight( String( theForm.edPropertyValue.value ) ) );
+				
+					if( ( 0 >= strPropertyName.length ) ||
+						!isValidStyleName( strPropertyName ) )
+					{
+						alert( L_strInvalidPropertyName_ErrorMessage );
+						
+						theForm.edPropertyName.focus();
+						
+						return;
+					}
+					
+					if( 0 >= strPropertyValue.length )
+					{
+						alert( L_strInvalidPropertyValue_ErrorMessage );
+						
+						theForm.edPropertyValue.focus();
+						
+						return;
+					}
+				
+					var astrReturn = new Array();
+											
+					astrReturn[0] = String( strPropertyName );
+					astrReturn[1] = String( strPropertyValue );
+				}
+				else if( "visibility" == g_strDialogType )
+				{
+					var astrReturn = new Array();
+											
+					astrReturn[0] = getVisibility();
+				}
+				
+				window.returnValue = astrReturn;
+				window.close();
+			}
+
+			function onCancel()
+			{				
+				window.returnValue = null;
+				window.close();
+			}
+			
+			function isValidStyleName( strStyleName )
+			{
+				var regexp = /[^a-z0-9_\.]+/i;	
+	
+				var n = strStyleName.search( regexp );
+				
+				if( 0 <= strStyleName.search( regexp ) )
+				{		
+					return false;
+				}
+				
+				return true;
+			}
+
+			function initializeForm()
+			{
+				var aoArguments		= window.dialogArguments;			
+				var strDialogType	= aoArguments[0];							
+				
+				g_strDialogType = strDialogType.toLowerCase();
+								
+				if( "insert" == g_strDialogType )
+				{
+					document.title = L_strInsert_DialogTitle;
+					
+					idPropertyForm.style.display = "block";
+										
+					safeFocus( theForm.edPropertyName );
+				}
+				else if( "edit" == g_strDialogType )
+				{
+					document.title					= L_strEdit_DialogTitle;
+					
+					idPropertyForm.style.display = "block";
+										
+					theForm.edPropertyName.value	= aoArguments[1];
+					theForm.edPropertyValue.value	= aoArguments[2];									
+															
+					safeFocus( theForm.edPropertyName );
+				}			
+				else if( "visibility" == g_strDialogType )
+				{
+					document.title					= L_strVisibility_DialogTitle;
+					
+					idVisibilityForm.style.display = "block";				
+					
+					setVisibility( aoArguments[1] );
+
+					var oChecked = null;
+					
+					if( theForm.radInherit.checked ) safeFocus( theForm.radInherit );
+					else if( theForm.radVisible.checked ) safeFocus( theForm.radVisible );
+					else if( theForm.radHidden.checked ) safeFocus( theForm.radHidden );
+				}	
+			}
+			
+			function setVisibility( strValue )
+			{
+				theForm.radInherit.checked 	= false;
+				theForm.radVisible.checked 	= false;
+				theForm.radHidden.checked 	= false;				
+							
+				if( "visible" == strValue.toLowerCase() ) theForm.radVisible.checked = true;
+				else if( "hidden" == strValue.toLowerCase() ) theForm.radHidden.checked = true;
+				else theForm.radInherit.checked = true;					// default
+			}
+			
+			function getVisibility()
+			{
+				if( theForm.radInherit.checked ) return "inherit";
+				if( theForm.radVisible.checked ) return "visible";
+				if( theForm.radHidden.checked ) return "hidden";			
+			}
+			
+		</script>
+	</head>
+	<body onload="initializeForm()">
+		<form id="theForm" name="theForm" onsubmit="onOk(); return false;">
+			<table height="100%" width="100%">
+				<tr>
+					<td>
+						<div id="idPropertyForm" style="display: none">
+							<table>
+								<tr>
+									<td nowrap>
+										<label accesskey="n" for="edPropertyName">
+											
+														
+											Eigenschafts<u>n</u>ame:
+										</label>
+									</td>
+									<td>
+										&nbsp;
+									</td>
+									<td width="100%">
+										<input size="55" id="edPropertyName" name="edPropertyName" type="text">
+									</td>
+								</tr>
+								<tr>
+									<td nowrap>
+										<label accesskey="w" for="edPropertyValue">
+											
+														
+											Eigenschafts<u>w</u>ert:
+										</label>
+									</td>
+									<td>
+										&nbsp;
+									</td>
+									<td width="100%">
+										<input size="55" id="edPropertyValue" name="edPropertyValue" type="text">
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div id="idVisibilityForm" style="display: none">
+							<table width="100%">
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td nowrap>
+													
+													Sichtbarkeitsstil
+												</td>
+												<td>
+													&nbsp;
+												</td>
+												<td width="100%">
+													<hr />
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td>
+													&nbsp;
+												</td>
+												<td>
+													<input id="radInherit" tabIndex="1" type="radio" CHECKED value="inherit" name="ElementGroup">
+												</td>
+												<td nowrap>
+													<label accesskey="e" for="radInherit">
+														
+														
+															<u>E</u>rben
+													</label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													&nbsp;
+												</td>
+												<td>
+													<input id="radVisible" tabIndex="2" type="radio" CHECKED value="visible" name="ElementGroup">
+												</td>
+												<td nowrap>
+													<label accesskey="s" for="radVisible">
+														
+														
+															<u>S</u>ichtbar
+													</label>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													&nbsp;
+												</td>
+												<td>
+													<input id="radHidden" tabIndex="2" type="radio" CHECKED value="hidden" name="ElementGroup">
+												</td>
+												<td nowrap>
+													<label accesskey="u" for="radHidden">
+														
+														
+															<u>U</u>nsichtbar
+													</label>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				<tr>
+					<td colspan="3" height="100%">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<hr>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" width="100%">
+						<table width="100%">
+							<tr>
+								<td width="100%">
+									&nbsp;
+								</td>
+								<td>
+									<table>
+										<tr>
+											<td>
+												<button id="btnOk" tabindex="2" type="submit">
+												
+													OK
+												</button>
+											</td>
+											<td>
+												&nbsp;
+											</td>
+											<td>
+												<button id="btnCancel" onclick="onCancel()" tabindex="3">
+																							
+													Abbrechen
+												</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+[info]
+_LCID=1033
+_version=11.0.4628.0
+title=SharePoint Team Site
+description=Create a team Web site with a team events calendar, library for shared documents, task list, contact list, and more.
+enableServerLists=1

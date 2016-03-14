@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Bestätigungsformular
+description=Erstellt eine Seite zur Bestätigung von Benutzereingaben in einem der Formulare 'Diskussion', 'Formularergebnis' oder 'Registrierung'. Erfordert FrontPage-Servererweiterungen.
+needsFPSE=true
+contributorModeRequirements=AllowCreatingFPSEPages

@@ -1,0 +1,6 @@
+sub customize
+    rem new doc lib template customization
+    
+    rem cause doc lib to have approval view and related fields
+    service.ProvisionApproval(doc)
+end sub

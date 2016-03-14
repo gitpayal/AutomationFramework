@@ -1,0 +1,73 @@
+﻿
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="de-de">
+</head>
+
+<body>
+<p><!--WEBBOT 
+   BOT=PurpleText
+   PREVIEW="Feedbackformular -- Gestalten Sie dieses Formular Ihren Anforderungen entsprechend. Die Daten des Formulars werden standardmäßig mithilfe der FrontPage-Komponente 'Ergebnisse speichern' als Textdatei auf dem Webserver gespeichert. Bearbeiten Sie die Formulareigenschaften, wenn Sie eine andere Verarbeitung wünschen."
+ -->
+
+</p>
+<hr>
+<p>Teilen Sie uns mit, was Sie von unserer Website, unseren Produkten oder unserer Organisation halten, oder was Sie uns sonst noch
+mitteilen möchten. Alle Ihre Kommentare und Vorschläge sind willkommen.</p>
+<form action="--WEBBOT-SELF--" method="POST">
+<!--WEBBOT 
+   BOT=SaveResults
+   U-File="fpweb:///_private/feedback.txt"
+   S-Format="TEXT/TSV"
+   S-Label-Fields="TRUE"
+   S-Builtin-Fields="Date Time REMOTE_NAME REMOTE_USER HTTP_USER_AGENT"
+   S-Form-Fields
+ -->
+<p><strong>Welche Art von Kommentar möchten Sie uns senden?</strong></p>
+<dl>
+<dd><input type=radio name="MessageType" value="Beschwerde">Beschwerde <input type=radio name="MessageType" value="Problem">Problem <input type=radio checked name="MessageType" value="Vorschlag">Vorschlag <input type=radio name="MessageType" value="Anerkennung">Anerkennung</dd>
+</dl>
+<p><strong>Worüber möchten Sie uns etwas mitteilen?</strong></p>
+<dl>
+<dd><select name="Betreff" size=1>
+<option selected>Website</option>
+<option>Firma</option>
+<option>Produkte</option>
+<option>Geschäft</option>
+<option>Mitarbeiter</option>
+<option>(Sonstiger)</option>
+</select> Sonstiger: <input type=text size=26 maxlength=256 name="SubjectOther"></dd>
+</dl>
+<p><strong>Geben Sie Ihren Kommentar in das folgende Feld ein:</strong></p>
+<dl>
+<dd><textarea name="Kommentare" rows=5 cols=42></textarea></dd>
+</dl>
+<p><strong>Teilen Sie uns bitte mit, wie wir mit Ihnen Kontakt aufnehmen können:</strong></p>
+<dl>
+<dd>
+<table>
+<tr><td>Name<td><input type=text size=35 maxlength=256 name="Benutzername"></tr>
+<tr><td>E-Mail<td><input type=text size=35 maxlength=256 name="UserEmail"></tr>
+<tr><td>Tel<td><input type=text size=35 maxlength=256 name="UserTel"></tr>
+<tr><td>FAX<td><input type=text size=35 maxlength=256 name="UserFAX"></tr>
+</table>
+</dd>
+</dl>
+<dl>
+<dd><input type=checkbox name="Kontaktwunsch" value="Kontaktwunsch"> Nehmen Sie bitte sobald wie möglich mit mir Kontakt auf.</dd>
+</dl>
+<p><input type=submit value="Kommentare senden"> <input type=reset value="Formular zurücksetzen"></p>
+</form>
+<hr>
+<h5>Platz für Informationen zum Autor.<br>
+Copyright © 2001 [Organisationsname]. Alle Rechte vorbehalten.<br>
+Überarbeitet: <!--WEBBOT 
+   BOT=TimeStamp
+   S-Type="EDITED"
+   S-Format="%d.%m.%y"
+ -->.</h5>
+</body>
+
+</html>

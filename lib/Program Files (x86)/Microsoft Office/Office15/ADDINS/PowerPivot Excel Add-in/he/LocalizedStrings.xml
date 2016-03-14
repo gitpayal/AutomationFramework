@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">כתובת</s>
+  <s _locID="Classification.Address.Description">תיאור המיקום של אדם או ארגון, כהנחיה למסירה</s>
+  <s _locID="Classification.Address.Group">גיאוגרפיה</s>
+  <s _locID="Classification.City.LabelName">עיר</s>
+  <s _locID="Classification.City.Description">מרכז עירוני קבוע הכולל אוכלוסייה, אזורי מסחר ותרבות</s>
+  <s _locID="Classification.City.Group">גיאוגרפיה</s>
+  <s _locID="Classification.Continent.LabelName">יבשת</s>
+  <s _locID="Classification.Continent.Description">אחד משטחי הקרקע העיקריים בכדור הארץ</s>
+  <s _locID="Classification.Continent.Group">גיאוגרפיה</s>
+  <s _locID="Classification.Country.LabelName">מדינה/אזור</s>
+  <s _locID="Classification.Country.Description">אומה או מדינה</s>
+  <s _locID="Classification.Country.Group">גיאוגרפיה</s>
+  <s _locID="Classification.County.LabelName">מחוז</s>
+  <s _locID="Classification.County.Description">אזור ממשלתי מקומי, חלק ממדינה או פרובינציה</s>
+  <s _locID="Classification.County.Group">גיאוגרפיה</s>
+  <s _locID="Classification.PostalCode.LabelName">מיקוד</s>
+  <s _locID="Classification.PostalCode.Description">רצף אותיות ו/או מספרים שנוסף לכתובת דואר כדי לסייע במשלוח הדואר</s>
+  <s _locID="Classification.PostalCode.Group">גיאוגרפיה</s>
+  <s _locID="Classification.StateorProvince.LabelName">מחוז</s>
+  <s _locID="Classification.StateorProvince.Description">שטח המנוהל כיחידה מנהלית או פוליטית בתוך ארץ או אזור.</s>
+  <s _locID="Classification.StateorProvince.Group">גיאוגרפיה</s>
+  <s _locID="Classification.ImageURL.LabelName">כתובת URL של תמונה</s>
+  <s _locID="Classification.ImageURL.Description">כתובת URL (מאתר משאבים אחיד) שמצביעה לתמונה</s>
+  <s _locID="Classification.ImageURL.Group">תמונה</s>
+  <s _locID="Classification.WebUrl.LabelName">כתובת URL באינטרנט</s>
+  <s _locID="Classification.WebUrl.Description">כתובת URL (מאתר משאבים אחיד) שמצביעה למיקום באינטרנט</s>
+  <s _locID="Classification.WebUrl.Group">אינטרנט</s>
+  <s _locID="Classification.Image.LabelName">תמונה</s>
+  <s _locID="Classification.Image.Description">צילום או תמונה אחרת, בדרך כלל בתבנית קובץ מסוג JPEG,‏ GIFF או BMP</s>
+  <s _locID="Classification.Image.Group">תמונה</s>
+  <s _locID="Classification.Latitude.LabelName">קו רוחב</s>
+  <s _locID="Classification.Latitude.Description">הקואורדינטה הגיאוגרפית שקובעת את המיקום מצפון-לדרום על-פני כדור הארץ</s>
+  <s _locID="Classification.Latitude.Group">גיאוגרפיה</s>
+  <s _locID="Classification.Longitude.LabelName">קו אורך</s>
+  <s _locID="Classification.Longitude.Description">הקואורדינטה הגיאוגרפית שקובעת את המיקום ממזרח-למערב על-פני כדור הארץ</s>
+  <s _locID="Classification.Longitude.Group">גיאוגרפיה</s>
+  <s _locID="Classification.Place.LabelName">מקום</s>
+  <s _locID="Classification.Place.Description">אזור או מיקום גיאוגרפי</s>
+  <s _locID="Classification.Place.Group">גיאוגרפיה</s>
+  <s _locID="Classification.Organization.LabelName">ארגון</s>
+  <s _locID="Classification.Organization.Description">קבוצה של אנשים שהתארגנו למטרה מסוימת; איגוד</s>
+  <s _locID="Classification.Organization.Group">ארגון</s>
+  <s _locID="Classification.Company.LabelName">חברה</s>
+  <s _locID="Classification.Company.Description">ארגון עסקי</s>
+  <s _locID="Classification.Company.Group">ארגון</s>
+  <s _locID="Classification.Product.LabelName">מוצר</s>
+  <s _locID="Classification.Product.Description">פריט שנוצר, התפתח או התקבל כך שניתן למכור אותו</s>
+  <s _locID="Classification.Product.Group">מוצר</s>
+  <s _locID="Classification.Date.LabelName">תאריך</s>
+  <s _locID="Classification.Date.Description">הזמן שצוין במונחים של יום, חודש, רבעון או שנה</s>
+  <s _locID="Classification.Date.Group">לוח שנה</s>
+</strings>

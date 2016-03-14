@@ -1,0 +1,12 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Dokumentbibliothek mit Vorgabe eines Ablaufdatums
+description=Für diese Dokumentbibliothek ist standardmäßig vorgegeben, das Dokumente nach einer bestimmten Zeit ablaufen.
+xml=schema.xml
+
+[DocLibFileList]
+config.fpr=_vti_pvt/_x_recalc.fprs
+_x_expir.fpr=_vti_pvt/_x_expires.fprs
+_x_crtmd.fpr=_vti_pvt/_x_createormodify.fprs
+_x_rules.htm=_vti_pvt/_x_rules.htm

@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4819.0
+title=Gästebuch
+description=Erstellt eine Seite, auf der Besucher Ihrer Website ihre Kommentare in ein öffentliches Gästebuch eintragen können. Erfordert FrontPage-Servererweiterungen.
+needsFPSE=true
+contributorModeRequirements=AllowCreatingFPSEPages

@@ -1,0 +1,6 @@
+[info]
+_LCID=1033
+title=Workflow Template
+description=Create a workflow that can be attached to any list or content type that derives from a specified base content type.  The workflow name given here will be used to identify the workflow to end users.
+isBlank=true
+isWFTemplate=true

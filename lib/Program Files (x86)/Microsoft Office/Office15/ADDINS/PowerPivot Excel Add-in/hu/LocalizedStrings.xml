@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Cím</s>
+  <s _locID="Classification.Address.Description">Egy hely vagy szervezet helyének leírása, például útmutató kézbesítéshez</s>
+  <s _locID="Classification.Address.Group">Földrajzi</s>
+  <s _locID="Classification.City.LabelName">Város</s>
+  <s _locID="Classification.City.Description">Egy állandó városias népességi, kereskedelmi és kulturális központ</s>
+  <s _locID="Classification.City.Group">Földrajzi</s>
+  <s _locID="Classification.Continent.LabelName">Kontinens</s>
+  <s _locID="Classification.Continent.Description">A Föld elsődleges szárazföldi területeinek egyike</s>
+  <s _locID="Classification.Continent.Group">Földrajzi</s>
+  <s _locID="Classification.Country.LabelName">Ország/régió</s>
+  <s _locID="Classification.Country.Description">Egy nemzet vagy állam</s>
+  <s _locID="Classification.Country.Group">Földrajzi</s>
+  <s _locID="Classification.County.LabelName">Megye</s>
+  <s _locID="Classification.County.Description">Egy helyi kormányzati régió, egy állam vagy tartomány valamely része</s>
+  <s _locID="Classification.County.Group">Földrajzi</s>
+  <s _locID="Classification.PostalCode.LabelName">Irányítószám</s>
+  <s _locID="Classification.PostalCode.Description">Egy postai címhez hozzáfűzött, a postai küldemények kézbesítését elősegítő, betűkből, illetve számokból álló sorozat</s>
+  <s _locID="Classification.PostalCode.Group">Földrajzi</s>
+  <s _locID="Classification.StateorProvince.LabelName">Állam vagy megye</s>
+  <s _locID="Classification.StateorProvince.Description">Egy országon vagy régión belüli, adminisztratív vagy politikai egységként kormányzott terület</s>
+  <s _locID="Classification.StateorProvince.Group">Földrajzi</s>
+  <s _locID="Classification.ImageURL.LabelName">Kép URL-címe</s>
+  <s _locID="Classification.ImageURL.Description">Egy képre mutató URL-cím</s>
+  <s _locID="Classification.ImageURL.Group">Kép</s>
+  <s _locID="Classification.WebUrl.LabelName">Webes URL-cím</s>
+  <s _locID="Classification.WebUrl.Description">Egy webes helyre mutató URL-cím</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Kép</s>
+  <s _locID="Classification.Image.Description">Egy fénykép vagy egyéb kép, gyakran JPEG, GIFF vagy BMP fájlformátumban</s>
+  <s _locID="Classification.Image.Group">Kép</s>
+  <s _locID="Classification.Latitude.LabelName">Földrajzi szélesség</s>
+  <s _locID="Classification.Latitude.Description">Az a földrajzi koordináta, amely meghatározza egy hely észak-déli irányú pozícióját a Föld felszínén</s>
+  <s _locID="Classification.Latitude.Group">Földrajzi</s>
+  <s _locID="Classification.Longitude.LabelName">Földrajzi hosszúság</s>
+  <s _locID="Classification.Longitude.Description">Az a földrajzi koordináta, amely meghatározza egy hely kelet-nyugati irányú pozícióját a Föld felszínén</s>
+  <s _locID="Classification.Longitude.Group">Földrajzi</s>
+  <s _locID="Classification.Place.LabelName">Hely</s>
+  <s _locID="Classification.Place.Description">Egy földrajzi terület vagy helyszín</s>
+  <s _locID="Classification.Place.Group">Földrajzi</s>
+  <s _locID="Classification.Organization.LabelName">Szervezet</s>
+  <s _locID="Classification.Organization.Description">Egy adott célra emberekből szerveződött csoport, egy társulás</s>
+  <s _locID="Classification.Organization.Group">Szervezet</s>
+  <s _locID="Classification.Company.LabelName">Vállalat</s>
+  <s _locID="Classification.Company.Description">Egy üzleti vállalkozás</s>
+  <s _locID="Classification.Company.Group">Szervezet</s>
+  <s _locID="Classification.Product.LabelName">Termék</s>
+  <s _locID="Classification.Product.Description">Egy eladási szándékkal készített, megtermelt vagy beszerzett tárgy</s>
+  <s _locID="Classification.Product.Group">Termék</s>
+  <s _locID="Classification.Date.LabelName">Dátum</s>
+  <s _locID="Classification.Date.Description">Napban, hónapban, negyedévben vagy évben kifejezett idő</s>
+  <s _locID="Classification.Date.Group">Naptár</s>
+</strings>

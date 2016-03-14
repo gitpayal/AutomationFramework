@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4819.0
+title=Inhaltsverzeichnis
+description=Erstellt eine Seite mit Hyperlinks zu jedem Dokument in Ihrer Website. Die Darstellung erfolgt in Form einer Gliederung.
+spv2conflict=1
+needsFPSE=true

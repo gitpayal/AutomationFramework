@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">पता</s>
+  <s _locID="Classification.Address.Description">डिलीवरी के लिए दिशा-निर्देश के लिए व्यक्ति या संगठन के स्थान का विवरण</s>
+  <s _locID="Classification.Address.Group">भूगोल</s>
+  <s _locID="Classification.City.LabelName">शहर</s>
+  <s _locID="Classification.City.Description">जनसंख्या, वाणिज्य, और संस्कृति का एक स्थायी शहरी केंद्र</s>
+  <s _locID="Classification.City.Group">भूगोल</s>
+  <s _locID="Classification.Continent.LabelName">महाद्वीप</s>
+  <s _locID="Classification.Continent.Description">पृथ्वी पर भूमि का मुख्य टुकड़ा</s>
+  <s _locID="Classification.Continent.Group">भूगोल</s>
+  <s _locID="Classification.Country.LabelName">देश/क्षेत्र</s>
+  <s _locID="Classification.Country.Description">एक राष्ट्र या राज्य</s>
+  <s _locID="Classification.Country.Group">भूगोल</s>
+  <s _locID="Classification.County.LabelName">काउंटी</s>
+  <s _locID="Classification.County.Description">एक स्थानीय सरकारी क्षेत्र; राज्य या प्रांत का हिस्सा</s>
+  <s _locID="Classification.County.Group">भूगोल</s>
+  <s _locID="Classification.PostalCode.LabelName">डाक कोड</s>
+  <s _locID="Classification.PostalCode.Description">डाक पते पर जोड़ा गया पत्र और/या संख्या का एक अनुक्रम जो डाक पहुंचाने में सहायता करता है</s>
+  <s _locID="Classification.PostalCode.Group">भूगोल</s>
+  <s _locID="Classification.StateorProvince.LabelName">राज्य या प्रांत</s>
+  <s _locID="Classification.StateorProvince.Description">एक क्षेत्र जो किसी देश या क्षेत्र के भीतर एक प्रशासनिक या राजनीतिक इकाई के रूप में संचालित है.</s>
+  <s _locID="Classification.StateorProvince.Group">भूगोल</s>
+  <s _locID="Classification.ImageURL.LabelName">छवि URL</s>
+  <s _locID="Classification.ImageURL.Description">URL (यूनिफ़ॉर्म रिसोर्स लोकेटर) जो एक छवि को इंगित करता है</s>
+  <s _locID="Classification.ImageURL.Group">छवि</s>
+  <s _locID="Classification.WebUrl.LabelName">वेब URL</s>
+  <s _locID="Classification.WebUrl.Description">URL (यूनिफ़ॉर्म रिसोर्स लोकेटर) जो एक वेब स्थान को इंगित करता है</s>
+  <s _locID="Classification.WebUrl.Group">वेब</s>
+  <s _locID="Classification.Image.LabelName">छवि</s>
+  <s _locID="Classification.Image.Description">कोई फ़ोटो या तस्वीर, जो अकसर JPEG, GIFF, या BMP फ़ाइल स्वरूप में हो</s>
+  <s _locID="Classification.Image.Group">छवि</s>
+  <s _locID="Classification.Latitude.LabelName">अक्षांश</s>
+  <s _locID="Classification.Latitude.Description">भौगोलिक निर्देशांक जो पृथ्वी की सतह पर उत्तर-दक्षिण की स्थिति निर्धारित करता है</s>
+  <s _locID="Classification.Latitude.Group">भूगोल</s>
+  <s _locID="Classification.Longitude.LabelName">देशांतर</s>
+  <s _locID="Classification.Longitude.Description">भौगोलिक निर्देशांक जो पृथ्वी की सतह पर पूर्व-पश्चिम की स्थिति निर्धारित करता है</s>
+  <s _locID="Classification.Longitude.Group">भूगोल</s>
+  <s _locID="Classification.Place.LabelName">स्थान</s>
+  <s _locID="Classification.Place.Description">एक भौगोलिक क्षेत्र या स्थान</s>
+  <s _locID="Classification.Place.Group">भूगोल</s>
+  <s _locID="Classification.Organization.LabelName">संगठन</s>
+  <s _locID="Classification.Organization.Description">एक विशेष उद्देश्य के लिए संगठित लोगों का एक समूह; एक संघ</s>
+  <s _locID="Classification.Organization.Group">संगठन</s>
+  <s _locID="Classification.Company.LabelName">कंपनी</s>
+  <s _locID="Classification.Company.Description">व्यापार एंटरप्राइज़</s>
+  <s _locID="Classification.Company.Group">संगठन</s>
+  <s _locID="Classification.Product.LabelName">उत्पाद</s>
+  <s _locID="Classification.Product.Description">कुछ ऐसा जिसे बनाया, उगाया, या प्राप्त किया जा सके ताकि उसे बेचा जा सके</s>
+  <s _locID="Classification.Product.Group">उत्पाद</s>
+  <s _locID="Classification.Date.LabelName">दिनांक</s>
+  <s _locID="Classification.Date.Description">दिन, महीने, तिमाही, या वर्ष के संदर्भ में बताया गया समय</s>
+  <s _locID="Classification.Date.Group">कैलेंडर</s>
+</strings>

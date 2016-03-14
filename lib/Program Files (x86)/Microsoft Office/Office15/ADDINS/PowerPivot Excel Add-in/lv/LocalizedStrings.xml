@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Adrese</s>
+  <s _locID="Classification.Address.Description">Personas vai organizācijas atrašanās vietas apraksts, piemēram, piegādes norādes</s>
+  <s _locID="Classification.Address.Group">Ģeogrāfija</s>
+  <s _locID="Classification.City.LabelName">Pilsēta</s>
+  <s _locID="Classification.City.Description">Urbanizēta pastāvīgi apdzīvota vieta, kā arī tirdzniecības un kultūras centrs</s>
+  <s _locID="Classification.City.Group">Ģeogrāfija</s>
+  <s _locID="Classification.Continent.LabelName">Kontinents</s>
+  <s _locID="Classification.Continent.Description">Viens no vairākiem Zemes galvenajiem sauszemes masīviem</s>
+  <s _locID="Classification.Continent.Group">Ģeogrāfija</s>
+  <s _locID="Classification.Country.LabelName">Valsts/reģions</s>
+  <s _locID="Classification.Country.Description">Nācija vai valsts</s>
+  <s _locID="Classification.Country.Group">Ģeogrāfija</s>
+  <s _locID="Classification.County.LabelName">Apgabals</s>
+  <s _locID="Classification.County.Description">Vietēja administratīvi teritoriāla vienība, štata vai provinces daļa</s>
+  <s _locID="Classification.County.Group">Ģeogrāfija</s>
+  <s _locID="Classification.PostalCode.LabelName">Pasta indekss</s>
+  <s _locID="Classification.PostalCode.Description">Burtu un/vai ciparu secība, ko pievieno pasta adresei, lai sistematizētu pasta piegādi</s>
+  <s _locID="Classification.PostalCode.Group">Ģeogrāfija</s>
+  <s _locID="Classification.StateorProvince.LabelName">Štats vai province</s>
+  <s _locID="Classification.StateorProvince.Description">Valsts vai reģiona administratīvi teritoriālā vienība.</s>
+  <s _locID="Classification.StateorProvince.Group">Ģeogrāfija</s>
+  <s _locID="Classification.ImageURL.LabelName">Attēla URL</s>
+  <s _locID="Classification.ImageURL.Description">URL (vienotais resursu vietrādis), kas norāda uz attēlu</s>
+  <s _locID="Classification.ImageURL.Group">Attēls</s>
+  <s _locID="Classification.WebUrl.LabelName">Tīmekļa URL</s>
+  <s _locID="Classification.WebUrl.Description">URL (vienotais resursu vietrādis), kas norāda uz atrašanās vietu tīmeklī</s>
+  <s _locID="Classification.WebUrl.Group">Tīmeklis</s>
+  <s _locID="Classification.Image.LabelName">Attēls</s>
+  <s _locID="Classification.Image.Description">Fotoattēls vai cita veida attēls, kura faila formāts bieži var būt JPEG, GIF vai BMP</s>
+  <s _locID="Classification.Image.Group">Attēls</s>
+  <s _locID="Classification.Latitude.LabelName">Ģeogrāfiskais platums</s>
+  <s _locID="Classification.Latitude.Description">Ģeogrāfiskā koordināta, kas nosaka novietojumu uz Zemes virsmas attiecībā pret Ziemeļpolu un Dienvidpolu</s>
+  <s _locID="Classification.Latitude.Group">Ģeogrāfija</s>
+  <s _locID="Classification.Longitude.LabelName">Ģeogrāfiskais garums</s>
+  <s _locID="Classification.Longitude.Description">Ģeogrāfiskā koordināta, kas nosaka novietojumu uz Zemes virsmas attiecībā pret nulles meridiānu</s>
+  <s _locID="Classification.Longitude.Group">Ģeogrāfija</s>
+  <s _locID="Classification.Place.LabelName">Vieta</s>
+  <s _locID="Classification.Place.Description">Ģeogrāfisks apgabals vai atrašanās vieta</s>
+  <s _locID="Classification.Place.Group">Ģeogrāfija</s>
+  <s _locID="Classification.Organization.LabelName">Organizācija</s>
+  <s _locID="Classification.Organization.Description">Noteiktam mērķim organizēta cilvēku grupa, apvienība</s>
+  <s _locID="Classification.Organization.Group">Organizācija</s>
+  <s _locID="Classification.Company.LabelName">Uzņēmums</s>
+  <s _locID="Classification.Company.Description">Sabiedrība, kas nodarbojas ar komercdarbību</s>
+  <s _locID="Classification.Company.Group">Organizācija</s>
+  <s _locID="Classification.Product.LabelName">Produkts</s>
+  <s _locID="Classification.Product.Description">Kaut kas tāds, ko saražo, izaudzē vai iegūst, lai pārdotu</s>
+  <s _locID="Classification.Product.Group">Produkts</s>
+  <s _locID="Classification.Date.LabelName">Datums</s>
+  <s _locID="Classification.Date.Description">Laiks, ko izsaka dienās, mēnešos, ceturkšņos vai gados</s>
+  <s _locID="Classification.Date.Group">Kalendārs</s>
+</strings>

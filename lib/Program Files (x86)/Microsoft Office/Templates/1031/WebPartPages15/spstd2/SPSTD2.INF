@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4805.0
+title=Kopfzeile, Fußzeile, drei Spalten
+description=Erstellt eine Webpartseite mit Kopfzeile, Fußzeile und drei Spalten.
+preview=spstd2.gif
+contributorModeRequirements=AllowCreatingWebPartPages

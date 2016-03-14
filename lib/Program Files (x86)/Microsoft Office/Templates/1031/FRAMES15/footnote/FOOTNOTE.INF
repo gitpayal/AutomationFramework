@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Fußnoten
+description=Erstellt einen Hauptframe und darunter einen Fußnotenframe. Hyperlinks im Hauptframe bewirken Änderungen in den Fußnoten.
+noframesURL=
+layout=[R(*,20%)F("Hauptframe","Fußnoten")]
+contributorModeRequirements=AllowCreatingFramesPages

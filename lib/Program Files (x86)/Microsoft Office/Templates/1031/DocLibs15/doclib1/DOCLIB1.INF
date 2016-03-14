@@ -1,0 +1,14 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Dokumentbibliothek mit automatischer Sicherung
+description=Für diese Dokumentbibliothek ist standardmäßig eine automatische Sicherung der Dokumente eingerichtet.
+xml=schema.xml
+
+[DocLibFileList]
+config.fpr=_vti_pvt/_x_recalc.fprs
+_x_appro.fpr=_vti_pvt/_x_approved.fprs
+_x_rules.htm=_vti_pvt/_x_rules.htm
+_x_pend.fpr=_vti_pvt/_x_pending.fprs
+_x_deni.fpr=_vti_pvt/_x_denied.fprs
+_x_ctomo.fpr=_vti_pvt/_x_createormodify.fprs

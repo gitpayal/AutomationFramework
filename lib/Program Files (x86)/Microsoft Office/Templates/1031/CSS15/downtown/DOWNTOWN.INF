@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=City
+description=Erstellt ein Stylesheet mit gelbem Text in Garamond, Überschriften in Verdana, orangefarbenen Hyperlinks und königsblauem Hintergrund.
+contributorModeRequirements=AllowCreatingCSSFiles

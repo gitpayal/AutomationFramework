@@ -1,0 +1,8 @@
+[info]
+_LCID=1033
+_version=11.0.4819.0
+title=Import Web Site Wizard
+description=Create a Web site filled with documents from a directory on your local computer or a remote file system.
+exename=msimport.exe
+needsFPSE=false
+isGeneral=true

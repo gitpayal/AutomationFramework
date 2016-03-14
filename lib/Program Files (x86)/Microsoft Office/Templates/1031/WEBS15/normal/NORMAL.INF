@@ -1,0 +1,8 @@
+[info]
+_LCID=1033
+_version=11.0.4819.0
+title=One Page Web Site
+description=Create a new Web site with a single blank page.
+theme=none
+needsFPSE=false
+isGeneral=true

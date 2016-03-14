@@ -1,0 +1,5 @@
+sub Expire_Document_in_6_months
+    expdt=date:expdt.settime(23,59,59)
+    doc.setexpirewarndays(7):expdt.AddMonth(6):expdt.AddDay(0):doc.meta.expiredate=expdt
+end sub
+

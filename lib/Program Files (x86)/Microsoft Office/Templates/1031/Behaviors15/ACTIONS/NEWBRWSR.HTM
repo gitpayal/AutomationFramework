@@ -1,0 +1,235 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Browserfenster öffnen</title>
+		<meta name="DHTMLScriptName" content="Browserfenster öffnen">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="475,200">
+		
+		<style>
+		button	{ width: 8em;  }				
+		table	{ border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+		var L_NOURL_ErrorMessage			= "Geben Sie eine URL ein."; 
+		var L_NOSPACE_ErrorMessage			= "Der Fenstername ist ungültig. Geben Sie einen Namen mit ASCII-Buchstaben ohne Leerzeichen ein.";
+		var L_OUTSIDERANGE_ErrorMessage		= "Geben Sie eine Zahl zwischen 1 und 4000 ein";
+		</script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="NewBrwsr.js"></script>
+	</head>
+	<body onload="safeFocus(theForm.URL1)">
+		<form id="theForm" name="theForm" onsubmit="Validate(); return false;">
+			<table border="0" cellpadding="0" cellspacing="0" id="AutoNumber1" width="100%" height="100%">
+				<tr>
+					<td nowrap>
+						<label for="URL1">
+  						
+							<u>G</u>ehe&nbsp;zu&nbsp;URL:&nbsp;
+						</label>
+					</td>
+					<td width="100%" dir="ltr">
+						<input type="text" name="URL1" style="width: 100%" accesskey="g" id="URL1"> 
+						
+					</td>
+					<td>
+						&nbsp;
+					</td>
+					<td>
+						<button name="BrowseURL1" value="Browse..." accesskey="d" onclick="PickURL(URL1);">
+						
+	  					
+							<u>D</u>urchsuchen...
+						</button>						
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<label for="WindowName">
+						
+							Fenster<u>n</u>ame:&nbsp;
+						</label>
+					</td>
+					<td width="100%">
+						<input type="text" name="WindowName" style="width: 100%" accesskey="n" id="WindowName">
+						
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<label for="WindowWidth">
+						
+							Fenster<u>b</u>reite:&nbsp;
+						</label>
+					</td>
+					<td colspan="2">
+						<input type="text" name="WindowWidth" size="5" value="200" accesskey="b" id="WindowWidth">
+						
+					</td>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td nowrap>
+						<label for="WindowHeight">
+						
+						Fenster<u>h</u>öhe:&nbsp;</label></td>
+					<td colspan="2">
+						<input type="text" name="WindowHeight" size="5" value="200" accesskey="h" id="WindowHeight">
+						
+					</td>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<table border="0" cellpadding="0" cellspacing="0" bordercolor="#111111" width="100%" height="100%" id="AutoNumber3">
+							<tr>
+								<td nowrap>
+									
+									Attribute:
+								</td>
+								<td>
+									<input type="checkbox" name="NavToolbar" value="ON" accesskey="a" id="NavToolbar">
+									
+								</td>
+								<td nowrap>
+									<label for="NavToolbar">
+									
+									N<u>a</u>vigationssymbolleiste
+									</label>
+								</td>
+								<td>
+									<input type="checkbox" name="MenuBar" value="ON" accesskey="m" id="MenuBar"> 
+									
+								</td>
+								<td nowrap>
+									<label for="MenuBar">
+									
+										<u>M</u>enüleiste
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									<input type="checkbox" name="LocToolbar" value="ON" accesskey="c" id="LocToolbar">
+									
+								</td>
+								<td nowrap>
+									<label for="LocToolbar">
+									
+										Lo<u>c</u>ationsymbolleiste
+									</label>
+								</td>
+								<td>
+									<input type="checkbox" name="Scrollbars" value="ON" accesskey="l" id="Scrollbars">
+									
+								</td>
+								<td nowrap>
+									<label for="Scrollbars">
+									
+										Bild<u>l</u>aufleisten nach Bedarf
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									<input type="checkbox" name="StatusBar" value="ON" accesskey="s" id="StatusBar">
+									
+								</td>
+								<td nowrap>
+									<label for="StatusBar">
+									
+										<u>S</u>tatusleiste
+									</label>
+								</td>
+								<td>
+									<input type="checkbox" name="Resize" value="ON" accesskey="v" id="Resize"> 
+									
+								</td>
+								<td nowrap>
+									<label for="Resize">
+									
+										<u>V</u>ergrößerungspunkte
+									</label>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4" height="100%">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<hr>
+						<table width="100%">
+							<tr>
+								<td width="100%">
+								</td>
+								<td>
+									<button name="OK" value="OK" type="submit">
+										
+										OK
+									</button>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									<button name="Cancel" value="Cancel" onclick="CancelAction();">
+							  														
+										Abbrechen
+									</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	<script language="javascript" id="EventHandler">
+theForm.WindowWidth.onkeypress = e_SizeKeyPress;
+theForm.WindowHeight.onkeypress = e_SizeKeyPress;
+
+function e_SizeKeyPress()
+{
+	if((event.keyCode < 48) || (event.keyCode > 57))
+	{
+		if ((event.keyCode != 13)&&(event.keyCode != 8)&&(event.keyCode != 9))
+			event.keyCode = 0;
+	}
+}
+
+function PickURL(eURL)
+{
+	var url = FrontPage.ShowPickURLDialog(FrontPage.ActiveDocument.url, eURL.value);
+	if (url != '') 
+		eURL.value = url;
+	eURL.focus();
+}
+
+
+	</script>
+</html>

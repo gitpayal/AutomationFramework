@@ -1,0 +1,4 @@
+sub example_of_approval_request_email
+    rem address.AddValue("placeHolderEmailAddress")
+    rem service.SendRequestMail(doc, address, "placeHolderDoclib/forms/submit.htm")
+end sub

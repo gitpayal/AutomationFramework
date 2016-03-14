@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--_lcid="1031" _version="5013" _dal="1" -->
+<!--_LocalBinding -->
+<Toolbox>
+
+	<ToolboxItem Type="1" Name="Erweiterte Schaltfläche" Description="Eine Schaltfläche, die HTML-Inhalt enthalten kann.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAATzoqTFA8LM1QPCz0UDws/1A8LP9SPS3/Uj0t/1I9Lf9SPS3/UDws
+			/1A8LP9SPS3/Uj0t/1A8LP1RPC3JTzoqKbijlP/g3976uri1/7Ktqv+knpv/l5GM/5GLhv+MhX//
+			hHt0/4B0a/9+dGn/g3dt/4Z4cP+AdWr/cmNZ+086KtS5pJX/9vf5/9rZ2f/X1dP/2dfV/9rY1v/W
+			09D/0s7L/83Ixf/KxMH/yMC8/8C+tv/Dvbf/v7ey/52Tiv9QPCz5u6aX/1tr4/9peNf/19bh/2l3
+			yv8TLK//1iwf/9oqHv/BUz3/ypuS/2S9Y/8wciX/PXA2/2SHXv+2vK3/UDws/72omf+Wnuf/JzO/
+			/xstuP8ZI6z/Ymm7/+FLO//nxL3/zXdm/79RM/81izD/MWAm/8rWyP9SoFP/f7Z9/1BALf+/qZr/
+			ys7y/0dY3P/FyOn/Giq1/7291v/mX0f/13Ja/8xGM//KjnP/LYEm/zdmLP/Y5NT/1NrP/9nV1P9W
+			QzP/wauc/+7v+f9xhez/MUnX/2dxyv/j4eL/5GBL/+rRzv/YhXb/yVA3/zW0Mv80fC3/uMO1/0x+
+			Sf+kuqH/Uj4u/8Otnv/6+vr/x8zv/zxO0v+6vN3/5d7c/+52Wf/mc1f/zl5G/9CFdf+N243/ML4z
+			/y6IJf9fwl3/0tfO/1I+Lv/Erp//+fn5/+7u7v/Oz+T/29nc/9jW1P/a2dj/2tPO/9nSz//U0dD/
+			1dLQ/9DNyf/Jw7//2tbU/7y2sf9UQTHxxa+g//j4+Pj5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5
+			+fn/+fn5//n5+f/5+fn/+fn5//b29v/g3Nr9EAwJpk86KijFr6D/xK6f/8Sun//DrZ7/wqyd/8Cr
+			nP+/qpv/vqma/72nmP+8ppf/uqWW/7mklf+4o5T/uKOU/086KjgAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+		</Bitmap>
+		<HTML>
+		
+		<![CDATA[
+			<button name="Abutton1"><!--StartWrap-->Schaltfläche<!--EndWrap--></button>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Kontrollkästchen)" Description="Sammelt einen Ja/Nein-Wert ein.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////////////////gFEcgFEcgFEcgFEcgFEcgFEc
+			gFEcgFEcgFEcgFEcgFEcgFEcgFEc////////////gFEc8fPz8/X19vf3+Pn5+fr6+/z8/f39/v7+
+			////////////gFEc////////////gFEc7/Hx8fPz8/X19vf3+Pn5+fr6+/z8/f39/v7+////////
+			gFEc////////////gFEc7O/v7/Hx8fPz8/X1IaEh+Pn5+fr6+/z8/f39/v7+////gFEc////////
+			////gFEc6ezs7O/v7/HxIaEhIaEhIaEh+Pn5+fr6+/z8/f39/v7+gFEc////////////gFEc5urq
+			6ezsIaEhIaEhIaEhIaEhIaEh+Pn5+fr6+/z8/f39gFEc////////////gFEc4+fn5urqIaEhIaEh
+			7/HxIaEhIaEhIaEh+Pn5+fr6+/z8gFEc////////////gFEc4eXl4+fnIaEh6ezs7O/v7/HxIaEh
+			IaEhIaEh+Pn5+fr6gFEc////////////gFEc3+Pj4eXl4+fn5urq6ezs7O/v7/HxIaEhIaEh9vf3
+			+Pn5gFEc////////////gFEc3eLi3+Pj4eXl4+fn5urq6ezs7O/v7/HxIaEh8/X19vf3gFEc////
+			////////gFEc3eLi3eLi3+Pj4eXl4+fn5urq6ezs7O/v7/Hx8fPz8/X1gFEc////////////gFEc
+			3eLi3eLi3eLi3+Pj4eXl4+fn5urq6ezs7O/v7/Hx8fPzgFEc////////////gFEcgFEcgFEcgFEc
+			gFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEc////////////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="Checkbox1" type="checkbox" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Dropdownfeld" Description="Sammelt eine Multiple-Choice-Auswahl durch Darstellen verschiedener Optionen in einer Dropdownliste. Ermöglicht mehr als eine Auswahl.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////uZ1/uZ1/uZ1/
+			uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/////uZ1/////////////////////
+			////////88ew88ew88ewxKGO88ew88ewuZ1/////uZ1/////////////////////////////88ew
+			88ewxKGOAAAAxKGO88ewuZ1/////uZ1/////AAAAAAAAAAAAAAAA////////88ew88ewAAAA88ew
+			AAAA88ewuZ1/////uZ1/////////////////////////////88ew88ew88ew88ew88ew88ewuZ1/
+			////uZ1/////AAAAAAAAAAAAAAAAAAAA////uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/////uZ1/////
+			////////////////////////88ew88ew88ew88ew88ew88ewuZ1/////uZ1/////AAAAAAAAAAAA
+			////////////88ew88ewAAAA88ewAAAA88ewuZ1/////uZ1/////////////////////////////
+			88ew88ewxKGOAAAAxKGO88ewuZ1/////uZ1/////////////////////////////88ew88ew88ew
+			xKGO88ew88ewuZ1/uZ1/gFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEcgFEc
+			gFEcuZ1/////////////////////////////////////////gFEcgFEcwMDAgFEcgFEcuZ1/////
+			////////////////////////////////////gFEcwMDAwMDAwMDAgFEcuZ1/uZ1/uZ1/uZ1/uZ1/
+			uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/gFEcgFEcgFEcgFEcgFEc////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<select name="Select1">
+				<option></option>
+			</select>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Beschriftung" Description="Gruppiert ein Eingabefeld und dessen Beschreibung, um die Barrierefreiheit des Formulars zu verbessern.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////////wsLCMiwpDw0MHxwbwsLC////////////
+			AAAAAAAAAAAAFRIR////////////////////wsLCEQ8NwsLC////////////////iHt0AAAAGRYU
+			wsLC////////////////////////b2FbXVFL////////////////AAAAAAAAZVpV////////////
+			////////////////wsLCAAAARDs2PDQxPTUxEQ4NAAAAAwICwsLC////////////////////////
+			////////QTczwsLC////////IBsZAAAAX1RO////////////////////////////////////loqD
+			UkdB////wsLCAAAAAgEBwsLC////////////////////////////////////wsLCEg8OwsLCTUI9
+			AAAAOTEt////////////////////////////////////////////e21lemxkAAAAAAAAwsLC////
+			////////////////////////////////////////wsLCAAAAAAAAHBkW////////////////////
+			////////////////////////////////fX19AAAAwsLC////////////////////////////////
+			////////////////////wsLCYlVP////////////////////////////////////////////////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+
+		<HTML>
+		<![CDATA[
+			<label id="Label1"><!--StartWrap--><!--EndWrap--></label>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Datei)" Description="Sammelt eine durch den Benutzer ausgewählte Datei ein. Erfordert serverseitigen Code, um die hochgeladene Datei zu verarbeiten.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////t6KTY0k1Y0k1Y0k1Y0k1Y0k1Y0k1Y0k1Y0k1////////////////////
+			////////t6KT+u7o+Ojg9+HY9dvQ8tbI8dDA78u5Y0k1////////////////////////////t6KT
+			+/Tw+u/p+Ojh9uPZ9dzR89fJ8tHCY0k1////////////////////////////t6KT/vn4zbmvx7Gm
+			waqdvKOV9d7S89jLY0k1////////////////////////////u6aX//7+/vv5/Pbz+/Hs+evl9+bc
+			9t/VY0k1////////////////////////////wauc////zbmuxrKmwaqdvKOV+u3m+ObfY0k1////
+			////////////////////////x7Kj/////////////vz7/Pj1/PPv+u3oY0k1////////////////
+			vn1bplAlplAlpEwgvnlXzbmvx7Gl/////vz8/fn2/PTxY0k1////////////y4Ri7Y5gy3BE3K6V
+			0rOf////////////////////1MW6ZEo2Y0k1////////////znJG7Y5guF0w////2MKy////////
+			////////////1MW6ZEo2////////////////0XNG7Y5gvF8x////2MKy2MKy1L+u2MKy1L+uzrip
+			1MW6////////////////////0HRF6oxfslsu////////////////////////////////////////
+			////6J9613dG4YFS33M6wWMzpFUsmlAr////////////////////////////////////////4ZFm
+			+7WU+ZBZ1283x21A////////////////////////////////////////////////6JZr+qqC1XZF
+			////////////////////////////////////////////////////////45Zr////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="File1" type="file" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Formular" Description="Container für eine Gruppe von Eingabefeldern. Erfordert Code auf dem Webserver, um die Eingabe zu verarbeiten.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////gICAgICA////gICAgICA////gICAgICA////
+			gICAgICA////gICAgICA////////gICA////////////////////////////////////////////
+			////gICA////////////////////////////////////////////////////////////////////
+			////gICA////////////////////////////////////////////////gICA////////gICA////
+			////////////////////////////////////////////gICA////////////////////////////
+			////////////////////////////////////////////gICA////////////////////////////
+			////////////////////gICA////////gICA////////////////////////////////////////
+			////////gICA////////////////////////////////////////////////////////////////
+			////////gICA////////////////////////////////////////////////gICA////////gICA
+			gICA////gICAgICA////gICAgICA////gICAgICA////gICAgICA////////////////////////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<form method="post" action=""><!--StartWrap--><!--EndWrap--></form>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Gruppenfeld" Description="Gruppiert eine Auflistung von Eingabefeldern, um die Barrierefreiheit des Formulars zu verbessern.">
+	
+	
+		
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////gICAgICAgICAgICA
+			gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA////////////////////////
+			////////////////////////////////gICAgICA////////////////////////////////////
+			////////////////////gICAgICA////////////////////////////////////////////////
+			////////gICAgICA////////////////////////////////////////////////////////gICA
+			gICA////////////////////////////////////////////////////////gICAgICA////////
+			////////////////////////////////////////////////gICAgICA////////////////////
+			////////////////////////////////////gICAgICA////////////////////////////////
+			////////////////////////gICAgICA////////////////////////////////////////////
+			////////////gICAgICA////////////////////////////////////////////////////////
+			gICAgICA////////gICA////gICA////////gICA////////gICAgICAgICA////gICAgICAgICA
+			////////gICA////////////gICA////////gICA////////gICAgICA////////////////gICA
+			////////gICA////gICA////////gICA////////////////////////gICA////gICA////gICA
+			////gICA////gICAgICAgICA////////
+		</Bitmap>
+		<HTML>
+		
+		<![CDATA[
+			<fieldset name="Group1">
+				<legend>Gruppenfeld</legend>
+				<!--StartWrap--><!--EndWrap-->
+			</fieldset>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Ausgeblendet)" Description="Stellt einen Wert zur Verfügung, der durch den Benutzer beim Absenden des Formulars nicht geändert werden kann.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAuZ1//wAAAAC5nX//AAAAALmdf/8AAAAAuZ1//wAAAAC5nX//AAAA
+			ALmdf/8AAAAAuZ1//wAAAAC5nX//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5nX//AAAAAAAAAAC5nX//uZ1//7mdf/8A
+			AAAAuZ1//7mdf/+5nX//AAAAAAAAAAC5nX//AAAAALmdf/8AAAAAAAAAAAAAAAC5nX//AAAAAAAA
+			AAC5nX//AAAAALmdf/8AAAAAAAAAALmdf/8AAAAAuZ1//wAAAAAAAAAAAAAAALmdf/8AAAAAAAAA
+			ALmdf/+5nX//uZ1//wAAAAC5nX//AAAAAAAAAAC5nX//AAAAALmdf/8AAAAAuZ1//wAAAAAAAAAA
+			AAAAALmdf/8AAAAAAAAAALmdf/8AAAAAuZ1//wAAAAAAAAAAuZ1//wAAAAC5nX//AAAAAAAAAAAA
+			AAAAuZ1//wAAAAAAAAAAuZ1//7mdf/8AAAAAAAAAALmdf/+5nX//uZ1//wAAAAAAAAAAuZ1//wAA
+			AAC5nX//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5nX//AAAAAAAAAAAAAAAAAAAA
+			ALmdf/8AAAAAAAAAAAAAAAC5nX//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuZ1//wAAAAAAAAAA
+			AAAAAAAAAAC5nX//AAAAALmdf/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALmdf/8AAAAAuZ1//wAAAAC5nX//AAAAALmd
+			f/8AAAAAuZ1//wAAAAC5nX//AAAAALmdf/8AAAAAuZ1//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="Hidden1" type="hidden" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Optionsfeld)" Description="Sammelt eine Multiple-Choice-Auswahl ein, indem verschiedene Optionen als Optionsfelder dargestellt werden.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////////////////////////////////yrikoo95
+			gFUkoo95yrik////////////////////////////////////08SzgFQhrZBv1sm69vXz2cu8r5Fx
+			gFQh08Sz////////////////////////08SzooFd0sW29vf3+Pn5+fr6+/z8/f392cy8poVh08Sz
+			////////////////////gFQhz8Oz8fPz8/X19vf3+Pn5+fr6+/z8/f392cy8gFQh////////////
+			////yrikp4tq7O/v7/Hx5u7omMyaJZYll8mY7fPu+/z8/f39r5Fxyrik////////////oo95yL6u
+			6ezs7O/vntKgKKgrIaIjEZIUl8iY+fr6+/z82cu8h2lG////////////gFUk3+Hf5urq6ezsS79O
+			QMNDNrk5IqEiJJYn+Pn5+fr69vXzgFUk////////////j3Zaxbqr4+fn5urqptypUtVWQMNEJ6gq
+			mMya9vf3+Pn51sm6iGtK////////////yrikp4tq4eXl4+fn3ujiptypS79OntKg5u7o8/X19vf3
+			rZBvyrik////////////////gFQhw7mp4eXl4+fn5urq6ezs7O/v7/Hx8fPz0sW2gFQh////////
+			////////////08SzooFdw7mp4eXl4+fn5urq6ezs7O/vs52BooFd08Sz////////////////////
+			////08SzgFQhrZBvxbqr3+HfyL6up4tqgFQh08Sz////////////////////////////////////
+			yriko4RggFUki3NYyrik////////////////////////////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="Radio1" type="radio" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Kennwort)" Description="Sammelt einen kurzen Kennwort-Zeichenfolgenwert ein, während der Wert ausgeblendet wird.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALmdf/+5nX//uZ1//7mdf/+5nX//uZ1//7mdf/+5nX//
+			uZ1//7mdf/+5nX//uZ1//7mdf/+5nX//uZ1//wAAAAC5nX//////////////////////////////
+			/////////////////////////////////////////7mdf/8AAAAAuZ1/////////////cldC////
+			//9yV0L/////////////////cldC//////9yV0L///////////+5nX//AAAAALmdf///////////
+			//////9yV0L///////////////////////////9yV0L/////////////////uZ1//wAAAAC5nX//
+			/////3JXQv9yV0L/cldC/3JXQv9yV0L//////3JXQv9yV0L/cldC/3JXQv9yV0L//////7mdf/8A
+			AAAAuZ1//////////////////3JXQv///////////////////////////3JXQv//////////////
+			//+5nX//AAAAALmdf////////////3JXQv//////cldC/////////////////3JXQv//////cldC
+			////////////uZ1//wAAAAC5nX//////////////////////////////////////////////////
+			/////////////////////7mdf/8AAAAAuZ1//7mdf/+5nX//uZ1//7mdf/+5nX//uZ1//7mdf/+5
+			nX//uZ1//7mdf/+5nX//uZ1//7mdf/+5nX//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="Password1" type="password" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Bild)" Description="Sammelt die Koordinaten (x und y) beim Klicken auf ein Bild ein.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACleV//gEco/4BHKP9/RCX/fkEh
+			/3w+HP97Ohj/eTYT/3gzDv93MAv/di4I/wAAAAAAAAAAAAAAAAAAAAAAAAAAqX5m//vv6//PqJX/
+			x5mD/7qSgP+ng3H/lnRj/4VlV/9KNyv/V0s//3cwCv92Lgj/AAAAAHYuCP8AAAAAdi4I/66Fbf//
+			////89/V/9yvmP/Tn4f/ypuF/8GXgv9SOSj/n4V0/zk0L/93Mg3/AAAAAAAAAAAAAAAAAAAAAAAA
+			AACyi3T/tKOW//77+v/x39X/37Gb/8mnl/9xW0z/x7Sq/3BlXf9LQj//eDQQ/3YuCP8AAAAAdi4I
+			/wAAAAB2Lgj/t5J7/+zl4f+umor//PXy//Dd0v9tVkb/nYp//52Ohv9MNCn/7Lyi/3o3FP8AAAAA
+			AAAAAAAAAAAAAAAAAAAAALyYgv//////4tjS/6+Zif+eiXz/xaiY/7qro/+7p53//drI/+3DrP97
+			Ohj/di4I/wAAAAB2Lgj/AAAAAHYuCP/AnYj////////////m3Nb/6drN/+Li8v9VaMz/NVTP/9DD
+			1P/uyrj/fD0b/wAAAAAAAAAAAAAAAAAAAAAAAAAAxKOO/////////fz/////////+/9lcsn/S6Dt
+			/yN0y/8qSsH/7tPF/31AH/92Lgj/AAAAAHYuCP8AAAAAdi4I/8enkv////////v6///7+v////3/
+			jZfS/5PD6P9Ope//ZWy6/+/b0f9+QyP/AAAAAAAAAAAAAAAAAAAAAAAAAADJqpb/////////////
+			/////////+Ll9f+bpd3/jZbT/+zp8f/+8er/f0Ul/3YuCP8AAAAAdi4I/wAAAAB2Lgj/yaqW/8mp
+			lf/GpZH/waCK/72Zg/+3knv/sopy/6yCav+ne2L/onRa/55vVP8AAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="Image1" type="image" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Schaltfläche)" Description="Löst ein onclick-Ereignis aus, das als Skriptcode behandelt werden kann.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////zrumglQidDwA
+			dDwAdDwAdDwAdDwAdDwAdDwAdDwAdDwAdDwAfUwUzrum////zrumiF8wtK6jxdDWxdDWxdDWxdDW
+			xdDWxdDWxdDWxdDWxdDWxdDWtrexhl0vzrumfUwUyse/6O3u6O3u6Ozt6Ozu6Ozu6O3u6Ozu6O3u
+			6O3t6Ozu6O3u6u/uvb22fUwUdDwA5uvs6u/v6u7v6+/w6+7v6+/v6+/w6u7v6+/v6u/w6+7v6u/v
+			1t/i1t/idDwAdDwA6/Dw7vHy7vHyAAAAAAAAAAAA7vHyAAAAAAAAAAAA7vHy7fHx2+Ll2uLldDwA
+			dDwA7PHx8fP0AAAA8fP08fP0AAAA8fT0AAAA8PP08PT0AAAA8fP03+Xo3+XodDwAdDwA8vb29Pb2
+			8/b2AAAAAAAAAAAA8/b2AAAA9PX29PX2AAAA8/X24+nr4+nrdDwAdDwA8/b29/j49/j59/j49/j5
+			AAAA9/j4AAAA9vj49/j4AAAA9/j45+zu5+zudDwAdDwA9Pb2+vv6+vr6AAAAAAAA+fv7+vr6AAAA
+			AAAAAAAA+fv7+fv76+/x6+/xdDwAdDwA9/j4/P39/Pz9/P38/Pz8/Pz8/Pz8AAAA/Pz9/f39/Pz9
+			/P398PL07/L0dDwAdDwA/P39/v7+/v7+/v7+/v7+/v7+/v7+AAAA/v7+/v7+/v7+/v7+/v7+8vT2
+			dDwAglQi3M6//v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+286/glQizrumkmY3
+			3c/A////////////////////////////////////////6N/VkmY3zrum////zrumglQidDwAdDwA
+			dDwAdDwAdDwAdDwAdDwAdDwAdDwAdDwAfUwUzrum////////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		
+		<![CDATA[
+			<input name="Button1" type="button" value="Schaltfläche" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Zurücksetzen)" Description="Setzt alle Eingabefelder im Formular auf die ursprünglichen Werte zurück.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AJ94T7CCVCL/dDwA/3Q8AP90PAD/dDwA/3Q8AP90PAD/dDwA/3Q8AP90PAD/dDwA/31MFP+feE+w
+			AAAAAJ94T7CTcUr/tK6j/8XQ1f/EzNH/w8rK/8HIx//Dy83/xdDT/8XP1f/F0Nb/xdDW/8XQ1v+2
+			t7H/kG5I/594T7B9TBT/yse//+jt7v/n7O7/5Onq/93k5P/c4OT/3uXo/+Pn6P/m7Oz/5+zr/+jq
+			7v/o7e7/1N3g/729tv99TBT/dDwA/+br7P/q7+//6u/v/+zw8P/q7u//6Ozt/+ns7v/q7u7/6+/v
+			/+vv8P/r7u//6u7v/9bf4v/W3+L/dDwA/3Q8AP/s8fH/8fP0/x4eH/+Fhob/tbW0//T29v/z9fX/
+			dDwA//H09P90PAD/7/Lz/3Q8AP/f5en/3+Xo/3Q8AP90PAD/8vb2//T29v+Gh4f/dXFu/1dUUf8A
+			AAD/1Nvd//T29v/z9fb/8vT1//Dz9P/s8fL/5Onr/+Pp6/90PAD/dDwA//f4+P/8/f3/09HP/6Od
+			mP/9/v7/UZOp/w4SFv/X4eT/9vj5//b3+P/39/n/+fv7//Dy9P/v8vT/dDwA/3Q8AP/8/f3//v7+
+			//7+/v+jnZj/iLfH/3TO4v9JmrL/DhIW/9jd4P/4+vr/9vn5//79/v/+/v7/8vT2/3Q8AP+CVCL/
+			3M6///7+/v/+/v7/wtPa/02cs/+M4O7/Yr/X/0masv8OEhb/wdDW//7+/v/+/v7//v7+/9vOv/+C
+			VCL/n3hPsKJ9Vf/dz8D////////////c5ur/Zaa3/4zg7v9iv9f/SZqy/w4SFv/O29///////+jf
+			1f+ifVX/n3hPsAAAAACfeE+wglQi/3Q8AP90PAD/dDwA/3ZoT/9lprf/jODu/2K/1/9JmrL/DhIW
+			/1hIKf99TBT/n3hPsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHOsuf+M4O7/
+			bMTZ/32Ghv81NZD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAfbC7/8q4rP9zhdH/Xmyt/zU1kP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAABebK3/gZ/r/1520P9ebK3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5srf9ebK3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+		</Bitmap>
+		<HTML>
+		
+		<![CDATA[
+			<input name="Reset1" type="reset" value="Zurücksetzen" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Absenden)" Description="Sendet die gesamte Eingabe des Formulars zum Verarbeiten an den Server ab.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AJ94T7CCVCL/dDwA/3Q8AP90PAD/dDwA/3Q8AP90PAD/dDwA/3Q8AP90PAD/dDwA/31MFP+feE+w
+			AAAAAJ94T7CTcUr/tK6j/8XQ1f/EzNH/w8rK/8HIx//Dy83/xdDT/8XP1f/F0Nb/xdDW/8XQ1v+2
+			t7H/kG5I/594T7B9TBT/yse//+jt7v/n7O7/5Onq/93k5P/c4OT/3uXo/+Pn6P/m7Oz/5+zr/+jq
+			7v/o7e7/1N3g/729tv99TBT/dDwA/+br7P/q7+//6u/v/+zw8P/q7u//6Ozt/+ns7v/q7u7/6+/v
+			/+vv8P/r7u//6u7v/9bf4v/W3+L/dDwA/3Q8AP/s8fH/8fP0/x4eH/+Fhob/tbW0//T29v/z9fX/
+			dDwA//H09P90PAD/7/Lz/3Q8AP/f5en/3+Xo/3Q8AP90PAD/8vb2//T29v+Gh4f/dXFu/1dUUf8A
+			AAD/1Nvd//T29v/z9fb/8vT1//Dz9P/s8fL/5Onr/+Pp6/90PAD/dDwA//f4+P/8/f3/09HP/6Od
+			mP/9/v7/UZOp/w4SFv/X4eT/9vj5//b3+P/39/n/+fv7//Dy9P/v8vT/dDwA/3Q8AP/8/f3//v7+
+			//7+/v+jnZj/iLfH/3TO4v9JmrL/DhIW/9jd4P/4+vr/9vn5//79/v/+/v7/8vT2/3Q8AP+CVCL/
+			3M6///7+/v/+/v7/wtPa/02cs/+M4O7/Yr/X/0masv8OEhb/wdDW//7+/v/+/v7//v7+/9vOv/+C
+			VCL/n3hPsKJ9Vf/dz8D////////////c5ur/Zaa3/4zg7v9iv9f/SZqy/w4SFv/O29///////+jf
+			1f+ifVX/n3hPsAAAAACfeE+wglQi/3Q8AP90PAD/dDwA/3ZoT/9lprf/jODu/2K/1/9JmrL/DhIW
+			/1hIKf99TBT/n3hPsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHOsuf+M4O7/
+			bMTZ/32Ghv81NZD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAfbC7/8q4rP9zhdH/Xmyt/zU1kP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAABebK3/gZ/r/1520P9ebK3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF5srf9ebK3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+		</Bitmap>
+		<HTML>
+		
+		<![CDATA[
+			<input name="Submit1" type="submit" value="Absenden" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Textbereich" Description="Sammelt einen langen Zeichenfolgewert, der bis zu mehrere Textzeilen lang sein kann.">
+	
+	
+		<Bitmap>
+			Qk02BAAAAAAAADYAAAAoAAAAEAAAABAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuKOU
+			/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/
+			Y0k1/7ijlP/Eu7T/raGX/6qaj/+Zblb/6bqa/+m6mv+QZEz/xLu0/62hl/+qmo//h1pB/8S7tP+t
+			oZf/qpqP/2NJNf+5pJX/zszI/4daQf+toZf/nXJa//bZxP/22cT/k2dP/87MyP+HWkH/raGX/4hc
+			Q//OzMj/h1pB/62hl/9jSTX/uqWW/9fY1//OzMj/xLu0/6B1Xv//7+P//+/j/5ZqU//X2Nf/zszI
+			/8S7tP+LXkb/19jX/87MyP/Eu7T/Y0k1/7uml/+sgmz/qX9o/6Z8Zf+jeWH/oHVe/51yWv+Zblb/
+			lmpT/5NnT/+QZEz/jWFI/4teRv+IXEP/h1pB/2NJNf+8p5j/+f78//X9/P/v/Pz/6fv7/+L7+//a
+			+vv/0/n7/8z4+//F9/r/wPb6/5BkTP/pupr/9tnE///v4/9jSTX/vaiZ//v+/P+ohnT/gVpG/7Oh
+			lP/m+/v/1efk/5uOgf9wTz3/eGhb/8P3+v+TZ0//6bqa//bZxP//7+P/Y0k1/7+pmv/8/vz/q25Q
+			//X9/P/w/Pz/6fz7/97q5f+7fFz/wNDL/4ZzZP/G9/r/lmpT/+m6mv/22cT//+/j/2NJNf/Aqpv/
+			/P78/9aqkv+5i3T/mnFa/+38/P/m+/v/2rSd/8CWff+AW0b/yvf7/5luVv/pupr/9tnE///v4/9j
+			STX/wauc//z+/P/8/vz/+v78//b9/P/w/Pz/6vz7/+P7+//W2dD/jmRM/834+/+dclr/6bqa//bZ
+			xP//7+P/Y0k1/8Ksnf/8/vz/jF1F/3lUQP9oRzX/sqif/+78/P+KW0T/j25c/6KbkP/R+Pv/oHVe
+			/+m6mv/22cT//+/j/2NJNf/DrZ7//P78/8qOcP/k2dH/flhE//b9/P/x/fz/pmtN/+T7+/97Uz3/
+			1fn7/6N5Yf+gdV7/nXJa/5luVv9jSTX/xK6f//z+/P/rz77/yoNh/6yAZ//5/vz/9P38/69wUf+q
+			emH/r5iH/9r6+/+mfGX/xLu0/62hl/+qmo//Y0k1/8Sun//8/vz//P78//z+/P/8/vz/+/78//f9
+			/P+la03/7Pz8/+X7+//e+vv/qX9o/87MyP+HWkH/raGX/2NJNf/Fr6D//P78//z+/P/8/vz//P78
+			//z+/P/5/vz/9f38/+/8/P/p+/v/4vv7/6yCbP/X2Nf/zszI/8S7tP9jSTX/xa+g/8WvoP/Erp//
+			xK6f/8Otnv/CrJ3/wauc/8Cqm/+/qZr/vaiZ/7ynmP+7ppf/uqWW/7mklf+4o5T/uKOU/w==
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<textarea name="TextArea1" cols="20" rows="2"></textarea>
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+	<ToolboxItem Type="1" Name="Eingabe (Text)" Description="Sammelt einen kurzen, bis zu einer Textzeile langen Zeichenfolgenwert ein.">
+	
+	
+		<Bitmap>
+			Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA////
+			////////////////////////////////////////////////////////////////////////////
+			////////////////////////////////////////////////uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/
+			uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/////uZ1/////////////////////////////////////
+			////////////////uZ1/////uZ1/////////////////////////////////////////////////
+			////uZ1/////uZ1/////////AAAAAAAAAAAA////AAAAAAAAAAAA////////AAAA////uZ1/////
+			uZ1/////AAAA////////AAAA////AAAA////////AAAA////AAAA////uZ1/////uZ1/////////
+			AAAAAAAAAAAA////AAAA////////AAAA////AAAA////uZ1/////uZ1/////AAAA////////AAAA
+			////AAAA////////AAAA////AAAA////uZ1/////uZ1/////////AAAAAAAA////////AAAAAAAA
+			AAAA////////AAAA////uZ1/////uZ1/////////////////////////AAAA////////////////
+			AAAA////uZ1/////uZ1/////////////////////////AAAA////////////////AAAA////uZ1/
+			////uZ1/////////////////////////////////////////////////////uZ1/////uZ1/////
+			////////////////////////////////////////////////uZ1/////uZ1/uZ1/uZ1/uZ1/uZ1/
+			uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/uZ1/////////////////////////////////////
+			////////////////////////////////
+		</Bitmap>
+		<HTML>
+		<![CDATA[
+			<input name="Text1" type="text" />
+		]]>
+		</HTML>
+	</ToolboxItem>
+
+</Toolbox>

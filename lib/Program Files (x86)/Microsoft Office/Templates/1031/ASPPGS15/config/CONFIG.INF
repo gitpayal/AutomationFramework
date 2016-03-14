@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2813.0
+title=Websitekonfiguration
+description=Eine Datei zum Konfigurieren von Webanwendungen.
+filename=Web.config
+contributorModeRequirements=AllowCreatingASPNetWebConfig

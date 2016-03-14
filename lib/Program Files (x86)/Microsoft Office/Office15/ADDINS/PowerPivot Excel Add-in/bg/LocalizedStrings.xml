@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Адрес</s>
+  <s _locID="Classification.Address.Description">Описание на местоположението на лице или организация, както и насоки за доставка</s>
+  <s _locID="Classification.Address.Group">География</s>
+  <s _locID="Classification.City.LabelName">Град</s>
+  <s _locID="Classification.City.Description">Постоянен урбанизиран център с население, търговия и култура</s>
+  <s _locID="Classification.City.Group">География</s>
+  <s _locID="Classification.Continent.LabelName">Континент</s>
+  <s _locID="Classification.Continent.Description">Един от съществуващите сухоземни масиви на Земята</s>
+  <s _locID="Classification.Continent.Group">География</s>
+  <s _locID="Classification.Country.LabelName">Държава/регион</s>
+  <s _locID="Classification.Country.Description">Нация или щат</s>
+  <s _locID="Classification.Country.Group">География</s>
+  <s _locID="Classification.County.LabelName">Окръг</s>
+  <s _locID="Classification.County.Description">Местен административен район; част от щат или провинция</s>
+  <s _locID="Classification.County.Group">География</s>
+  <s _locID="Classification.PostalCode.LabelName">Пощенски код</s>
+  <s _locID="Classification.PostalCode.Description">Последователност от букви и/или цифри, добавени към пощенски адрес за улесняване на пощенската доставка</s>
+  <s _locID="Classification.PostalCode.Group">География</s>
+  <s _locID="Classification.StateorProvince.LabelName">Щат или провинция</s>
+  <s _locID="Classification.StateorProvince.Description">Територия, управлявана като административна или политическа единица в рамките на държава или регион.</s>
+  <s _locID="Classification.StateorProvince.Group">География</s>
+  <s _locID="Classification.ImageURL.LabelName">URL адрес на изображение</s>
+  <s _locID="Classification.ImageURL.Description">URL (еднозначно местоположение на ресурса) адрес, който сочи към изображение</s>
+  <s _locID="Classification.ImageURL.Group">Изображение</s>
+  <s _locID="Classification.WebUrl.LabelName">Уеб URL адрес</s>
+  <s _locID="Classification.WebUrl.Description">URL (еднозначно местоположение на ресурса) адрес, който сочи към местоположение в мрежата</s>
+  <s _locID="Classification.WebUrl.Group">Уеб</s>
+  <s _locID="Classification.Image.LabelName">Изображение</s>
+  <s _locID="Classification.Image.Description">Снимка или друга картина, често във файлов формат JPEG, GIFF или BMP</s>
+  <s _locID="Classification.Image.Group">Изображение</s>
+  <s _locID="Classification.Latitude.LabelName">Географска ширина</s>
+  <s _locID="Classification.Latitude.Description">Географски координати, които определят положението север-юг върху повърхността на Земята</s>
+  <s _locID="Classification.Latitude.Group">География</s>
+  <s _locID="Classification.Longitude.LabelName">Географска дължина</s>
+  <s _locID="Classification.Longitude.Description">Географски координати, които определят положението изток-запад върху повърхността на Земята</s>
+  <s _locID="Classification.Longitude.Group">География</s>
+  <s _locID="Classification.Place.LabelName">Място</s>
+  <s _locID="Classification.Place.Description">Географска област или местоположение</s>
+  <s _locID="Classification.Place.Group">География</s>
+  <s _locID="Classification.Organization.LabelName">Организация</s>
+  <s _locID="Classification.Organization.Description">Група хора, организирани с определена цел; асоциация</s>
+  <s _locID="Classification.Organization.Group">Организация</s>
+  <s _locID="Classification.Company.LabelName">Фирма (компания)</s>
+  <s _locID="Classification.Company.Description">Търговско предприятие</s>
+  <s _locID="Classification.Company.Group">Организация</s>
+  <s _locID="Classification.Product.LabelName">Продукт</s>
+  <s _locID="Classification.Product.Description">Нещо, което е произведено, отгледано или придобито, така че да може да бъде продадено</s>
+  <s _locID="Classification.Product.Group">Продукт</s>
+  <s _locID="Classification.Date.LabelName">Дата</s>
+  <s _locID="Classification.Date.Description">Време, представено на периоди от ден, месец, тримесечие или година</s>
+  <s _locID="Classification.Date.Group">Календар</s>
+</strings>

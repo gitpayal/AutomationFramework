@@ -1,0 +1,9 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2813.0
+title=ASPX
+description=Erstellt ein neues ASP.NET-Webformular.
+filename=WebForm.aspx
+needsProgLang=true
+isBlank=true
+contributorModeRequirements=AllowCreatingASPNetPages

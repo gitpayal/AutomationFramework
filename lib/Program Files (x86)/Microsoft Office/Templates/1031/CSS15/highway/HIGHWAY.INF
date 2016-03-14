@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Highway
+description=Erstellt ein Stylesheet mit weißem Text in Verdana, Überschriften in Verdana, orangefarbenen Hyperlinks und schwarzem Hintergrund.
+contributorModeRequirements=AllowCreatingCSSFiles

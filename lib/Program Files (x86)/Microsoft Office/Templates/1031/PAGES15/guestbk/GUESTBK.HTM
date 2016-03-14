@@ -1,0 +1,51 @@
+﻿
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="de-de">
+</head>
+
+<body>
+<p><!--WEBBOT 
+   BOT=PurpleText
+   Preview="Gästebuch -- Verwenden Sie dieses Formular, um Reaktionen von Besuchern auf Ihre Website zu sammeln. Alle eingeschickten Kommentare werden standardmäßig auf einer neuen Seite 'guestlog.htm' gespeichert. Diese Seite wird am Ende dieses Formulars eingefügt. Wenn Sie einen anderen Dateinamen zur Aufnahme der Kommentare verwenden wollen, ändern Sie den Dateinamen im Dialogfeld 'Formulareigenschaften' und in der Seiten-URL der Komponente 'Einschließen' unter dem Formular."
+ -->
+
+
+
+</p>
+<hr>
+<p>Wir sind an Ihrer Meinung über unsere Website interessiert. Hinterlassen Sie bitte Ihre Kommentare in diesem öffentlichen
+Gästebuch, damit andere Besucher auch von Ihren Gedanken profitieren können.</p>
+<form action="--WEBBOT-SELF--" method="POST">
+<!--WEBBOT 
+   BOT=SaveResults
+   U-File="guestlog.htm"
+   S-Format="HTML/DL"
+   S-Label-Fields="TRUE"
+   S-Builtin-Fields="Date Time REMOTE_USER"
+   S-Form-Fields
+ -->
+<h2><strong>Tragen Sie Ihre Kommentare bitte hier ein:</strong></h2>
+<p><textarea name="Kommentare" rows=8 cols=52></textarea></p>
+<p><input type=submit value="Kommentare senden"> <input type=reset value="Kommentare löschen"><br>
+<br>
+<em>Nachdem Sie Ihre Kommentare gesendet haben, müssen Sie die Seite in Ihrem Browser neu laden,
+damit Ihre Beiträge im Protokoll angezeigt werden.</em></p>
+</form>
+<!--WEBBOT 
+   BOT=Include
+   TAG="BODY"
+   U-INCLUDE="guestlog.htm"
+ --><hr>
+<h5>Platz für Informationen zum Autor.<br>
+Copyright © 2001 [Organisationsname]. Alle Rechte vorbehalten.<br>
+Überarbeitet: <!--WEBBOT 
+   BOT=TimeStamp
+   S-TYPE="Edited"
+   S-FORMAT="%d.%m.%y %H:%M:%S %Z"
+ -->.</h5>
+</body>
+
+</html>

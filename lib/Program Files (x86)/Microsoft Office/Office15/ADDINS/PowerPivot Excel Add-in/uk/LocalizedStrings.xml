@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Адреса</s>
+  <s _locID="Classification.Address.Description">Опис розташування особи або організації, наприклад маршрути доставки</s>
+  <s _locID="Classification.Address.Group">Географія</s>
+  <s _locID="Classification.City.LabelName">Місто</s>
+  <s _locID="Classification.City.Description">Стійкий урбаністичний осередок розвитку населення, торгівлі й культури</s>
+  <s _locID="Classification.City.Group">Географія</s>
+  <s _locID="Classification.Continent.LabelName">Континент</s>
+  <s _locID="Classification.Continent.Description">Одна з основних частин суходолу Землі</s>
+  <s _locID="Classification.Continent.Group">Географія</s>
+  <s _locID="Classification.Country.LabelName">Країна/регіон</s>
+  <s _locID="Classification.Country.Description">Нація або держава</s>
+  <s _locID="Classification.Country.Group">Географія</s>
+  <s _locID="Classification.County.LabelName">Країна</s>
+  <s _locID="Classification.County.Description">Місцева адміністративна одиниця; частина області або республіки</s>
+  <s _locID="Classification.County.Group">Географія</s>
+  <s _locID="Classification.PostalCode.LabelName">Поштовий індекс</s>
+  <s _locID="Classification.PostalCode.Description">Послідовність літер і/або чисел, які додаються до поштової адреси з метою полегшення доставки пошти</s>
+  <s _locID="Classification.PostalCode.Group">Географія</s>
+  <s _locID="Classification.StateorProvince.LabelName">Область або республіка</s>
+  <s _locID="Classification.StateorProvince.Description">Територія, що розглядається як адміністративна або адміністративно-політична одиниця в рамках країни або регіону.</s>
+  <s _locID="Classification.StateorProvince.Group">Географія</s>
+  <s _locID="Classification.ImageURL.LabelName">URL-адреса зображення</s>
+  <s _locID="Classification.ImageURL.Description">URL (uniform resource locator — уніфікований покажчик ресурсів), який посилається на зображення</s>
+  <s _locID="Classification.ImageURL.Group">Зображення</s>
+  <s _locID="Classification.WebUrl.LabelName">Веб-адреса</s>
+  <s _locID="Classification.WebUrl.Description">URL (uniform resource locator — уніфікований покажчик ресурсів), який посилається на розташування в Інтернеті</s>
+  <s _locID="Classification.WebUrl.Group">Інтернет</s>
+  <s _locID="Classification.Image.LabelName">Зображення</s>
+  <s _locID="Classification.Image.Description">Фотографія або інше зображення, часто у форматі JPEG, GIFF або BMP</s>
+  <s _locID="Classification.Image.Group">Зображення</s>
+  <s _locID="Classification.Latitude.LabelName">Широта</s>
+  <s _locID="Classification.Latitude.Description">Географічна координата, яка визначає розташування об’єкта на поверхні Землі відносно півночі й півдня</s>
+  <s _locID="Classification.Latitude.Group">Географія</s>
+  <s _locID="Classification.Longitude.LabelName">Довгота</s>
+  <s _locID="Classification.Longitude.Description">Географічна координата, яка визначає розташування об’єкта на поверхні Землі відносно сходу й заходу</s>
+  <s _locID="Classification.Longitude.Group">Географія</s>
+  <s _locID="Classification.Place.LabelName">Місце</s>
+  <s _locID="Classification.Place.Description">Географічна область або розташування</s>
+  <s _locID="Classification.Place.Group">Географія</s>
+  <s _locID="Classification.Organization.LabelName">Організація</s>
+  <s _locID="Classification.Organization.Description">Група людей, які об’єдналися з певною метою; асоціація</s>
+  <s _locID="Classification.Organization.Group">Організація</s>
+  <s _locID="Classification.Company.LabelName">Компанія</s>
+  <s _locID="Classification.Company.Description">Комерційне підприємство</s>
+  <s _locID="Classification.Company.Group">Організація</s>
+  <s _locID="Classification.Product.LabelName">Продукт</s>
+  <s _locID="Classification.Product.Description">Те, що створюється, вирощується або купується для продажу</s>
+  <s _locID="Classification.Product.Group">Продукт</s>
+  <s _locID="Classification.Date.LabelName">Дата</s>
+  <s _locID="Classification.Date.Description">Час, визначений за допомогою таких термінів, як день, місяць, квартал або рік</s>
+  <s _locID="Classification.Date.Group">Календар</s>
+</strings>

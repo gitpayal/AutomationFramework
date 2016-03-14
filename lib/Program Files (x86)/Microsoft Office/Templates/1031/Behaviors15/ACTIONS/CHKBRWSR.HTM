@@ -1,0 +1,309 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Browser überprüfen</title>
+		<meta name="DHTMLScriptName" content="Browser überprüfen">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="500,250">
+		
+		<style>
+		button	{ width: 8em;  }				
+		table	{ border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+		var L_NOURL_ErrorMessage		= "Geben Sie eine URL ein.";
+		var L_NOOPTION_ErrorMessage		= "Wählen Sie eine Option.";
+		var L_AnyOption_ListBox			= "Beliebig"; //Any Browser Version
+		var L_AndUp1_ListBox			= "1 und höher"; //and any higher browser version
+		var L_AndUp2_ListBox			= "2 und höher"; //and any higher browser version
+		var L_AndUp3_ListBox			= "3 und höher"; //and any higher browser version
+		var L_AndUp4_ListBox			= "4 und höher"; //and any higher browser version
+		var L_AndUp5_ListBox			= "5 und höher"; //and any higher browser version
+		var L_AndUp6_ListBox			= "6 und höher"; //and any higher browser version
+		</script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="ChkBrwsr.js"></script>
+	</head>
+	<body onload="safeFocus(theForm.BrowserType)">
+		<form id="theForm" name="theForm" onsubmit="Validate(); return false;">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+				<tr>
+					<td colspan="5">
+						<table width="100%">
+							<tr>
+								<td nowrap>
+									<label for="BrowserType">
+		    						
+										Aktueller Browser<u>t</u>yp:&nbsp; 
+									</label>
+									<select size="1" name="BrowserType" accesskey="t" tabindex="1" id="BrowserType">
+										
+										<option selected>Microsoft Internet Explorer</option>
+										<option>Netscape Navigator</option>
+										<option>Opera</option>
+										<option>AOL</option>
+										<option>WebTV</option>
+										<option>AOL TV</option>
+										<option>HotJava</option>
+									</select>
+									<br>
+									&nbsp;
+								</td>
+								<td width="100%">
+									<table cellspacing="0" cellpadding="0" style="width: 100%">
+										<tr>
+											<td width="33%">
+												&nbsp;
+											</td>
+											<td width="67%">
+												<table width="100%">
+													<tr>
+														<td nowrap>
+															<label for="BrowserVersion">
+															
+																<u>V</u>ersion:&nbsp;
+															</label>
+														</td>
+														<td width="100%">
+															<select size="1" name="BrowserVersion" style="width: 100%" accesskey="v" tabindex="2" id="BrowserVersion">
+																
+															</select>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>
+						<input type="checkbox" name="GoToURL1" value="ON" accesskey="g" tabindex="3" id="GoToURL1">
+						
+					</td>
+					<td nowrap>
+						<label for="GoToURL1">
+							
+							<u>G</u>ehe&nbsp;zu&nbsp;URL:&nbsp;
+						</label>
+					</td>
+					<td width="80%" dir="ltr">
+						<input type="text" name="URL1" id="URL1" tabindex="4" disabled="true" style="width: 100%; background-color: threedface"></td>
+					<td>
+						&nbsp;<button name="BrowseURL1" value="Browse..." onclick="PickURL(URL1);" disabled="true" tabindex="5" accesskey="d">
+							
+							
+							<u>D</u>urchsuchen...
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="5" nowrap>
+						<br>
+						
+						Alle anderen Browser:
+						<br>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</td>
+					<td>
+						<input type="checkbox" name="GoToURL2" value="ON" accesskey="u" tabindex="6" id="GoToURL2">
+												
+					</td>
+					<td nowrap>
+						<label for="GoToURL2">
+							
+							Gehe&nbsp;zu&nbsp;<u>U</u>RL:&nbsp;
+						</label>
+					</td>
+					<td width="80%" dir="ltr">
+						<input type="text" name="URL2" id="URL2" tabindex="7" disabled="true" style="width: 100%; background-color: threedface"></td>
+					<td>
+						&nbsp;<button name="BrowseURL2" value="Browse..." onclick="PickURL(URL2);" disabled="true" tabindex="8" accesskey="r">
+							
+							
+							Du<u>r</u>chsuchen...
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td height="80%"></td>
+				</tr>
+				<tr>
+					<td colspan="5">
+						<hr>
+						<table border="0" bordercolor="#111111" width="100%">
+							<tr>
+								<td width="100%"></td>
+								<td>
+									<button name="OK" value="OK" type="submit" tabindex="9">
+										
+										OK
+									</button>
+								</td>
+								<td>&nbsp;</td>
+								<td>
+									<button name="Cancel" value="Cancel" onclick="CancelAction();" tabindex="10">
+										
+										Abbrechen
+									</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	<script language="javascript" id="EventHandler">
+theForm.GoToURL1.onclick = e_GoToURLonclick;
+theForm.GoToURL2.onclick = e_GoToURLonclick;
+theForm.BrowserType.onchange = e_BrowserTypeOnChange;
+
+//Click event for the go to URL check box
+function e_GoToURLonclick()
+{
+	if (event.srcElement.name == "GoToURL1")
+	{
+		theForm.URL1.disabled = !(theForm.URL1.disabled);
+		theForm.BrowseURL1.disabled = theForm.URL1.disabled;
+		if (theForm.URL1.disabled == false)
+
+			theForm.URL1.style.backgroundColor = "window";
+		else
+			theForm.URL1.style.backgroundColor = "threedface";
+	}
+	if (event.srcElement.name == "GoToURL2")
+	{
+		theForm.URL2.disabled = !(theForm.URL2.disabled);
+		theForm.BrowseURL2.disabled = theForm.URL2.disabled;
+		if (theForm.URL2.disabled == false)
+			theForm.URL2.style.backgroundColor = "window";
+
+		else
+			theForm.URL2.style.backgroundColor = "threedface";
+
+	}
+}
+
+
+//Change Event fot the browser drop down
+function e_BrowserTypeOnChange()
+{
+	var sSelectedBrowser = theForm.BrowserType.children(theForm.BrowserType.selectedIndex).text;
+	switch (sSelectedBrowser)
+	{
+		case "Microsoft Internet Explorer":
+		{
+			AddVersionOptions(2,6);
+			break;
+		}
+	    case "Netscape Navigator":
+	    {
+			AddVersionOptions(2,6);
+			break;
+		}
+	    case "Opera":
+	    {
+			AddVersionOptions(2,5);
+			break;
+		}
+        case "AOL":
+        {
+			AddVersionOptions(1,0);
+			break;
+		}
+        case "WebTV":
+        {
+			AddVersionOptions(1,0);
+			break;
+		}
+        case "AOL TV":
+        {
+			AddVersionOptions(1,0);
+			break;
+		}
+        case "HotJava":
+        {
+			AddVersionOptions(3,3);
+			break;
+		}
+	}
+}
+function AddVersionOptions(nLow,nHigh)
+{
+	nLen=theForm.BrowserVersion.options.length;
+	for (i=0; i < nLen; i++)
+	{
+		theForm.BrowserVersion.options.remove(0);
+	}
+	oOption=document.createElement("option");
+	oOption.text = L_AnyOption_ListBox;
+	oOption.value = 'any';
+	oOption.Selected = true;
+	theForm.BrowserVersion.options.add(oOption);
+	for (i=nLow; i<=nHigh; i++)
+	{
+		oOption=document.createElement("option");
+		oOption.text = i;
+		oOption.value = i;
+		theForm.BrowserVersion.options.add(oOption);
+		oOption=document.createElement("option");
+		if (i==1)
+		{
+			oOption.text = L_AndUp1_ListBox;
+			oOption.value = i + "\+";
+		}
+		if (i==2)
+		{
+			oOption.text = L_AndUp2_ListBox;
+			oOption.value = i + "\+";
+		}
+		if (i==3)
+		{
+			oOption.text = L_AndUp3_ListBox;
+			oOption.value = i + "\+";
+		}
+		if (i==4)
+		{
+			oOption.text = L_AndUp4_ListBox;
+			oOption.value = i + "\+";
+		}
+		if (i==5)
+		{
+			oOption.text = L_AndUp5_ListBox;
+			oOption.value = i + "\+";
+		}
+		if (i==6)
+		{
+			oOption.text = L_AndUp6_ListBox;
+			oOption.value = i + "\+";
+		}								
+		theForm.BrowserVersion.options.add(oOption);
+	}
+}
+//call the change event to initialize the first time
+e_BrowserTypeOnChange()
+
+function PickURL(eURL)
+{
+	var url = FrontPage.ShowPickURLDialog(FrontPage.ActiveDocument.url, eURL.value);
+	if (url != '') 
+		eURL.value = url;
+	eURL.focus();
+}
+
+	</script>
+</html>

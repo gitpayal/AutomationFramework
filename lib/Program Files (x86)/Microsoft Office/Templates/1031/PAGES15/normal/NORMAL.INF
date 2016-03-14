@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=HTML
+description=Erstellt eine leere HTML-Webseite.
+isBlank=true
+contributorModeRequirements=AllowCreatingNewBlankPages

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">العنوان</s>
+  <s _locID="Classification.Address.Description">وصف موقع شخص أو مؤسسة، كوجهات للتسليم</s>
+  <s _locID="Classification.Address.Group">الجغرافيا</s>
+  <s _locID="Classification.City.LabelName">المدينة</s>
+  <s _locID="Classification.City.Description">موقع حضري دائم مأهول بالسكان والتجارة والثقافة</s>
+  <s _locID="Classification.City.Group">الجغرافيا</s>
+  <s _locID="Classification.Continent.LabelName">قارة</s>
+  <s _locID="Classification.Continent.Description">إحدى كتل اليابسة الرئيسية على الأرض</s>
+  <s _locID="Classification.Continent.Group">الجغرافيا</s>
+  <s _locID="Classification.Country.LabelName">البلد/المنطقة</s>
+  <s _locID="Classification.Country.Description">أمة أو دولة</s>
+  <s _locID="Classification.Country.Group">الجغرافيا</s>
+  <s _locID="Classification.County.LabelName">بلدة</s>
+  <s _locID="Classification.County.Description">منطقة حكومية محلية؛ جزء من ولاية أو إقليم</s>
+  <s _locID="Classification.County.Group">الجغرافيا</s>
+  <s _locID="Classification.PostalCode.LabelName">الرمز البريدي</s>
+  <s _locID="Classification.PostalCode.Description">تسلسل أحرف و/أو أرقام يُضاف إلى عنوان بريدي للمساعدة على توصيل البريد</s>
+  <s _locID="Classification.PostalCode.Group">الجغرافيا</s>
+  <s _locID="Classification.StateorProvince.LabelName">الولاية أو الإقليم</s>
+  <s _locID="Classification.StateorProvince.Description">مقاطعة تتم إدارتها كوحدة إدارية أو سياسية داخل بلد أو منطقة.</s>
+  <s _locID="Classification.StateorProvince.Group">الجغرافيا</s>
+  <s _locID="Classification.ImageURL.LabelName">عنوان URL للصورة</s>
+  <s _locID="Classification.ImageURL.Description">عنوان URL (محدد مواقع ويب) الذي يشير إلى صورة</s>
+  <s _locID="Classification.ImageURL.Group">صورة</s>
+  <s _locID="Classification.WebUrl.LabelName">عنوان URL لويب</s>
+  <s _locID="Classification.WebUrl.Description">عنوان URL (محدد مواقع ويب) الذي يشير إلى مكان على ويب</s>
+  <s _locID="Classification.WebUrl.Group">ويب</s>
+  <s _locID="Classification.Image.LabelName">صورة</s>
+  <s _locID="Classification.Image.Description">صورة فوتوغرافية أو أي صورة أخرى بتنسيق ملف JPEG، أو GIFF، أو BMP غالبًا</s>
+  <s _locID="Classification.Image.Group">صورة</s>
+  <s _locID="Classification.Latitude.LabelName">خط العرض</s>
+  <s _locID="Classification.Latitude.Description">الإحداثي الجغرافي الذي يحدد الموقع على الشمال-الجنوب من سطح الأرض</s>
+  <s _locID="Classification.Latitude.Group">الجغرافيا</s>
+  <s _locID="Classification.Longitude.LabelName">خط الطول</s>
+  <s _locID="Classification.Longitude.Description">الإحداثي الجغرافي الذي يحدد الموقع على الشرق-الغرب من سطح الأرض</s>
+  <s _locID="Classification.Longitude.Group">الجغرافيا</s>
+  <s _locID="Classification.Place.LabelName">مكان</s>
+  <s _locID="Classification.Place.Description">منطقة أو موقع جغرافي</s>
+  <s _locID="Classification.Place.Group">الجغرافيا</s>
+  <s _locID="Classification.Organization.LabelName">مؤسسة</s>
+  <s _locID="Classification.Organization.Description">مجموعة أشخاص يجمعهم تنظيم لغرض معين؛ كجمعية</s>
+  <s _locID="Classification.Organization.Group">مؤسسة</s>
+  <s _locID="Classification.Company.LabelName">شركة</s>
+  <s _locID="Classification.Company.Description">مؤسسة أعمال</s>
+  <s _locID="Classification.Company.Group">مؤسسة</s>
+  <s _locID="Classification.Product.LabelName">منتج</s>
+  <s _locID="Classification.Product.Description">شيء ما تتم صناعته أو زراعته أو الحصول عليه؛ ويمكن بيعه</s>
+  <s _locID="Classification.Product.Group">منتج</s>
+  <s _locID="Classification.Date.LabelName">تاريخ</s>
+  <s _locID="Classification.Date.Description">الوقت المنصوص عليه بصيغة اليوم أو الشهر أو الفصل أو السنة</s>
+  <s _locID="Classification.Date.Group">التقويم</s>
+</strings>

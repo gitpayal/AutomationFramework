@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Διεύθυνση</s>
+  <s _locID="Classification.Address.Description">Η περιγραφή της τοποθεσίας ενός ατόμου ή οργανισμού, όπως, για παράδειγμα, οδηγίες για παράδοση</s>
+  <s _locID="Classification.Address.Group">Γεωγραφία</s>
+  <s _locID="Classification.City.LabelName">Πόλη</s>
+  <s _locID="Classification.City.Description">Ένα μόνιμο αστικό κέντρο πληθυσμού, εμπορίου και πολιτισμού</s>
+  <s _locID="Classification.City.Group">Γεωγραφία</s>
+  <s _locID="Classification.Continent.LabelName">Ήπειρος</s>
+  <s _locID="Classification.Continent.Description">Μία από τις κύριες υποδιαιρέσεις ξηράς της Γης</s>
+  <s _locID="Classification.Continent.Group">Γεωγραφία</s>
+  <s _locID="Classification.Country.LabelName">Χώρα/περιοχή</s>
+  <s _locID="Classification.Country.Description">Κράτος ή πολιτεία</s>
+  <s _locID="Classification.Country.Group">Γεωγραφία</s>
+  <s _locID="Classification.County.LabelName">Νομός</s>
+  <s _locID="Classification.County.Description">Τοπική διοικητική περιοχή. Τμήμα πολιτείας ή περιφέρειας</s>
+  <s _locID="Classification.County.Group">Γεωγραφία</s>
+  <s _locID="Classification.PostalCode.LabelName">Ταχυδρομικός κωδικός</s>
+  <s _locID="Classification.PostalCode.Description">Μια ακολουθία γραμμάτων ή/και αριθμών που προστίθενται στην ταχυδρομική διεύθυνση για να συμβάλλουν στην παράδοση της αλληλογραφίας</s>
+  <s _locID="Classification.PostalCode.Group">Γεωγραφία</s>
+  <s _locID="Classification.StateorProvince.LabelName">Πολιτεία ή περιφέρεια</s>
+  <s _locID="Classification.StateorProvince.Description">Μια περιοχή που διοικείται ως ξεχωριστή πολιτική μονάδα στα πλαίσια μιας χώρας ή περιοχής.</s>
+  <s _locID="Classification.StateorProvince.Group">Γεωγραφία</s>
+  <s _locID="Classification.ImageURL.LabelName">Διεύθυνση URL εικόνας</s>
+  <s _locID="Classification.ImageURL.Description">Διεύθυνση URL (ενιαίου προσδιοριστικού πόρου) που οδηγεί σε μια εικόνα</s>
+  <s _locID="Classification.ImageURL.Group">Εικόνα</s>
+  <s _locID="Classification.WebUrl.LabelName">Διεύθυνση URL στο Web</s>
+  <s _locID="Classification.WebUrl.Description">Διεύθυνση URL (ενιαίου προσδιοριστικού πόρου) που οδηγεί σε μια τοποθεσία στο Web</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Εικόνα</s>
+  <s _locID="Classification.Image.Description">Φωτογραφία ή άλλη εικόνα, συνήθως σε μορφή αρχείου JPEG, GIFF ή BMP</s>
+  <s _locID="Classification.Image.Group">Εικόνα</s>
+  <s _locID="Classification.Latitude.LabelName">Γεωγραφικό πλάτος</s>
+  <s _locID="Classification.Latitude.Description">Οι γεωγραφικές συντεταγμένες που προσδιορίζουν τη θέση στον άξονα βορρά-νότου στην επιφάνεια της Γης</s>
+  <s _locID="Classification.Latitude.Group">Γεωγραφία</s>
+  <s _locID="Classification.Longitude.LabelName">Γεωγραφικό μήκος</s>
+  <s _locID="Classification.Longitude.Description">Οι γεωγραφικές συντεταγμένες που προσδιορίζουν τη θέση στον άξονα ανατολής-δύσης στην επιφάνεια της Γης</s>
+  <s _locID="Classification.Longitude.Group">Γεωγραφία</s>
+  <s _locID="Classification.Place.LabelName">Τόπος</s>
+  <s _locID="Classification.Place.Description">Γεωγραφική περιοχή ή τοποθεσία</s>
+  <s _locID="Classification.Place.Group">Γεωγραφία</s>
+  <s _locID="Classification.Organization.LabelName">Οργανισμός</s>
+  <s _locID="Classification.Organization.Description">Μια ομάδα ατόμων που έχουν οργανωθεί με κάποιον συγκεκριμένο σκοπό, ένας συνεταιρισμός</s>
+  <s _locID="Classification.Organization.Group">Οργανισμός</s>
+  <s _locID="Classification.Company.LabelName">Εταιρεία</s>
+  <s _locID="Classification.Company.Description">Μια επιχειρηματική μονάδα</s>
+  <s _locID="Classification.Company.Group">Οργανισμός</s>
+  <s _locID="Classification.Product.LabelName">Προϊόν</s>
+  <s _locID="Classification.Product.Description">Κάτι το οποίο κατασκευάζεται, καλλιεργείται ή λαμβάνεται με σκοπό να πωληθεί</s>
+  <s _locID="Classification.Product.Group">Προϊόν</s>
+  <s _locID="Classification.Date.LabelName">Ημερομηνία</s>
+  <s _locID="Classification.Date.Description">Χρόνος που δηλώνεται με την ημέρα, το μήνα, το τρίμηνο ή το έτος</s>
+  <s _locID="Classification.Date.Group">Ημερολόγιο</s>
+</strings>

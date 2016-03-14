@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Địa chỉ</s>
+  <s _locID="Classification.Address.Description">Mô tả vị trí của người hoặc tổ chức làm hướng gửi</s>
+  <s _locID="Classification.Address.Group">Địa lý</s>
+  <s _locID="Classification.City.LabelName">Thành phố</s>
+  <s _locID="Classification.City.Description">Trung tâm đô thị thường trực về dân số, thương mại và văn hóa</s>
+  <s _locID="Classification.City.Group">Địa lý</s>
+  <s _locID="Classification.Continent.LabelName">Lục địa</s>
+  <s _locID="Classification.Continent.Description">Một trong số các khu vực đất đai rộng lớn chính trên Trái đất</s>
+  <s _locID="Classification.Continent.Group">Địa lý</s>
+  <s _locID="Classification.Country.LabelName">Quốc gia/Khu vực</s>
+  <s _locID="Classification.Country.Description">Quốc gia hoặc bang</s>
+  <s _locID="Classification.Country.Group">Địa lý</s>
+  <s _locID="Classification.County.LabelName">Hạt</s>
+  <s _locID="Classification.County.Description">Khu vực thuộc chính phủ nước sở tại; một phần bang hoặc tỉnh</s>
+  <s _locID="Classification.County.Group">Địa lý</s>
+  <s _locID="Classification.PostalCode.LabelName">Mã Bưu điện</s>
+  <s _locID="Classification.PostalCode.Description">Chuỗi chữ cái và/hoặc số được thêm vào địa chỉ bưu điện để hỗ trợ việc gửi thư</s>
+  <s _locID="Classification.PostalCode.Group">Địa lý</s>
+  <s _locID="Classification.StateorProvince.LabelName">Bang hoặc Tỉnh</s>
+  <s _locID="Classification.StateorProvince.Description">Lãnh thổ được quản lý như đơn vị hành chính hoặc chính trị trong một quốc gia hoặc một khu vực.</s>
+  <s _locID="Classification.StateorProvince.Group">Địa lý</s>
+  <s _locID="Classification.ImageURL.LabelName">URL hình ảnh</s>
+  <s _locID="Classification.ImageURL.Description">URL (Bộ định vị tài nguyên đồng nhất) trỏ đến một hình ảnh</s>
+  <s _locID="Classification.ImageURL.Group">Hình ảnh</s>
+  <s _locID="Classification.WebUrl.LabelName">URL Web</s>
+  <s _locID="Classification.WebUrl.Description">URL (Bộ định vị tài nguyên đồng nhất) trỏ đến một vị trí web</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Hình ảnh</s>
+  <s _locID="Classification.Image.Description">Ảnh chụp hoặc ảnh khác thường ở định dạng tệp JPEG, GIFF hoặc BMP</s>
+  <s _locID="Classification.Image.Group">Hình ảnh</s>
+  <s _locID="Classification.Latitude.LabelName">Vĩ độ</s>
+  <s _locID="Classification.Latitude.Description">Tọa độ địa lý xác định vị trí bắc-nam trên bề mặt Trái Đất</s>
+  <s _locID="Classification.Latitude.Group">Địa lý</s>
+  <s _locID="Classification.Longitude.LabelName">Kinh độ</s>
+  <s _locID="Classification.Longitude.Description">Tọa độ địa lý xác định vị trí đông-tây trên bề mặt Trái Đất</s>
+  <s _locID="Classification.Longitude.Group">Địa lý</s>
+  <s _locID="Classification.Place.LabelName">Địa điểm</s>
+  <s _locID="Classification.Place.Description">Khu vực hoặc vị trí địa lý</s>
+  <s _locID="Classification.Place.Group">Địa lý</s>
+  <s _locID="Classification.Organization.LabelName">Tổ chức</s>
+  <s _locID="Classification.Organization.Description">Một nhóm người được quản lý cho một mục đích cụ thể; một hiệp hội</s>
+  <s _locID="Classification.Organization.Group">Tổ chức</s>
+  <s _locID="Classification.Company.LabelName">Công ty</s>
+  <s _locID="Classification.Company.Description">Doanh nghiệp kinh doanh</s>
+  <s _locID="Classification.Company.Group">Tổ chức</s>
+  <s _locID="Classification.Product.LabelName">Sản phẩm</s>
+  <s _locID="Classification.Product.Description">Thứ gì đó được tạo ra, phát triển hoặc đạt được để có thể bán</s>
+  <s _locID="Classification.Product.Group">Sản phẩm</s>
+  <s _locID="Classification.Date.LabelName">Ngày</s>
+  <s _locID="Classification.Date.Description">Thời gian được nêu rõ theo ngày, tháng, quý, năm</s>
+  <s _locID="Classification.Date.Group">Lịch</s>
+</strings>

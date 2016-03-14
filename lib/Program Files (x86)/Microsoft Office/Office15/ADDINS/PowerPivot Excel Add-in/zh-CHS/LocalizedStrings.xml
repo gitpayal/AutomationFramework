@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">地址</s>
+  <s _locID="Classification.Address.Description">作为投递方向的人员或组织所在位置的说明</s>
+  <s _locID="Classification.Address.Group">地域</s>
+  <s _locID="Classification.City.LabelName">城市</s>
+  <s _locID="Classification.City.Description">人口、商业和文化的永久性城市中心</s>
+  <s _locID="Classification.City.Group">地域</s>
+  <s _locID="Classification.Continent.LabelName">大洲</s>
+  <s _locID="Classification.Continent.Description">地球上的主要大陆之一</s>
+  <s _locID="Classification.Continent.Group">地域</s>
+  <s _locID="Classification.Country.LabelName">国家/地区</s>
+  <s _locID="Classification.Country.Description">国家/地区或政府</s>
+  <s _locID="Classification.Country.Group">地域</s>
+  <s _locID="Classification.County.LabelName">县</s>
+  <s _locID="Classification.County.Description">局部的政府管辖区域；属于州或省的一部分</s>
+  <s _locID="Classification.County.Group">地域</s>
+  <s _locID="Classification.PostalCode.LabelName">邮政编码</s>
+  <s _locID="Classification.PostalCode.Description">添加到邮政地址以帮助投递邮件的由字母和/或数字构成的序列</s>
+  <s _locID="Classification.PostalCode.Group">地域</s>
+  <s _locID="Classification.StateorProvince.LabelName">州、省、直辖市或自治区</s>
+  <s _locID="Classification.StateorProvince.Description">在一个国家或地区内作为行政或政治单位管辖的区域。</s>
+  <s _locID="Classification.StateorProvince.Group">地域</s>
+  <s _locID="Classification.ImageURL.LabelName">图像 URL</s>
+  <s _locID="Classification.ImageURL.Description">指向图像的 URL (统一资源定位器)</s>
+  <s _locID="Classification.ImageURL.Group">图像</s>
+  <s _locID="Classification.WebUrl.LabelName">Web URL</s>
+  <s _locID="Classification.WebUrl.Description">指向某一 Web 位置的 URL (统一资源定位器)</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">图像</s>
+  <s _locID="Classification.Image.Description">照片或其他图片，通常采用 JPEG、GIFF 或 BMP 文件格式</s>
+  <s _locID="Classification.Image.Group">图像</s>
+  <s _locID="Classification.Latitude.LabelName">纬度</s>
+  <s _locID="Classification.Latitude.Description">确定地球表面上南北位置的地理坐标</s>
+  <s _locID="Classification.Latitude.Group">地域</s>
+  <s _locID="Classification.Longitude.LabelName">经度</s>
+  <s _locID="Classification.Longitude.Description">确定地球表面上东西位置的地理坐标</s>
+  <s _locID="Classification.Longitude.Group">地域</s>
+  <s _locID="Classification.Place.LabelName">位置</s>
+  <s _locID="Classification.Place.Description">地理区域或位置</s>
+  <s _locID="Classification.Place.Group">地域</s>
+  <s _locID="Classification.Organization.LabelName">组织</s>
+  <s _locID="Classification.Organization.Description">为特定目的而组织起来的一组人；一个团体</s>
+  <s _locID="Classification.Organization.Group">组织</s>
+  <s _locID="Classification.Company.LabelName">公司</s>
+  <s _locID="Classification.Company.Description">商业企业</s>
+  <s _locID="Classification.Company.Group">组织</s>
+  <s _locID="Classification.Product.LabelName">产品</s>
+  <s _locID="Classification.Product.Description">为进行销售而制成、生长或获取的事物</s>
+  <s _locID="Classification.Product.Group">产品</s>
+  <s _locID="Classification.Date.LabelName">日期</s>
+  <s _locID="Classification.Date.Description">以日、月、季度或年描述的时间</s>
+  <s _locID="Classification.Date.Group">日历</s>
+</strings>

@@ -1,0 +1,6 @@
+[info]
+_LCID=1033
+title=Site Workflow
+description=Create a workflow that is attached to the current site and can be initiated from the site actions menu.  The workflow name given here will be used to identify the workflow to end users.
+isBlank=true
+isSiteWF=true

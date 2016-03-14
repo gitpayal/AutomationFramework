@@ -1,0 +1,29 @@
+<?xml encoding="utf-8"?>
+<fp:ruleset version="1" subversion="0">
+    <fp:rule name="Abgelaufene Dokumente archivieren">
+        <fp:elem id="13000" ictx="1" ectx="16"/>
+        <fp:elem id="1000" ictx="1" ectx="16"/>
+        <fp:elem id="7010">
+            <fp:param id="5">
+                <fp:val href="Expired%20Files/"/>
+            </fp:param>
+        </fp:elem>
+    </fp:rule>
+    <fp:rule name="Dokument läuft in 6 Monaten ab">
+        <fp:elem id="13000" ictx="1" ectx="1"/>
+        <fp:elem id="1000" ictx="1" ectx="1"/>
+        <fp:elem id="7009">
+            <fp:param id="18">
+                <fp:val val="7"/>
+            </fp:param>
+        </fp:elem>
+        <fp:elem id="7001">
+            <fp:param id="18">
+                <fp:val val="6"/>
+            </fp:param>
+            <fp:param id="18">
+                <fp:val val="0"/>
+            </fp:param>
+        </fp:elem>
+    </fp:rule>
+</fp:ruleset>

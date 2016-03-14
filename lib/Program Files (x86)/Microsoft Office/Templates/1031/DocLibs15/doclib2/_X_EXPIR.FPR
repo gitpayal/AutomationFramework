@@ -1,0 +1,4 @@
+sub Archive_Expired_Documents
+    service.archivedoc(doc, "Expired Files/", -1)
+end sub
+

@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Frames mit Inhaltsverz.
+description=Erstellt Navigationsframes am oberen und unteren Rand. Hyperlinks in den Navigationsframes bewirken Änderungen im Inhaltsverzeichnis.
+noframesURL=
+layout=[R(64,*,64)F("oben",[C(150,*)F("Inhalt","Hauptframe")],"unten")]
+contributorModeRequirements=AllowCreatingFramesPages

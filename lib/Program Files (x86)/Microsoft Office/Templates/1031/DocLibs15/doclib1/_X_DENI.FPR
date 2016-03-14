@@ -1,0 +1,5 @@
+sub example_of_denied_email
+    rem service.SendDeniedMail(doc, doc.meta.author, "placeHolderDoclib/forms/denied.htm")
+    rem doc.meta.assignedTo = doc.meta("vti_author")
+end sub
+

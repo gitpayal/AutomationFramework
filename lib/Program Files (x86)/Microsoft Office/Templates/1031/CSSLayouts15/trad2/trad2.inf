@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=12.0.0000.0
+title=Zwei Spalten, rechte mit fester Breite
+description=Erstellen Sie ein Layout mit zwei Spalten, bei dem die rechte Spalte eine feste Breite hat.
+contributorModeRequirements=AllowCreatingCSSFiles

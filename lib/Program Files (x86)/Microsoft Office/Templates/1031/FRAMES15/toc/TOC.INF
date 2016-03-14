@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Inhaltsverzeichnis
+description=Erstellt einen Inhaltsverzeichnisframe am linken Rand. Hyperlinks in diesem Frame bewirken Änderungen im Hauptframe.
+noframesURL=
+layout=[C(150,*)F("Inhalt","Hauptframe")]
+contributorModeRequirements=AllowCreatingFramesPages

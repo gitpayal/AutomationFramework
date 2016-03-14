@@ -1,0 +1,24 @@
+﻿/* CSS-Layout */
+#left_col {
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#right_col {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#page_content {
+	margin-right: 200px;
+	margin-left: 200px;
+}
+	
+#container {
+	position: relative;
+	width: 100%;
+}

@@ -1,0 +1,153 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Bilder vorher laden</title>
+		<meta http-equiv="msthemecompatible" content="yes">
+		<meta name="DHTMLScriptName" content="Bilder vorher laden">
+		
+		<meta name="DialogResizable" content="true">
+		
+		<meta name="DialogSize" content="550,265">
+		
+		<style>
+			button				{ width: 8em }					
+			table				{ border: none; border-collapse: collapse }		
+		</style>
+		<script type="text/JavaScript">
+			var L_OkFailed_ErrorMessage		= "Geben Sie eine URL ein, die vorher geladen werden soll, oder klicken Sie auf \"Abbrechen\", um fortzufahren.";		// {StringCategory=ERR} Error message shown in message box.
+			var L_AllImageFiles_Text		= "Alle Bildformate";		// {StringCategory=MSG} Text of image filter in "File Open" dialog
+		</script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="Preload.js"></script>
+		<script type="text/JavaScript" src="_Preload.js"></script>
+	</head>
+	<body onload="initializeForm()">
+		<form id="theForm" name="theForm" onsubmit="onOk(); return false;">
+			<table width="100%" height="100%">
+				<tr height="100%">
+					<td width="100%">
+						<table width="100%" height="100%">
+							<tr>
+								<td nowrap>
+									<label for="edFileURL" accesskey="b">
+									
+									
+										<u>B</u>ildquelldatei:&nbsp;
+									</label>
+								</td>
+								<td width="100%" dir="ltr">
+									<input tabindex="1" id="edFileURL" style="width: 100%" type="text" name="T1" size="34" onkeyup="SyncControlStates()">
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									<button tabindex="2" accesskey="d" onclick="GetFileURL()">
+									
+									
+										<u>D</u>urchsuchen...
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									<table width="100%">
+										<tr>
+											<td>
+												<button id="btnAdd" accesskey="e" tabindex="3" onclick="AddImage( edFileURL.value )">
+												
+												
+													Hinzufüg<u>e</u>n
+												</button>
+											</td>
+											<td>
+												&nbsp;
+											</td>
+											<td>
+												<button id="btnRemove" accesskey="n" tabindex="4" onclick="RemoveImage()">
+												
+												
+													E<u>n</u>tfernen
+												</button>
+											</td>
+											<td width="100%">
+												&nbsp;
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr height="100%">
+								<td>
+									<table width="100%" height="100%">
+										<tr>
+											<td nowrap>
+												<label for="selImageList">
+													
+													Bilder&nbsp;<u>v</u>orab&nbsp;laden:&nbsp;
+												</label>
+											</td>
+										</tr>
+										<tr>
+											<td height="100%">
+												&nbsp;
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<select accesskey="v" dir="ltr" id="selImageList" name="selImageList" size="2" style="width: 100%; height: 100%" onchange="SelectionChanged()" tabindex="5">
+										
+									</select>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<hr>
+					</td>
+				</tr>
+				<tr>
+					<td width="100%">
+						<table width="100%">
+							<tr>
+								<td width="100%">
+									&nbsp;
+								</td>
+								<td>
+									<table>
+										<tr>
+											<td>
+												<button id="btnOk" tabindex="6" value="OK" type="submit">
+														
+														OK
+													</button>
+											</td>
+											<td>
+												&nbsp;
+											</td>
+											<td>
+												<button id="btnCancel" tabindex="7" value="Cancel" onclick="onCancel()">
+													
+													Abbrechen
+												</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

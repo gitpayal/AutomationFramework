@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Blöcke
+description=Erstellt ein Stylesheet mit Text und Überschriften in Bookman Old Style, roten Hyperlinks und silbergrauem Hintergrund.
+contributorModeRequirements=AllowCreatingCSSFiles

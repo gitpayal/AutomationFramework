@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Horizontale Teilung
+description=Erstellt übereinander angeordnete, unabhängige Frames.
+noframesURL=
+layout=[R(*,*)F("oben","unten")]
+contributorModeRequirements=AllowCreatingFramesPages

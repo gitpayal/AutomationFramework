@@ -1,0 +1,130 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Frametext festlegen</title>
+		<meta name="DHTMLScriptName" content="Text festlegen\Frametext festlegen">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="525,265">
+		
+		<style>
+		button	{ width: 8em;  }				
+		table	{ border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+		var L_NOMESSAGE_ErrorMessage		= "Geben Sie eine Nachricht ein.";
+		var L_MATCHEDBRACES_ErrorMessage	= "Alle geschweiften Klammern müssen genau übereinstimmen und können nicht geschachtelt werden.";
+		var L_SEMICOLONS_ErrorMessage		= "Semikolons sind innerhalb geschweifter Klammern nicht zulässig.";
+		var L_EMPTYBRACES_ErrorMessage		= "Geschweifte Klammern dürfen nicht leer sein.";
+		var L_Frame_ListBox					= "Frame";
+		var L_NoFrame_ErrorMessage			= "Der angegebene Frame konnte nicht gefunden werden.";
+		var L_Unnamed_ListBox				= "unbenannt";
+		</script>
+		<script type="text/JavaScript" src="DOM.js"></script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="SetText.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="SetTxtFr.js"></script>
+	</head>
+	<body onload="initializeForm()">
+		<form id="theForm" name="theForm" onsubmit="Validate(); return false;">
+			<table border="0" cellpadding="0" cellspacing="0" id="AutoNumber1" height="100%" width="100%">
+				<tr height="1%">
+					<td nowrap>
+						<label for="FrameNames">
+						
+							<u>F</u>rame:
+						</label>
+					</td>
+					<td>
+						&nbsp;</td>
+					<td width="100%">
+						<select name="FrameNames" accesskey="f" style="width: 100%" id="FrameNames">
+							
+						</select>
+					</td>
+				</tr>
+				<tr height="1%">
+					<td colspan="3">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" nowrap>
+						<label for="Message">
+				    		
+				    		Neues&nbsp;H<u>T</u>ML:&nbsp;
+				    	</label>
+					</td>
+					<td width="100%" height="100%" rowspan="2">
+						<textarea name="Message" style="width: 100%; height: 100%" accesskey="t" id="Message">
+						</textarea> 
+						
+					</td>
+				</tr>
+				<tr>
+					<td height="100%" colspan="2">
+						&nbsp;
+					</td>
+				</tr>
+				<tr height="1%">
+					<td colspan="3">
+						&nbsp;
+						<hr>
+					</td>
+				</tr>
+				<tr height="1%">
+					<td colspan="3">
+						<table width="100%">
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" width="100%" id="AutoNumber4">
+										<tr>
+											<td>
+												<input type="checkbox" name="PreserveBackground" value="ON" id="PreserveBackground" accesskey="h">
+												
+											</td>
+											<td>
+												&nbsp;</td>
+											<td nowrap>
+												<label for="PreserveBackground">
+								            		
+													<u>H</u>intergrundfarbe&nbsp;erhalten&nbsp;
+												</label>
+											</td>
+											<td width="100%">
+												&nbsp;
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<table width="100%">
+										<tr>
+											<td width="100%">&nbsp;</td>
+											<td>
+												<button id="buttonOk" name="OK" value="OK" type="submit">
+													
+													OK
+												</button>
+											</td>
+											<td>&nbsp;</td>
+											<td>
+												<button id="buttonCancel" name="Cancel" value="Cancel" onclick="CancelAction();">
+											  		
+													Abbrechen
+											  	</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

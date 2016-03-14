@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Verschachtelte Hierarchie
+description=Erstellt eine hierarchische Struktur zur Informationsdarstellung. Allgemeine Hyperlinks im linken Frame bewirken Änderungen im spezifischeren Frame oben rechts.
+noframesURL=
+layout=[C(150,*)F("Links",[R(20%,*)F("Rechts oben","Rechts unten")])]
+contributorModeRequirements=AllowCreatingFramesPages

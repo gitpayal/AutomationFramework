@@ -1,0 +1,220 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Hyperlinkmenü</title>
+		<meta name="DHTMLScriptName" content="Jump-&Menü">
+		
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="520,300">
+		
+		<style>
+		button	{ width: 8em;  }				
+		table	{ border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+		var L_NOOptions_ErrorMessage		= "Geben Sie mindestens ein Auswahl-Wert-Paar ein.";
+		var L_COLUMN1_TXT					= "Auswahl";
+		var L_COLUMN2_TXT					= "Wert";
+		var L_PageOption_ListBox			= "Seitenstandard (keiner)";
+		var L_NewWindow_ListBox				= "Neues Fenster";
+		var L_SameFrame_ListBox				= "Gleicher Frame";
+		var L_WholePage_ListBox				= "Ganze Seite";
+		var L_ParentFrame_ListBox			= "Übergeordneter Frame";
+		var L_nInsertDialogWidth_Number		= 425;
+		var L_nInsertDialogHeight_Number	= 250;
+		var L_Unnamed_ListBox				= "unbenannt";
+		var L_Frame_ListBox					= "Frame";		
+		</script>
+		<script type="text/JavaScript" src="DOM.js"></script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="JmpMenu.js"></script>
+		<script type="text/JavaScript" src="_JmpMenu.js"></script>
+	</head>
+	<body onload="initializeForm()">
+		<script for="lvOptions" event="ItemClick">
+			selectionChanged();
+		</script>
+		<form id="theForm" name="theForm" onsubmit="Validate(); return false;">
+			<table border="0" cellpadding="0" cellspacing="0" id="AutoNumber1" width="100%" height="100%">
+				<tr>
+					<td width="100%" height="200%" rowspan="2">
+						<object classid="clsid:5220cb21-c88d-11cf-b347-00aa00a28331" viewastext>
+							<param name="LPKPath" value="comctl32.lpk">
+						</object>
+						<object id="lvOptions" tabindex="1" height="100%" width="100%" classid="clsid:BDD1F04B-858B-11D1-B16A-00C0F0283628" viewastext>
+							<param name="_ExtentX" value="17568">
+							<param name="_ExtentY" value="13414">
+							<param name="View" value="3">
+							<param name="Arrange" value="0">
+							<param name="LabelEdit" value="1">
+							<param name="Sorted" value="0">
+							<param name="MultiSelect" value="0">
+							<param name="LabelWrap" value="-1">
+							<param name="HideSelection" value="0">
+							<param name="HideColumnHeaders" value="0">
+							<param name="OLEDragMode" value="0">
+							<param name="OLEDropMode" value="0">
+							<param name="_Version" value="393217">
+							<param name="ForeColor" value="-2147483640">
+							<param name="BackColor" value="-2147483643">
+							<param name="BorderStyle" value="1">
+							<param name="Appearance" value="1">
+							<param name="MousePointer" value="0">
+							<param name="Enabled" value="1">
+							<param name="NumItems" value="0">
+							<param name="AllowReorder" value="0">
+							<param name="Checkboxes" value="0">
+							<param name="FlatScrollBar" value="0">
+							<param name="FullRowSelect" value="1">
+							<param name="GridLines" value="0">
+							<param name="HotTracking" value="0">
+							<param name="HoverSelection" value="0">
+							<param name="PictureAlignment" value="0">
+							<param name="TextBackground" value="0">
+							<param name="OLEDragMode" value="0">
+							<param name="OLEDropMode" value="0">
+							<param name="SortKey" value="0">
+							<param name="SortOrder" value="0">
+						</object>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td>&nbsp;</td>
+								<td>
+									<button id="btnAdd" name="Add" value="Add" accesskey="e" onclick="invokeInsertDialog('insert')">
+	  								
+																				
+										Hinzufüg<u>e</u>n...
+								</button>
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>
+									<button name="Modify" value="Modify" accesskey="n" onclick="invokeInsertDialog('edit')">
+	  								
+																				
+										Ä<u>n</u>dern...
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>
+									<button name="Remove" value="Remove" accesskey="f" onclick="deleteOption()">
+	  								
+									
+										Ent<u>f</u>ernen
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									<button name="MoveUp" value="MoveUp" accesskey="o" onclick="moveOptionUp()">
+  									
+									
+										Nach <u>O</u>ben
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>
+									<button name="MoveDown" value="MoveDown" accesskey="u" onclick="moveOptionDown()">
+	  								
+									
+										Nach <u>U</u>nten
+									</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table>
+							<tr>
+								<td nowrap>
+									<label for="FrameNames">
+			    					
+										UR<u>L</u>s&nbsp;öffnen&nbsp;in:&nbsp;
+									</label>
+								</td>
+								<td>
+									<select name="FrameNames" accesskey="l" id="FrameNames">
+									
+									</select>
+								</td>
+								<td width="100%">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="100%">
+							<tr>
+								<td>
+									<input type="checkbox" name="FirstItem" value="ON" id="FirstItem" accesskey="r">
+									
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td nowrap>
+									<label for="FirstItem">
+            						
+										E<u>r</u>stes&nbsp;Element&nbsp;nach&nbsp;URL-Änderung&nbsp;wählen&nbsp;
+									</label>
+								</td>
+								<td width="100%">
+									&nbsp;
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<hr>
+						<table width="100%">
+							<tr>
+								<td width="100%"></td>
+								<td>
+									<button name="OK" value="OK" type="submit">
+										
+										OK
+									</button>
+								</td>
+								<td>&nbsp;</td>
+								<td>
+									<button name="Cancel" value="Cancel" onclick="CancelAction();">
+			  						
+										Abbrechen
+			  						</button>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

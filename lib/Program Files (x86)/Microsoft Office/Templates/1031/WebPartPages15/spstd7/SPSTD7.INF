@@ -1,0 +1,7 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4805.0
+title=Linke Spalte, Kopfzeile, Fußzeile, erste Zeile, drei Spalten
+description=Erstellt eine Webpartseite mit linker Spalte, Kopfzeile, Fußzeile, erster Zeile und drei Spalten.
+preview=spstd7.gif
+contributorModeRequirements=AllowCreatingWebPartPages

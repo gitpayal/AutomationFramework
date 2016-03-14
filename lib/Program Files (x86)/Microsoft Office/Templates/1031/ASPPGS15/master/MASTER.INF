@@ -1,0 +1,9 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2813.0
+title=Gestaltungsvorlage
+description=Erstellt eine Gestaltungsvorlage für Webanwendungen.
+filename=Master.master
+needsProgLang=true
+isBlank=true
+contributorModeRequirements=AllowCreatingASPNetMasterPages

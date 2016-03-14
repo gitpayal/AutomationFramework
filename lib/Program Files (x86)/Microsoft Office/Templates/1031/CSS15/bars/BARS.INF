@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Balken
+description=Erstellt ein Stylesheet mit Text in Arial, Überschriften in Times New Roman und olivgrünem Hintergrund.
+contributorModeRequirements=AllowCreatingCSSFiles

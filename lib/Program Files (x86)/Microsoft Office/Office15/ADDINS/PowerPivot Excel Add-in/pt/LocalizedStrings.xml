@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings xmlns="http://schemas.microsoft.com/data/localizedStrings">
+  <_locDefinition>
+    <_locDefault _loc="locNone"/>
+    <_locTag _loc="locData">s</_locTag>
+  </_locDefinition>
+
+  <s _locID="Classification.Address.LabelName">Endereço</s>
+  <s _locID="Classification.Address.Description">A descrição do local de uma pessoa ou organização, como instruções para a entrega</s>
+  <s _locID="Classification.Address.Group">Geografia</s>
+  <s _locID="Classification.City.LabelName">Cidade</s>
+  <s _locID="Classification.City.Description">Um centro urbano permanente de população, comércio e cultura</s>
+  <s _locID="Classification.City.Group">Geografia</s>
+  <s _locID="Classification.Continent.LabelName">Continente</s>
+  <s _locID="Classification.Continent.Description">Uma das maiores divisões territoriais do planeta Terra</s>
+  <s _locID="Classification.Continent.Group">Geografia</s>
+  <s _locID="Classification.Country.LabelName">País/Região</s>
+  <s _locID="Classification.Country.Description">Uma nação ou um estado</s>
+  <s _locID="Classification.Country.Group">Geografia</s>
+  <s _locID="Classification.County.LabelName">Município</s>
+  <s _locID="Classification.County.Description">Uma região governamental local; parte de um estado ou uma província</s>
+  <s _locID="Classification.County.Group">Geografia</s>
+  <s _locID="Classification.PostalCode.LabelName">CEP</s>
+  <s _locID="Classification.PostalCode.Description">Uma sequência de letras e/ou números adicionados a um endereço postal para facilitar a entrega da correspondência</s>
+  <s _locID="Classification.PostalCode.Group">Geografia</s>
+  <s _locID="Classification.StateorProvince.LabelName">Estado ou Província</s>
+  <s _locID="Classification.StateorProvince.Description">Um território governado como uma unidade administrativa ou política em um país ou uma região.</s>
+  <s _locID="Classification.StateorProvince.Group">Geografia</s>
+  <s _locID="Classification.ImageURL.LabelName">URL da Imagem</s>
+  <s _locID="Classification.ImageURL.Description">URL (Uniform Resource Locator) que aponta para uma imagem</s>
+  <s _locID="Classification.ImageURL.Group">Imagem</s>
+  <s _locID="Classification.WebUrl.LabelName">URL da Web</s>
+  <s _locID="Classification.WebUrl.Description">URL (Uniform Resource Locator) que aponta para um local da Web</s>
+  <s _locID="Classification.WebUrl.Group">Web</s>
+  <s _locID="Classification.Image.LabelName">Imagem</s>
+  <s _locID="Classification.Image.Description">Uma foto ou outra imagem, geralmente no formato de arquivo JPEG, GIFF ou BMP</s>
+  <s _locID="Classification.Image.Group">Imagem</s>
+  <s _locID="Classification.Latitude.LabelName">Latitude</s>
+  <s _locID="Classification.Latitude.Description">A coordenada geográfica que determina as posições norte e sul na superfície terrestre</s>
+  <s _locID="Classification.Latitude.Group">Geografia</s>
+  <s _locID="Classification.Longitude.LabelName">Longitude</s>
+  <s _locID="Classification.Longitude.Description">A coordenada geográfica que determina as posições leste e oeste na superfície terrestre</s>
+  <s _locID="Classification.Longitude.Group">Geografia</s>
+  <s _locID="Classification.Place.LabelName">Local</s>
+  <s _locID="Classification.Place.Description">Uma área ou um local geográfico</s>
+  <s _locID="Classification.Place.Group">Geografia</s>
+  <s _locID="Classification.Organization.LabelName">Organização</s>
+  <s _locID="Classification.Organization.Description">Um grupo de pessoas organizadas para um fim específico; uma associação</s>
+  <s _locID="Classification.Organization.Group">Organização</s>
+  <s _locID="Classification.Company.LabelName">Empresa</s>
+  <s _locID="Classification.Company.Description">Um empreendimento comercial</s>
+  <s _locID="Classification.Company.Group">Organização</s>
+  <s _locID="Classification.Product.LabelName">Produto</s>
+  <s _locID="Classification.Product.Description">Algo criado, desenvolvido ou obtido para ser vendido</s>
+  <s _locID="Classification.Product.Group">Produto</s>
+  <s _locID="Classification.Date.LabelName">Data</s>
+  <s _locID="Classification.Date.Description">Tempo informado como dia, mês, trimestre ou ano</s>
+  <s _locID="Classification.Date.Group">Calendário</s>
+</strings>

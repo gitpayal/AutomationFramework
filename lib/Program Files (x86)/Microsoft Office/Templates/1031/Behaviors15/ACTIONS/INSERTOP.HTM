@@ -1,0 +1,199 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Dialog</title>
+		<meta name="DialogResizable" content="true">
+		<meta name="DialogSize" content="400,100">
+		
+		<style> 
+			button	{ width: 8em; }				
+			table	{ border: none; border-collapse: collapse }
+		</style>
+		<script src="FPLib.js" type="text/JavaScript"></script>
+		<script type="text/JavaScript">
+			var L_strInsert_DialogTitle		= "Auswahl hinzufügen";
+			var L_strEdit_DialogTitle		= "Auswahl bearbeiten";		
+			var L_strMissingData_ErrorMessage	= "Das Auswahlfeld ist erforderlich.";
+		</script>
+		<script type="text/JScript" src="Strings.js"></script>
+	</head>
+	<body onload="initializeForm()">
+		<form name="theForm" onsubmit="onOk(); return false;">
+			<table height="100%" width="100%">
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td nowrap>
+									<label for="Choice">
+										
+										<u>A</u>uswahl:
+									</label>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" >
+									<input id="Choice" name="Choice" style="width: 100%" size="55" accesskey="a" type="text"> 
+									
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									&nbsp;
+								</td>
+							</tr>	
+							<tr>
+								<td nowrap>
+									<label for="Value">
+										
+										<u>W</u>ert&nbsp;(wenn&nbsp;markiert,&nbsp;gehe&nbsp;zu&nbsp;URL):
+									</label>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>
+									&nbsp;
+								</td>								
+							</tr>
+							<tr>
+								<td width="100%" >
+									<input id="Value" name="Value" accesskey="w" style="width: 100%" size="55" type="text" dir="ltr"> 
+									
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td>									
+									<button name="BrowseURL1" value="Browse..." accesskey="d" onclick="PickURL(Value);" ID="Button1">
+									
+			  						
+									<u>D</u>urchsuchen...
+	  							</button>
+								</td>
+							</tr>							
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<hr>
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" colspan="2">
+						<table width="100%">
+							<tr>
+								<td width="100%">
+									&nbsp;
+								</td>
+								<td>
+									<table>
+										<tr>
+											<td>
+												<button id="btnOk" tabindex="2" type="submit">
+												
+													OK
+												</button>
+											</td>
+											<td>
+												&nbsp;
+											</td>
+											<td>
+												<button id="btnCancel" onclick="onCancel()" tabindex="3" type="button">
+																							
+													Abbrechen
+												</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	<script type="text/JavaScript">		
+				
+			function onOk()
+			{
+				var sOptionName		=  theForm.Choice.value;
+				var sOptionValue	= theForm.Value.value;
+				sOptionName = trimStringLeft( trimStringRight( sOptionName ) );
+				sOptionValue = trimStringLeft( trimStringRight( sOptionValue ) );			
+				if ( 0 < sOptionName.length ) 
+				{																
+					var astrReturn = new Array();
+										
+					astrReturn[0] = String( sOptionName );
+					astrReturn[1] = String( sOptionValue );
+				
+					window.returnValue = astrReturn;
+					window.close();
+				}
+				else
+				{
+					alert( L_strMissingData_ErrorMessage );
+					safeFocus(theForm.Choice);
+				}
+			}
+
+			function onCancel()
+			{
+				var astrReturn = new Array();
+								
+				astrReturn[0] = String( "" );
+				astrReturn[1] = String( "" );
+
+				window.returnValue = astrReturn;
+				window.close();
+			}
+			
+			function initializeForm()
+			{
+				var aoArguments		= window.dialogArguments;
+				if(aoArguments)
+				{			
+					var strDialogType	= aoArguments[0];							
+					if( "insert" == strDialogType.toLowerCase() )
+					{
+						document.title = L_strInsert_DialogTitle;
+					}
+					if( "edit" == strDialogType.toLowerCase() )
+					{
+						document.title = L_strEdit_DialogTitle;
+						sChoice = aoArguments[1];
+						sValue = aoArguments[2];
+						theForm.Choice.value = sChoice;
+						theForm.Value.value = sValue;
+						theForm.Choice.select();
+					}
+				}
+				safeFocus(theForm.Choice);
+			}
+
+			function PickURL(eURL)
+			{			
+				var url = FrontPage.ShowPickURLDialog(FrontPage.ActiveDocument.url, eURL.value);
+				if (url != '') 
+					eURL.value = url;
+				eURL.focus();
+			}
+
+	</script>
+</html>

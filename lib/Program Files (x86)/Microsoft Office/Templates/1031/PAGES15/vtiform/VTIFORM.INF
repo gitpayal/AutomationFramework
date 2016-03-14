@@ -1,0 +1,17 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Formularseiten-Assistent
+description=Erstellt eine Formularseite durch Auswahl der Angaben, die abgefragt werden sollen. Erfordert FrontPage-Servererweiterungen.
+exename=vtiform.exe
+needsFPSE=true
+contributorModeRequirements=AllowCreatingFPSEPages
+
+[settings]
+AddressOrder=12cszy
+Addr1Width=35
+Addr2Width=35
+CityWidth=35
+StateWidth=35
+ZipWidth=12
+CountryWidth=2

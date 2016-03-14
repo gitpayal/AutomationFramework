@@ -1,0 +1,740 @@
+<List xmlns:ows="Microsoft SharePoint" Name="Documents" Title="Shared Documents" Url="Shared Documents" BaseType="1" ModifyVversion="5.0.0.2309">
+               <MetaData>
+                  <Fields>
+                  </Fields>
+                  <Views>
+                     <View BaseViewID="1" Type="HTML" Name="{9F606C86-9CB5-4ac9-8714-BCE51398B12B}" DisplayName="Alle Dokumente" DefaultView="TRUE" Url="Forms/AllItems.htm" ModifyVversion="5.0.2.2330">
+                                
+<ViewHeader>
+    
+    <HTML><![CDATA[<TABLE ID="onetidDoclibViewTbl0]]></HTML>
+    <HTML><![CDATA[" width="100%" border=0 rules=rows><TR VALIGN=TOP><FORM>]]></HTML>
+    <Fields>
+        <HTML><![CDATA[<TH class="ms-vh">]]></HTML>
+        <Field/>
+        <HTML><![CDATA[</TH>]]></HTML>
+    </Fields>
+    <HTML><![CDATA[</FORM></TR>]]></HTML>
+</ViewHeader>
+<ViewBody>
+        <HTML><![CDATA[<TR>]]></HTML>
+        <Fields>
+                <HTML><![CDATA[<TD Class="ms-vb">]]></HTML>
+                <Field/>
+                <HTML><![CDATA[</TD>]]></HTML>
+        </Fields>
+        <HTML><![CDATA[</TR>]]></HTML>
+</ViewBody>
+<ViewFooter>
+<HTML><![CDATA[</TABLE>]]></HTML>
+</ViewFooter>
+<PagedRowset>
+<HTML><![CDATA[<TABLE width="100%" border=0><TR>
+<TD align=right Class="ms-vb">]]></HTML><HTML>(Dokumente</HTML><HTML><![CDATA[&nbsp;]]></HTML>
+<GetVar Name="PageFirstRow" HTMLEncode="TRUE"/><HTML><![CDATA[&nbsp;]]></HTML>
+<HTML>bis</HTML><HTML><![CDATA[&nbsp;]]></HTML>
+<GetVar Name="PageLastRow" HTMLEncode="TRUE"/>
+<HTML>)</HTML>
+<HTML><![CDATA[&nbsp;<A HREF="]]></HTML><PageUrl/><HTML>?</HTML><GetVar Name="NextPageData"/><HTML><![CDATA[">]]></HTML>
+<HTML>Weiter</HTML>
+<HTML><![CDATA[</A> 
+<A HREF="]]></HTML><PageUrl/><HTML>?</HTML><GetVar Name="NextPageData"/><HTML><![CDATA[">]]></HTML>
+<HTML><![CDATA[<img src="]]></HTML><ImagesPath/><HTML><![CDATA[/next.gif" border=0></A>&nbsp;
+</TD></TR></TABLE>]]></HTML>
+</PagedRowset>
+<RowLimit Paged="TRUE">100</RowLimit>
+<ViewEmpty>
+    <HTML><![CDATA[<TABLE ID=onetidDoclibViewTbl0 Summary="]]></HTML>
+    <ListProperty Select="Title" HTMLEncode="TRUE"/>
+    <HTML><![CDATA[" width="100%" border=0 rules=rows><TR><FORM>]]></HTML>
+    <Fields>
+        <HTML><![CDATA[<TH class="ms-vh">]]></HTML>
+        <Field></Field>
+        <HTML><![CDATA[</TH>]]></HTML>
+    </Fields>
+    <HTML><![CDATA[</FORM></TR>]]></HTML>
+    <HTML><![CDATA[</TABLE>]]></HTML>
+    <HTML><![CDATA[<TABLE width="100%" border=0 rules=rows><TR>]]></HTML>
+    <HTML><![CDATA[<TD Class="ms-vb"> ]]></HTML>
+    <HTML>In dieser Ansicht der Dokumentbibliothek "</HTML>
+    <ListProperty Select="Title" HTMLEncode="TRUE"/>
+    <HTML>" sind keine Einträge vorhanden. Klicken Sie auf "Neues Dokument" oder "Dokumentupload" weiter oben, um ein neues Dokument hinzuzufügen.</HTML>
+    <HTML><![CDATA[</TD>]]></HTML>
+    <HTML><![CDATA[</TR></TABLE>]]></HTML>
+</ViewEmpty>
+                                
+<Toolbar Type="Standard"><HTML><![CDATA[
+<SCRIPT>
+var fNewDoc = false;
+</SCRIPT>
+<SCRIPT LANGUAGE="VBSCRIPT">
+    On Error Resume Next
+    Set NewDocumentButton = CreateObject("SharePoint.OpenDocuments.1")
+    fNewDoc = IsObject(NewDocumentButton)
+</SCRIPT>
+<SCRIPT>
+function RefreshOnFocus()
+{
+    window.location.href = window.location;
+}
+    var L_NewDocumentRuntimeError_Text =
+]]></HTML><HTML>
+"Das Dokument konnte nicht erstellt werden. \n" +
+"Die erforderliche Anwendung ist möglicherweise nicht ordnungsgemäß installiert " +
+"oder die Vorlage für diese Dokumentbibliothek kann nicht geöffnet werden.\n\n" +
+"Bitte versuchen Sie folgendes:\n" +
+"1. Ermitteln Sie den Namen der Vorlage in den allgemeinen Einstellungen für diese " +
+"Dokumentbibliothek und installieren Sie die zum Öffnen der Vorlage erforderliche Anwendung. " +
+"Falls die Anwendung auf Installation bei der ersten Verwendung eingestellt ist, starten Sie die " +
+"Anwendung, und versuchen Sie danach erneut, ein neues Dokument zu erstellen.\n\n" +
+"2. Falls Sie die Berechtigung zum Ändern dieser Dokumentbibliothek haben, wählen Sie in den " +
+"allgemeinen Einstellungen der Bibliothek eine andere Vorlage aus.";
+</HTML><HTML><![CDATA[
+function createNewDocument()
+{
+    var L_NewDocumentError_Text = ]]></HTML><HTML>"Die Schaltfläche 'Neues Dokument' erfordert eine SharePoint-kompatible Anwendung und Windows® Internet Explorer® 7, Internet Explorer 6, Internet Explorer 5 oder Internet Explorer 4. Um dieser Dokumentbibliothek ein neues Dokument hinzuzufügen, klicken Sie bitte auf die Schaltfläche 'Dokumentupload'."</HTML><HTML><![CDATA[;
+    var strTemplate = ]]></HTML><ScriptQuote><ListProperty Default="Word.Document.8" Select="TemplateUrl"/></ScriptQuote><HTML><![CDATA[;
+    var strSaveLocation = ]]></HTML><ScriptQuote><ListUrlDir/></ScriptQuote><HTML><![CDATA[;
+    if (fNewDoc)
+    {
+      if (!NewDocumentButton.CreateNewDocument(strTemplate, strSaveLocation))
+      {
+            alert(L_NewDocumentRuntimeError_Text);
+      }
+      else
+      {
+            window.onfocus = RefreshOnFocus;
+      }
+    }
+    else
+    {
+      alert(L_NewDocumentError_Text);
+    }
+}
+</SCRIPT>
+<!-- Toolbar -->
+  <TABLE width=100% cellpadding=2 cellspacing=0 border=0>
+   <TR>
+    <TD class="ms-toolbar" nowrap><a tabindex=2 class="ms-toolbar" target=_self href="javascript:createNewDocument();" ACCESSKEY=N ID="diidNewItem"><img border=0 alt=]]></HTML><HTML>"Neu"</HTML><HTML><![CDATA[ src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/newdoc.gif"></a></td><td nowrap><a tabindex=2 class="ms-toolbar" target=_self href="javascript:createNewDocument();" ACCESSKEY=N ID="diidNewItem">]]></HTML><HTML>Neues Dokument</HTML><HTML><![CDATA[</a></TD>
+    <TD class=ms-separator>|</TD>
+    <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIOUploadItem class="ms-toolbar" ACCESSKEY=U href="]]></HTML><URL Cmd="New"/><HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML><URL Cmd="New"/><HTML><![CDATA[', false);javascript:return false;" target="_self"><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/upload.gif" ID="tbbutton1U" alt=]]></HTML><HTML>"Hochladen"</HTML><HTML><![CDATA[ border=0 width=16 height=16></a> </td> <td nowrap> <a tabindex=2 class="ms-toolbar" ACCESSKEY=U ID=diidIOUploadItem href="]]></HTML><URL Cmd="New"/><HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML><URL Cmd="New"/><HTML><![CDATA[', false);javascript:return false;" target="_self"><LocID ID="tbbutton2U">]]></HTML><HTML>Dokumentupload</HTML><HTML><![CDATA[</LocID></a> </td>
+    <TD class=ms-separator>|</td> 
+    <TD class="ms-toolbar" nowrap>
+    <table cellpadding=1 cellspacing=0 border=0>
+    <tr>
+       <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidFilterButton class="ms-toolbar" ACCESSKEY=L href="]]></HTML><FilterLink/><HTML><![CDATA["> <img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/tbfilter.gif" ID="tbbuttonstart1" alt=]]></HTML><HTML>"Filter"</HTML><HTML><![CDATA[ border=0 width=16 height=16> </a> </td> <td nowrap> <a tabindex=2 ID=diidFilterButton class="ms-toolbar" ACCESSKEY=L href="]]></HTML><FilterLink/><HTML><![CDATA[">
+           <LocID ID="L_ListFilter">
+                 ]]></HTML><HTML><Switch> <Expr><GetVar Name="Filter"/></Expr> <Case Value="1">Filterauswahl ausblenden</Case> <Default> <Switch> <Expr><GetVar Name="FilterField1"/></Expr> <Case Value="">Filter</Case> <Default>Filter ändern</Default> </Switch> </Default> </Switch></HTML><HTML><![CDATA[
+           </LocID>
+       </a> </td>
+    </tr>
+    </table>
+    </TD>
+    <TD class=ms-separator>|</TD>
+    <td nowrap><a tabindex=2 class="ms-toolbar" ACCESSKEY=S ID=diidSubscribeButton href="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/NewSubs.htm?List=]]></HTML><List/><HTML><![CDATA["><LocID ID="tbbutton_nogif1">]]></HTML><HTML>Abonnieren</HTML><HTML><![CDATA[</LocID></a></td>
+    <TD width=99% class="ms-toolbar" align=right nowrap id=align01><table cellpadding=1 cellspacing=0 border=0><tr><td nowrap><IMG SRC="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/rect.gif" width="6" height="7"><span class=ms-toolbar>&nbsp;</span><a class="ms-toolbar" ACCESSKEY=C ID=diidCustomizeButton HREF="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/listedit.htm?List=]]></HTML><List/><HTML><![CDATA[")><LocID ID="L_ListEditMsg">]]></HTML><HTML>Einstellungen und Spalten ändern</HTML><HTML><![CDATA[</LocID></a><span class=ms-toolbar>&nbsp;</span></td></tr></table></td>
+	</TR>
+  </table>
+  <table width=100% border=0 cellpadding=0 cellspacing=2>
+  <tr>
+   <td class="ms-sectionline" colspan=10 height=1><img border=0 width=1 height=1 src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td>
+  </tr>
+  <tr><td height=4 colspan=8><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+  </table>
+]]></HTML></Toolbar>
+                        <ViewFields>
+                           <FieldRef Name="DocIcon"></FieldRef>
+                           <FieldRef Name="LinkFilename"></FieldRef>
+                           <FieldRef Name="Edit"></FieldRef>
+                           <FieldRef Name="Last_x0020_Modified"></FieldRef>
+                           <FieldRef Name="Editor"></FieldRef>
+                        </ViewFields>
+                        <Query>
+                           <OrderBy>
+                              <FieldRef Name="FileRef"></FieldRef>
+                           </OrderBy>
+                        </Query>
+                     </View>
+                     <View BaseViewID="2" Type="HTML" Name="FileDialogView" DisplayName="Dateidialogansicht" Url="Forms/FileDlg.htm" Hidden="TRUE" ModifyVversion="5.0.2.2330">
+                     <ViewHeader>
+                        <HTML><![CDATA[
+                           <TABLE ID="FileDialogViewTable" width="100%" style="cursor: default;" border=0 rules=rows cellspacing=0 cellpadding=2>
+                           <TR>
+                        ]]></HTML>
+                        <Fields>
+                                 <HTML><![CDATA[
+                                    <TH Class="ms-vh">
+                                 ]]></HTML>
+                                 <Field/>
+                                 <HTML><![CDATA[
+                                    </TH>
+                                 ]]></HTML>
+                        </Fields>
+                        <HTML><![CDATA[
+                           </TR>
+                        ]]></HTML>
+                     </ViewHeader>
+                     <ViewBody>
+                        <HTML><![CDATA[
+                           <TR fileattribute=file ID="]]></HTML>
+                           <HttpHost URLEncodeAsURL="TRUE"/><LookupColumn Name="FileRef" URLEncodeAsURL="TRUE"></LookupColumn>
+                        <HTML><![CDATA[" onmousedown="selectrow()" onclick="selectrow()">
+                        ]]></HTML>
+                        <Fields>
+                                 <HTML><![CDATA[
+                                    <TD class="ms-vb">
+                                 ]]></HTML>
+                                 <Field/>
+                                 <HTML><![CDATA[
+                                    </TD>
+                                 ]]></HTML>
+                        </Fields>
+                        <HTML><![CDATA[
+                           </TR>
+                        ]]></HTML>
+                     </ViewBody>
+                     <ViewFooter>
+                        <HTML><![CDATA[
+                           </TABLE>
+                        ]]></HTML>
+                     </ViewFooter>
+               <ViewEmpty>
+                  <HTML><![CDATA[
+                     <TABLE ID="FileDialogViewTable" width="100%" style="cursor: default;" border=0 rules=rows cellspacing=0 cellpadding=2>
+                     <TR><TH></TH>
+                  ]]></HTML>
+                  <Fields>
+                       <Switch>
+                          <Expr><Property Select="Name"/></Expr>
+                          <Case Value="FileRef"></Case>
+                          <Default>
+                             <HTML><![CDATA[
+                                <TH Class="ms-vh">
+                             ]]></HTML>
+                             <Field/>
+                             <HTML><![CDATA[
+                                </TH>
+                             ]]></HTML>
+                          </Default>
+                       </Switch>
+                  </Fields>
+                  <HTML><![CDATA[
+                     </TR></TABLE>
+                  ]]></HTML>
+                   <HTML><![CDATA[<TABLE width="100%" border=0 rules=rows><TR>]]></HTML>
+                   <HTML><![CDATA[<TD Class="ms-vb">]]></HTML>
+                   <HTML>Es sind keine Dokumente des angegebenen Typs in dieser Dokumentbibliothek vorhanden.</HTML>
+				   <HTML><![CDATA[</TD></TR></TABLE>]]></HTML>
+               </ViewEmpty>
+                        <ViewFields>
+                           <FieldRef Name="DocIcon"></FieldRef>
+                           <FieldRef Name="BaseName"></FieldRef>
+                           <FieldRef Name="Editor" TextOnly="TRUE"></FieldRef>
+                           <FieldRef Name="Last_x0020_Modified" TextOnly="TRUE"></FieldRef>
+                        </ViewFields>
+                        <Query>
+                           <OrderBy>
+                              <FieldRef Name="FileRef"></FieldRef>
+                           </OrderBy>
+                        </Query>
+                     </View>
+                            <View BaseViewID="3" Type="HTML" Name="{C521E6ED-56C0-47b9-91F1-3D44C3BF23D2}" DisplayName="Ordneransicht" Url="Forms/WebFldr.htm" FPModified="TRUE" ReadOnly="TRUE" ModifyVversion="5.0.2.2330">
+<Toolbar Type="Standard"><HTML><![CDATA[
+<SCRIPT>
+var fNewDoc = false;
+</SCRIPT>
+<SCRIPT LANGUAGE="VBSCRIPT">
+    On Error Resume Next
+    Set NewDocumentButton = CreateObject("SharePoint.OpenDocuments.1")
+    fNewDoc = IsObject(NewDocumentButton)
+</SCRIPT>
+<SCRIPT>
+function RefreshOnFocus()
+{
+    window.location.href = window.location;
+}
+    var L_NewDocumentRuntimeError_Text =
+]]></HTML><HTML>
+"Das Dokument konnte nicht erstellt werden. \n" +
+"Die erforderliche Anwendung ist möglicherweise nicht ordnungsgemäß installiert " +
+"oder die Vorlage für diese Dokumentbibliothek kann nicht geöffnet werden.\n\n" +
+"Bitte versuchen Sie folgendes:\n" +
+"1. Ermitteln Sie den Namen der Vorlage in den allgemeinen Einstellungen für diese " +
+"Dokumentbibliothek und installieren Sie die zum Öffnen der Vorlage erforderliche Anwendung. " +
+"Falls die Anwendung auf Installation bei der ersten Verwendung eingestellt ist, starten Sie die " +
+"Anwendung, und versuchen Sie danach erneut, ein neues Dokument zu erstellen.\n\n" +
+"2. Falls Sie die Berechtigung zum Ändern dieser Dokumentbibliothek haben, wählen Sie in den " +
+"allgemeinen Einstellungen der Bibliothek eine andere Vorlage aus.";
+</HTML><HTML><![CDATA[
+function createNewDocument()
+{
+    var L_NewDocumentError_Text = ]]></HTML><HTML>"Die Schaltfläche 'Neues Dokument' erfordert eine SharePoint-kompatible Anwendung und Windows® Internet Explorer® 7, Internet Explorer 6, Internet Explorer 5 oder Internet Explorer 4. Um dieser Dokumentbibliothek ein neues Dokument hinzuzufügen, klicken Sie bitte auf die Schaltfläche 'Dokumentupload'."</HTML><HTML><![CDATA[;
+    var strTemplate = ]]></HTML><ScriptQuote><ListProperty Default="Word.Document.8" Select="TemplateUrl"/></ScriptQuote><HTML><![CDATA[;
+    var strSaveLocation = ]]></HTML><ScriptQuote><ListUrlDir/></ScriptQuote><HTML><![CDATA[;
+    if (fNewDoc)
+    {
+      if (!NewDocumentButton.CreateNewDocument(strTemplate, strSaveLocation))
+      {
+            alert(L_NewDocumentRuntimeError_Text);
+      }
+      else
+      {
+            window.onfocus = RefreshOnFocus;
+      }
+    }
+    else
+    {
+      alert(L_NewDocumentError_Text);
+    }
+}
+</SCRIPT>
+<!-- Toolbar -->
+  <TABLE width=100% cellpadding=2 cellspacing=0 border=0>
+   <TR>
+    <TD class="ms-toolbar" nowrap><a tabindex=2 class="ms-toolbar" target=_self href="javascript:createNewDocument();" ACCESSKEY=N ID="diidNewItem"><img border=0 alt=]]></HTML><HTML>"Neu"</HTML><HTML><![CDATA[ src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/newdoc.gif"></a></td><td nowrap><a tabindex=2 class="ms-toolbar" target=_self href="javascript:createNewDocument();" ACCESSKEY=N ID="diidNewItem">]]></HTML><HTML>Neues Dokument</HTML><HTML><![CDATA[</a></TD>
+    <TD class=ms-separator>|</TD>
+    <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIOUploadItem class="ms-toolbar" ACCESSKEY=U href="]]></HTML><URL Cmd="New"/><HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML><URL Cmd="New"/><HTML><![CDATA[', false);javascript:return false;" target="_self"><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/upload.gif" ID="tbbutton1U" alt=]]></HTML><HTML>"Hochladen"</HTML><HTML><![CDATA[ border=0 width=16 height=16></a> </td> <td nowrap> <a tabindex=2 class="ms-toolbar" ACCESSKEY=U ID=diidIOUploadItem href="]]></HTML><URL Cmd="New"/><HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML><URL Cmd="New"/><HTML><![CDATA[', false);javascript:return false;" target="_self"><LocID ID="tbbutton2U">]]></HTML><HTML>Dokumentupload</HTML><HTML><![CDATA[</LocID></a> </td>
+    <TD class=ms-separator>|</TD>
+    <td nowrap><a tabindex=2 class="ms-toolbar" ACCESSKEY=S ID=diidSubscribeButton href="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/NewSubs.htm?List=]]></HTML><List/><HTML><![CDATA["><LocID ID="tbbutton_nogif1">]]></HTML><HTML>Abonnieren</HTML><HTML><![CDATA[</LocID></a></td>
+    <TD width=99% class="ms-toolbar" align=right nowrap id=align01><table cellpadding=1 cellspacing=0 border=0><tr><td nowrap><IMG SRC="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/rect.gif" width="6" height="7"><span class=ms-toolbar>&nbsp;</span><a class="ms-toolbar" ACCESSKEY=C ID=diidCustomizeButton HREF="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/listedit.htm?List=]]></HTML><List/><HTML><![CDATA[")><LocID ID="L_ListEditMsg">]]></HTML><HTML>Einstellungen und Spalten ändern</HTML><HTML><![CDATA[</LocID></a><span class=ms-toolbar>&nbsp;</span></td></tr></table></td>
+	</TR>
+  </table>
+  <table width=100% border=0 cellpadding=0 cellspacing=2>
+  <tr>
+   <td class="ms-sectionline" colspan=10 height=1><img border=0 width=1 height=1 src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td>
+  </tr>
+  <tr><td height=4 colspan=8><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+  </table>
+]]></HTML></Toolbar>
+                            <ViewEmpty>
+<HTML><![CDATA[
+        <div id=expDiv class="ms-httpFolder"></div>
+        <script>
+        function navtoframe()
+        {
+            var L_WebFoldersRequired_Text = ]]></HTML><HTML>"Die Ordneransicht erfordert Internet Explorer 5.0 oder höher und Webordner."</HTML><HTML><![CDATA[;
+            var L_WebFoldersError_Text = ]]></HTML><HTML>"Die Ordneransicht erfordert Internet Explorer 5.0 oder höher für Windows."</HTML><HTML><![CDATA[;
+            if (browseris.ie5up && browseris.win32)
+            {
+                document.frames.item("expFrame").document.body.innerText = L_WebFoldersRequired_Text;
+                expDiv.navigateFrame("]]></HTML><ListUrlDir/><HTML><![CDATA[","expFrame");
+            }
+            else
+            {
+                alert(L_WebFoldersError_Text);
+                if (browseris.ie3up || browseris.ie4up)
+                {
+                    window.parent.history.back();
+                }
+                else if (browseris.nav)
+                {
+                    window.back();
+                    history.back();
+                }
+            }
+        }
+        </script>
+        <iframe id=expFrame width=100% height=500px class="ms-httpFolder" name=expFrame src="about:blank"></iframe>]]></HTML>
+                            </ViewEmpty>
+                            <ViewFields></ViewFields>
+                            </View>
+                  </Views>
+                  <Forms>
+                     <Form Type="DisplayForm" Url="Forms/DispForm.htm" ModifyVversion="5.0.2.2511">
+<ListFormOpening>
+<HTML><![CDATA[
+<Script Language="JavaScript">
+        function DeleteItem()
+        {
+            var L_Delete_text = ]]></HTML><HTML>"Möchten Sie diesen Eintrag löschen?"</HTML><HTML><![CDATA[;
+            if (confirm(L_Delete_text))
+                window.parent.location = ']]></HTML><HttpPath/><HTML><![CDATA[&Cmd=Delete&List=]]></HTML><List/><HTML><![CDATA[&ID=]]></HTML><ID/><HTML><![CDATA[&NextCmd=Display&owsfileref=]]></HTML><LookupColumn Name="FileRef" URLEncode="1"/><HTML><![CDATA[';
+        }
+        function ExportItem(using)
+        {
+            window.location = ']]></HTML><HttpPath/><HTML><![CDATA[?Cmd=Display&CacheControl=1&List=]]></HTML><List URLEncode="1"/><HTML><![CDATA[&ID=]]></HTML><ID/><HTML><![CDATA[&Using=]]></HTML><ListUrlDir WebRel="TRUE" URLEncode="1"/><HTML><![CDATA[/' + using;
+        }
+    </Script>
+]]></HTML>
+</ListFormOpening>
+<ListFormButtons>
+<HTML><![CDATA[
+  <TABLE cellpadding=2 cellspacing=0 border=0>
+   <tr><td height=4><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+   <TR>
+   <TD class="ms-toolbar" nowrap>
+	   <table cellpadding=1 cellspacing=0 border=0>
+	   <tr>
+		   <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIONewItem class="ms-toolbar" ACCESSKEY=N href="]]></HTML><ows:URL Cmd="New"/><HTML><![CDATA[" onclick="javascript:NewItemCore(']]></HTML><ows:URL Cmd="New"/><HTML><![CDATA[',']]></HTML><ows:GetVar Name="Source"/><HTML><![CDATA[', false);javascript:return false;" target=_self> <img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/newdoc.gif" ID="tbbuttonstart1" alt=]]></HTML><HTML>Hochladen</HTML><HTML><![CDATA[ border=0 width=16 height=16> </a> </td> <td nowrap> <a tabindex=2 ID=diidIONewItem class="ms-toolbar" ACCESSKEY=N href="]]></HTML><ows:URL Cmd="New"/><HTML><![CDATA[" onclick="javascript:NewItemCore(']]></HTML><ows:URL Cmd="New"/><HTML><![CDATA[',']]></HTML><ows:GetVar Name="Source"/><HTML><![CDATA[', false);javascript:return false;" target=_self>
+			   <LocID ID="L_NewItem">]]></HTML><HTML>Dokumentupload</HTML><HTML><![CDATA[</LocID>
+		   </a> </td>
+	   </tr>
+	   </table>
+   </TD>
+   <TD class=ms-separator>|</td>
+   <TD class="ms-toolbar">
+	   <table cellpadding=1 cellspacing=0 border=0>
+	   <tr>
+		   <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIOEditItem class="ms-toolbar" ACCESSKEY=I href="]]></HTML><ows:URL Cmd="Edit"/><HTML><![CDATA[" onclick="javascript:EditItem(']]></HTML><ows:URL Cmd="Edit"/><HTML><![CDATA[',']]></HTML><ows:GetVar Name="Source"/><HTML><![CDATA[');javascript:return false;" target=_self> <img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/edititem.gif" ID="tbbuttonstart1" alt=]]></HTML><HTML>"Bearbeiten"</HTML><HTML><![CDATA[ border=0 width=16 height=16> </a> </td> <td nowrap> <a tabindex=2 ID=diidIOEditItem class="ms-toolbar" ACCESSKEY=I href="]]></HTML><ows:URL Cmd="Edit"/><HTML><![CDATA[" onclick="javascript:EditItem(']]></HTML><ows:URL Cmd="Edit"/><HTML><![CDATA[',']]></HTML><ows:GetVar Name="Source"/><HTML><![CDATA[');javascript:return false;" target=_self>
+			   <LocID ID="L_EditItem">]]></HTML><HTML>Eintrag bearbeiten</HTML><HTML><![CDATA[</LocID>
+		   </a> </td>
+	   </tr>
+	   </table>
+   </TD>
+   <TD class=ms-separator>|</td>
+   <TD class="ms-toolbar">
+        <table cellpadding=1 cellspacing=0 border=0>
+        <tr>
+           <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIODeleteItem class="ms-toolbar" ACCESSKEY=X href="javascript:DeleteItem()" target="_self"> <img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/delitem.gif" ID="tbbuttonstart1" alt=]]></HTML><HTML>"Löschen"</HTML><HTML><![CDATA[ border=0 width=16 height=16> </a> </td> <td nowrap> <a tabindex=2 ID=diidIODeleteItem class="ms-toolbar" ACCESSKEY=X href="javascript:DeleteItem()" target="_self">
+               <LocID ID="L_DeleteItem">]]></HTML><HTML>Eintrag löschen</HTML><HTML><![CDATA[</LocID>
+           </a> </td>
+        </tr>
+        </table>
+        </TD>
+   <TD class=ms-separator>|</td>
+   <TD class="2ms-toolbar">
+        <table cellpadding=1 cellspacing=0 border=0>
+        <tr>
+            <td colspan=2 nowrap>
+			<a tabindex=100 class="ms-toolbar" ACCESSKEY=G ID=diidIOGoBack href="]]></HTML><ows:ListProperty Select="DefaultViewUrl"/><HTML><![CDATA[" onclick="javascript:GoBack(']]></HTML><ows:GetVar Name="Source" HTMLEncode="TRUE"/><HTML><![CDATA[',']]></HTML><ows:ListProperty Select="DefaultViewUrl"/><HTML><![CDATA[');javascript:return false;" target="_self">
+				<LocID ID="L_GOBackItem">]]></HTML><HTML>Zurück zur Dokumentbibliothek</HTML><HTML><![CDATA[</LocID>
+			</a>
+			</td>
+        </tr>
+        </table>
+        </TD>
+   </TR>
+  </TABLE>
+  <table width=100% border=0 cellpadding=0 cellspacing=2>
+  <tr>
+   <td class="ms-sectionline" colspan=8 height=1><img border=0 width=1 height=1 src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td>
+  </tr>
+  <tr><td height=4 colspan=8><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+  </table>
+]]></HTML>
+</ListFormButtons>
+<ListFormBody>
+<HTML><![CDATA[<TABLE class="ms-formtable" border=0 cellpadding=2>]]></HTML>
+<Fields>
+		<HTML><![CDATA[<TR><TH align=left valign=top class="ms-formlabel">]]></HTML>
+		<Property Select="DisplayName" HTMLEncode="TRUE"/>
+		<HTML><![CDATA[:</TH>]]></HTML>
+		<HTML><![CDATA[<TD valign="top" class="ms-formbody">]]></HTML>
+		<HTML><![CDATA[<table border=0 cellpadding=0 cellspacing=0><tr><td class="ms-formbody">]]></HTML>
+		<Field/>
+		<HTML><![CDATA[</td></tr></table>]]></HTML>
+		<HTML><![CDATA[</TD><TD>&nbsp;</TD></TR>]]></HTML>
+</Fields>
+<HTML><![CDATA[</TABLE>]]></HTML>
+<Switch>
+<Expr>
+    <GetVar Name="WebEditorPreview"/>
+</Expr>
+<Case Value="TRUE">
+    <SetVar Name="DisplayMode" Scope="Request">PREVIEWDISPLAY</SetVar>   
+</Case>
+<Default>
+    <SetVar Name="DisplayMode" Scope="Request">DISPLAY</SetVar>   
+</Default>
+</Switch>
+<HTML><![CDATA[
+<table border=0 cellpadding=2 width=100%>
+ <tr><td>&nbsp;</td></tr>
+ <tr>
+  <td class="ms-formlabel"> 
+   <table border=0 cellpadding=0 cellspacing=0 width=100%>
+    <tr><td class="ms-sectionline" height=1><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+    <tr><td height=2><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+    <tr><td class="ms-formdescription" ID=onetidinfoblock2>]]></HTML><HTML>Letzte Änderung am </HTML><SetVar Name="FreeForm" Scope="Request">TRUE</SetVar><Field Name="Last_x0020_Modified"/><HTML> von </HTML><Field Name="Editor"/><HTML><![CDATA[</td></tr>
+   </table>
+  </td>
+ </tr>
+</table>
+]]></HTML>
+</ListFormBody>
+                     </Form>
+                     <Form Type="EditForm" Url="Forms/EditForm.htm" ModifyVversion="5.0.2.2330">
+<ListFormOpening><HTML><![CDATA[
+<SCRIPT>
+var fNewDoc = false;
+var fSendForReviewButton = false;
+</SCRIPT>
+<SCRIPT LANGUAGE="VBSCRIPT">
+    On Error Resume Next
+    Set SendForReviewButton = CreateObject("SharePoint.SendForReview.1")
+    fSendForReviewButton = IsObject(SendForReviewButton)
+</SCRIPT>
+<SCRIPT LANGUAGE="VBSCRIPT">
+    On Error Resume Next
+    Set EditDocumentButton = CreateObject("SharePoint.OpenDocuments.1")
+    fNewDoc = IsObject(EditDocumentButton)
+</SCRIPT>
+<SCRIPT>
+    var L_EditDocumentError_Text = ]]></HTML><HTML>"Die Schaltfläche 'Dokument bearbeiten' erfordert eine SharePoint-kompatible Anwendung und Windows® Internet Explorer® 7, Internet Explorer 6, Internet Explorer 5 oder Internet Explorer 4."</HTML><HTML><![CDATA[;
+    var L_EditDocumentProgIDError_Text = ]]></HTML><HTML>"Die Schaltfläche 'Dokument bearbeiten' erfordert eine SharePoint-kompatible Anwendung und Windows® Internet Explorer® 7, Internet Explorer 6, Internet Explorer 5 oder Internet Explorer 4."</HTML><HTML><![CDATA[;
+    var L_EditDocumentRuntimeError_Text = ]]></HTML><HTML>"Das Dokument konnte nicht bearbeitet werden. \nDie erforderliche Anwendung ist möglicherweise nicht ordnungsgemäß installiert, oder das angeforderte Dokument kann nicht geöffnet werden.\n\nBitte versichern Sie sich, dass die erforderliche Anwendung installiert und der Pfad zum Dokument richtig ist. Wenn die Anwendung auf Installation bei der ersten Verwendung eingestellt ist, starten Sie die Anwendung, und versuchen Sie dann erneut ein Dokument zu bearbeiten.\n.</HTML><HTML><![CDATA[";
+<!--
+function editDocument(strDocument)
+{
+    if (fNewDoc)
+    {
+      if (!EditDocumentButton.EditDocument(strDocument))
+           alert(L_EditDocumentRuntimeError_Text);
+    }
+    else
+    {
+      alert(L_EditDocumentError_Text);
+    }
+}
+function editDocumentWithProgID(strDocument, varProgID)
+{
+    if (fNewDoc)
+    {
+      if(!EditDocumentButton.EditDocument(strDocument, varProgID))
+        alert(L_EditDocumentRuntimeError_Text);
+    }
+    else
+    {
+      alert(L_EditDocumentProgIDError_Text);
+    }
+}
+//-->
+</SCRIPT>
+<SCRIPT>
+var frm = new OWSForm("OWSForm", true, ]]></HTML><ScriptQuote><HttpVDir/><HTML>/_layouts/</HTML></ScriptQuote><HTML><![CDATA[);
+frm.fPreviewMode = (]]></HTML><ScriptQuote><ows:GetVar Name="ID"/></ScriptQuote><HTML><![CDATA[ == ""); 
+</SCRIPT>]]></HTML>
+<HTML><![CDATA[<SCRIPT>]]></HTML>
+<HTML><![CDATA[ frm.dopt.chDateSep = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="29"/></ScriptQuote><HTML><![CDATA[; frm.dopt.chTimeSep = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="30"/></ScriptQuote><HTML><![CDATA[; frm.dopt.SetTimeFormat(]]></HTML><LocaleInfo LCTYPE="35"/><HTML><![CDATA[); frm.dopt.SetDateOrder(]]></HTML><LocaleInfo LCTYPE="33"/><HTML><![CDATA[); frm.dopt.SetDOW(]]></HTML><ows:LocaleInfo LCTYPE="4108"/> <HTML><![CDATA[); frm.dopt.stAM = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="40"/></ScriptQuote><HTML><![CDATA[; frm.dopt.stPM = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="41"/></ScriptQuote><HTML><![CDATA[; frm.dopt.TimeMarkPosn = ]]></HTML><LocaleInfo LCTYPE="4101"/><HTML><![CDATA[; ]]></HTML>
+<HTML><![CDATA[ frm.nopt.chDigSep = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="15"/></ScriptQuote><HTML><![CDATA[; frm.nopt.chDecimal = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="14"/></ScriptQuote><HTML><![CDATA[; frm.nopt.chMinus = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="81"/></ScriptQuote><HTML><![CDATA[; frm.nopt.iNegNumber = ]]></HTML><LocaleInfo LCTYPE="4112"/><HTML><![CDATA[; frm.nopt.SetGrouping(]]></HTML><ScriptQuote><LocaleInfo LCTYPE="16"/></ScriptQuote><HTML><![CDATA[); ]]></HTML>
+<HTML><![CDATA[
+frm.stFieldPrefix = ]]></HTML><ScriptQuote><FieldPrefix/></ScriptQuote><HTML><![CDATA[;
+frm.stImagesPath = ]]></HTML><ScriptQuote><ImagesPath/></ScriptQuote><HTML><![CDATA[;
+frm.wBaseType = ]]></HTML><ListProperty Select="BaseType"/><HTML><![CDATA[;
+</SCRIPT>]]></HTML>
+<HTML><![CDATA[
+<SCRIPT>
+function DeleteItem()
+{
+    var L_Delete_text = ]]></HTML><HTML>"Möchten Sie diesen Eintrag löschen?"</HTML><HTML><![CDATA[;
+    if (confirm(L_Delete_text))
+       window.parent.location = ']]></HTML><HttpPath/><HTML><![CDATA[&Cmd=Delete&List=]]></HTML><List/><HTML><![CDATA[&ID=]]></HTML><ID/><HTML><![CDATA[&NextCmd=Display&owsfileref=]]></HTML><Switch><Expr><GetVar Name="WebEditorPreview"/></Expr><Case Value="TRUE"/><Default><LookupColumn Name="FileRef" URLEncode="1"/></Default></Switch><HTML><![CDATA[';
+}
+function SendForReview(strUrl)
+{
+    var L_SendForReviewError_Text = ]]></HTML><HTML>"Zur Durchsicht versenden erfordert eine SharePoint-kompatible Anwendung und Windows® Internet Explorer® 7, Internet Explorer 6, Internet Explorer 5 oder Internet Explorer 4."</HTML><HTML><![CDATA[;
+    if (fSendForReviewButton)
+        SendForReviewButton.SendForReview(strUrl);
+    else
+        alert(L_SendForReviewError_Text);
+}
+</SCRIPT>
+<Form Name="OWSForm" Action="]]></HTML><HttpPath/><HTML><![CDATA[" Method=POST onsubmit="return false;">
+  <INPUT type=hidden name="_charset_">
+  <INPUT type=hidden name="NextID" value="-1" />
+  <INPUT type=hidden name="NextUsing" value="]]></HTML><GetVar Name="Source"/><HTML><![CDATA[" />
+  <INPUT ID=onetidCmd Type=Hidden Name="Cmd" Value="Save">
+  <INPUT ID=onetidNotDemoting type=hidden name="NotDemoting">
+  <INPUT ID=onetidNotDemotingURL type=hidden name="NotDemotingURL">
+]]></HTML>
+  <Identity/>
+</ListFormOpening>
+<ListFormButtons><HTML><![CDATA[
+ <TABLE cellpadding=2 cellspacing=0 border=0>
+   <tr><td height=4><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+   <TR>
+       <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIOSaveItem class="ms-toolbar" ACCESSKEY=S href="javascript:frm.ValidateAndSubmit(true)" target="_self"> <img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/saveitem.gif" ID="tbbuttonstart1" alt=]]></HTML><HTML>"Speichern"</HTML><HTML><![CDATA[ border=0 width=16 height=16> </a> </td> <td nowrap> <a tabindex=2 ID=diidIOSaveItem class="ms-toolbar" ACCESSKEY=S href="javascript:frm.ValidateAndSubmit(true)" target="_self">
+           <LocID ID="L_EditFormSave">]]></HTML><HTML>Speichern und schließen</HTML><HTML><![CDATA[</LocID>
+       </a> </td>
+    <TD class=ms-separator>|</td>
+       <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIODeleteItem class="ms-toolbar" ACCESSKEY=X href="javascript:DeleteItem()" target="_self"> <img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/delitem.gif" ID="tbbuttonstart1" alt=]]></HTML><HTML>"Löschen"</HTML><HTML><![CDATA[ border=0 width=16 height=16> </a> </td> <td nowrap> <a tabindex=2 ID=diidIODeleteItem class="ms-toolbar" ACCESSKEY=X href="javascript:DeleteItem()" target="_self">
+           <LocID ID="L_EditFormDelete">]]></HTML><HTML>Löschen</HTML><HTML><![CDATA[</LocID>
+       </a> </td> 
+    <TD class=ms-separator>|</td>
+    <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIOSendForReview class="ms-toolbar" ACCESSKEY=R href="javascript:" onclick="javascript:SendForReview(']]></HTML><Switch><Expr><GetVar Name="WebEditorPreview"/></Expr><Case Value="TRUE"/><Default><HttpHost URLEncodeAsURL="TRUE"/><LookupColumn Name="FileRef" URLEncodeAsURL="TRUE"/></Default></Switch><HTML><![CDATA[');javascript:return false;" target=_self><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/icreview.gif" ID="tbbutton1R" alt=]]></HTML><HTML>"Zur Durchsicht versenden"</HTML><HTML><![CDATA[ border=0 width=16 height=16></a> </td> <td nowrap> <a tabindex=2 class="ms-toolbar" ACCESSKEY=R ID=diidIOSendForReview href="javascript:" onclick="javascript:SendForReview(']]></HTML><Switch><Expr><GetVar Name="WebEditorPreview"/></Expr><Case Value="TRUE"/><Default><HttpHost URLEncodeAsURL="TRUE"/><LookupColumn Name="FileRef" URLEncodeAsURL="TRUE"/></Default></Switch><HTML><![CDATA[');javascript:return false;" target=_self><LocID ID="tbbutton2R">]]></HTML><HTML>Zur Durchsicht versenden</HTML><HTML><![CDATA[</LocID></a> </td>
+    <TD class=ms-separator>|</td>
+    <td class="ms-toolbar" nowrap> <a tabindex=2 ID=diidIODiscuss class="ms-toolbar" ACCESSKEY=C href="]]></HTML><HttpPath/><HTML><![CDATA[&Cmd=COMMFRMS&URL=]]></HTML><Switch><Expr><GetVar Name="WebEditorPreview"/></Expr><Case Value="TRUE"/><Default><URLEncode><ScriptQuote NotAddingQuote="TRUE"><HttpHost URLEncodeAsURL="TRUE"/><LookupColumn Name="FileRef" URLEncodeAsURL="TRUE"/></ScriptQuote></URLEncode></Default></Switch><HTML><![CDATA[" target=_top><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/icdisc.gif" ID="tbbutton1C" alt=]]></HTML><HTML>"Diskutieren"</HTML><HTML><![CDATA[ border=0 width=16 height=16></a> </td> <td nowrap> <a tabindex=2 class="ms-toolbar" ACCESSKEY=C ID=diidIODiscuss href="]]></HTML><HttpPath/><HTML><![CDATA[&Cmd=COMMFRMS&URL=]]></HTML><Switch><Expr><GetVar Name="WebEditorPreview"/></Expr><Case Value="TRUE"/><Default><URLEncode><ScriptQuote NotAddingQuote="TRUE"><HttpHost URLEncodeAsURL="TRUE"/><LookupColumn Name="FileRef" URLEncodeAsURL="TRUE"/></ScriptQuote></URLEncode></Default></Switch><HTML><![CDATA[" target=_top><LocID ID="tbbutton2C">]]></HTML><HTML>Diskutieren</HTML><HTML><![CDATA[</LocID></a> </td>
+    <TD class=ms-separator>|</td>
+]]></HTML>
+<ows:XML> <Switch> <Expr><GetVar Name="WebEditorPreview"/></Expr> <Case Value="TRUE"/> <Default> <SetVar Name="ShowEditButton" Scope="Request">TRUE</SetVar> <Switch> <Expr><Column Name="HTML_x0020_File_x0020_Type"/></Expr> <Case Value="Word.Document"><SetVar Name="EditAppName" Scope="Request">Microsoft Word</SetVar><SetVar Name="EditProgID" Scope="Request">Word.Document</SetVar></Case> <Case Value="Excel.Sheet"><SetVar Name="EditAppName" Scope="Request">Microsoft Excel</SetVar><SetVar Name="EditProgID" Scope="Request">Excel.Sheet</SetVar></Case> <Case Value="PowerPoint.Slide"><SetVar Name="EditAppName" Scope="Request">Microsoft PowerPoint</SetVar><SetVar Name="EditProgID" Scope="Request">PowerPoint.Slide</SetVar></Case> <Case Value="FrontPage.Editor.Document"><SetVar Name="EditAppName" Scope="Request">Microsoft FrontPage</SetVar><SetVar Name="EditProgID" Scope="Request">FrontPage.Editor.Document</SetVar></Case> <Default> <Switch> <Expr><Column Name="File_x0020_Type"/></Expr> <Case Value="doc"><SetVar Name="EditAppName" Scope="Request">Microsoft Word</SetVar><SetVar Name="EditProgID" Scope="Request">Word.Document</SetVar></Case> <Case Value="xls"><SetVar Name="EditAppName" Scope="Request">Microsoft Excel</SetVar><SetVar Name="EditProgID" Scope="Request">Excel.Sheet</SetVar></Case> <Case Value="ppt"><SetVar Name="EditAppName" Scope="Request">Microsoft PowerPoint</SetVar><SetVar Name="EditProgID" Scope="Request">PowerPoint.Slide</SetVar></Case> <Case Value="htm"><SetVar Name="EditAppName" Scope="Request">Microsoft FrontPage</SetVar><SetVar Name="EditProgID" Scope="Request">FrontPage.Editor.Document</SetVar></Case> <Case Value="html"><SetVar Name="EditAppName" Scope="Request">Microsoft FrontPage</SetVar><SetVar Name="EditProgID" Scope="Request">FrontPage.Editor.Document</SetVar></Case> <Case Value="mht"><SetVar Name="EditAppName" Scope="Request">Microsoft Word</SetVar><SetVar Name="EditProgID" Scope="Request">Word.Document</SetVar></Case> <Case Value="mhtml"><SetVar Name="EditAppName" Scope="Request">Microsoft Word</SetVar><SetVar Name="EditProgID" Scope="Request">Word.Document</SetVar></Case> <Default><SetVar Name="ShowEditButton" Scope="Request">FALSE</SetVar></Default> </Switch> </Default> </Switch> <Switch> <Expr><GetVar Name="ShowEditButton"/></Expr> <Case Value="TRUE"> <HTML><![CDATA[<TD class="ms-toolbar" nowrap><a tabindex=2 class="ms-toolbar" target=_self href="javascript:" onclick="javascript:editDocumentWithProgID(']]></HTML>         <ScriptQuote NotAddingQuote="TRUE"><HttpHost/><LookupColumn Name="FileRef"/></ScriptQuote>         <HTML><![CDATA[',']]></HTML>         <GetVar Name="EditProgID"/>         <HTML><![CDATA[');javascript:return false;" ACCESSKEY=I ID=diidEditItem>]]></HTML> <HTML><![CDATA[<IMG BORDER=0 ALT="Icon" SRC="]]></HTML>         <ImagesPath/>         <MapToIcon><Column Name="HTML_x0020_File_x0020_Type"/><HTML>|</HTML><Column Name="File_x0020_Type"/></MapToIcon>         <HTML><![CDATA[">]]></HTML> <HTML><![CDATA[</a></td><td nowrap><a tabindex=2 class="ms-toolbar" target=_self href="javascript:" onclick="javascript:editDocumentWithProgID(']]></HTML>         <ScriptQuote NotAddingQuote="TRUE"><HttpHost/><LookupColumn Name="FileRef"/></ScriptQuote>         <HTML><![CDATA[',']]></HTML>         <GetVar Name="EditProgID"/>         <HTML><![CDATA[');javascript:return false;" ACCESSKEY=I ID=diidEditItem>]]></HTML> <HTML>Bearbeiten in </HTML> <GetVar Name="EditAppName"/> <HTML><![CDATA[</a></TD><TD class=ms-separator>|</TD>]]></HTML> </Case> <Default></Default> </Switch> </Default> </Switch> </ows:XML>
+<HTML><![CDATA[
+    <TD class="ms-toolbar"><table cellpadding=1 cellspacing=0 border=0><tr><td colspan=2 nowrap><a tabindex="2" class="ms-toolbar" ACCESSKEY=G ID=diidIOGoBack href="]]></HTML><ows:ListProperty Select="DefaultViewUrl"/><HTML><![CDATA[" ONCLICK="javascript:GoBack(']]></HTML><ows:GetVar Name="Source" HTMLEncode="TRUE"/><HTML><![CDATA[',']]></HTML><ows:ListProperty Select="DefaultViewUrl"/><HTML><![CDATA[');javascript:return false;" target="_self">
+    <LocID ID="L_EditFormGoBack">]]></HTML><HTML>Zurück zur Dokumentbibliothek</HTML><HTML><![CDATA[</LocID>
+</a></td></tr></table></TD>
+   </TR>
+  </TABLE>
+  <table width=100% border=0 cellpadding=0 cellspacing=2>
+  <tr>
+   <td class="ms-sectionline" colspan=5 height=1><img border=0 width=1 height=1 src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td>
+  </tr>
+  <tr><td height=4 colspan=5><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+  </table>
+<font size=1><br></font>
+]]></HTML>
+</ListFormButtons>
+<ListFormBody><HTML><![CDATA[
+<TABLE border=0 cellpadding=2>]]></HTML>
+      <Fields>
+    <HTML><![CDATA[<TR><TH valign=top class="ms-formlabel">]]></HTML>
+    <Property Select="DisplayName" HTMLEncode="TRUE"/>
+    <Switch>
+      <Expr><Property Select="Required"/></Expr>
+      <Case Value="TRUE">
+        <HTML><![CDATA[<font color=red> *</font>]]></HTML>
+        <SetVar Scope="Request" Name="HasRequired">TRUE</SetVar>
+      </Case>
+    </Switch>
+    <HTML><![CDATA[</TH><TD class="ms-formbody">]]></HTML>
+    <Field/>
+    <HTML><![CDATA[&nbsp;<br><SPAN class="ms-formdescription">]]></HTML>
+    <Property Select="Description" HTMLEncode="TRUE"/>
+    <HTML><![CDATA[</SPAN></TD></TR>]]></HTML>
+      </Fields>
+<HTML><![CDATA[</TABLE>]]></HTML>
+      <Switch>
+        <Expr><GetVar Name="HasRequired"/></Expr>
+        <Case Value="TRUE"><HTML><![CDATA[
+        <TABLE border=0 cellpadding=2>
+        <TR>
+        <TD class="ms-descriptiontext" colspan=2><br><font color=red>*</font>]]></HTML><HTML>markiert ein erforderliches Feld</HTML><HTML><![CDATA[</td>
+        </TR>
+        </TABLE>
+        ]]></HTML>
+        </Case>
+      </Switch>
+<Switch>
+<Expr>
+    <GetVar Name="WebEditorPreview"/>
+</Expr>
+<Case Value="TRUE">
+    <SetVar Name="DisplayMode" Scope="Request">PREVIEWDISPLAY</SetVar>   
+</Case>
+<Default>
+    <SetVar Name="DisplayMode" Scope="Request">DISPLAY</SetVar>   
+</Default>
+</Switch>
+<HTML><![CDATA[
+<table border=0 cellpadding=2 width=100%>
+ <tr><td>&nbsp;</td></tr>
+ <tr>
+  <td class="ms-formlabel"> 
+   <table border=0 cellpadding=0 cellspacing=0 width=100%>
+    <tr><td class="ms-sectionline" height=1><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+    <tr><td height=2><img src="]]></HTML><HttpVDir/><HTML><![CDATA[/_layouts/images/blank.gif"></td></tr>
+    <tr><td class="ms-formdescription" ID=onetidinfoblock2>]]></HTML><HTML>Letzte Änderung am </HTML><SetVar Name="FreeForm" Scope="Request">TRUE</SetVar><Field Name="Last_x0020_Modified"/><HTML> von </HTML><Field Name="Editor"/><HTML><![CDATA[</td></tr>
+   </table>
+  </td>
+ </tr>
+</table>
+]]></HTML>
+</ListFormBody>
+<ListFormClosing><HTML><![CDATA[
+</Form>
+<SCRIPT>
+function OnLoadWrapper()
+{
+	frm.SetFirstFocus();
+}
+if (browseris.ie4up) 
+{
+	document.body.onload = OnLoadWrapper;
+}
+else 
+{
+	frm.SetFirstFocus();
+}
+</SCRIPT>
+]]></HTML></ListFormClosing>
+                     </Form>
+                     <Form Type="NewForm" Url="Forms/Upload.htm" ModifyVversion="5.0.2.2330"/>
+                     <Form Type="NewFormDialog" Url="Forms/EditDlg.htm" ModifyVversion="5.0.0.2202">
+<ListFormOpening><HTML><![CDATA[
+<SCRIPT>
+var frm = new OWSForm("OWSForm", false, ]]></HTML><ScriptQuote><HttpVDir/><HTML>/_layouts/</HTML></ScriptQuote><HTML><![CDATA[);
+</SCRIPT>
+]]></HTML>
+<HTML><![CDATA[<SCRIPT>]]></HTML>
+<HTML><![CDATA[ frm.dopt.chDateSep = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="29"/></ScriptQuote><HTML><![CDATA[; frm.dopt.chTimeSep = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="30"/></ScriptQuote><HTML><![CDATA[; frm.dopt.SetTimeFormat(]]></HTML><LocaleInfo LCTYPE="35"/><HTML><![CDATA[); frm.dopt.SetDateOrder(]]></HTML><LocaleInfo LCTYPE="33"/><HTML><![CDATA[); frm.dopt.SetDOW(]]></HTML><ows:LocaleInfo LCTYPE="4108"/> <HTML><![CDATA[); frm.dopt.stAM = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="40"/></ScriptQuote><HTML><![CDATA[; frm.dopt.stPM = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="41"/></ScriptQuote><HTML><![CDATA[; frm.dopt.TimeMarkPosn = ]]></HTML><LocaleInfo LCTYPE="4101"/><HTML><![CDATA[; ]]></HTML>
+<HTML><![CDATA[ frm.nopt.chDigSep = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="15"/></ScriptQuote><HTML><![CDATA[; frm.nopt.chDecimal = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="14"/></ScriptQuote><HTML><![CDATA[; frm.nopt.chMinus = ]]></HTML><ScriptQuote><LocaleInfo LCTYPE="81"/></ScriptQuote><HTML><![CDATA[; frm.nopt.iNegNumber = ]]></HTML><LocaleInfo LCTYPE="4112"/><HTML><![CDATA[; frm.nopt.SetGrouping(]]></HTML><ScriptQuote><LocaleInfo LCTYPE="16"/></ScriptQuote><HTML><![CDATA[); ]]></HTML>
+<HTML><![CDATA[
+frm.stFieldPrefix = ]]></HTML><ScriptQuote><FieldPrefix/></ScriptQuote><HTML><![CDATA[;
+frm.stImagesPath = ]]></HTML><ScriptQuote><ImagesPath/></ScriptQuote><HTML><![CDATA[;
+frm.wBaseType = ]]></HTML><ListProperty Select="BaseType"/><HTML><![CDATA[;
+</SCRIPT>]]></HTML>
+<HTML><![CDATA[
+<Script>
+	var L_alert1_text = ]]></HTML><HTML>"Sie versuchen bereits, dieses Dokument zu speichern. Wenn Sie dieses Dokument erneut speichern, erstellen Sie unter Umständen doppelte Informationen. Sind Sie sicher, dass Sie dieses Dokument erneut speichern möchten?"</HTML><HTML><![CDATA[;
+	g_MSclicked = false;
+	function ClickOnce()
+	{
+		if(!g_MSclicked)
+		{
+			if(frm.ValidateAndSubmit(true))
+				g_MSclicked = true;
+		}
+		else
+		{
+			if(confirm(L_alert1_text))
+				frm.ValidateAndSubmit(true);
+		}
+	}
+</Script>
+]]></HTML>
+<HTML><![CDATA[
+<Form Name="OWSForm" Action="]]></HTML><HttpPath/><HTML><![CDATA[" Method=POST onSubmit="return false;">
+<INPUT Type=Hidden Name="_charset_">
+<INPUT ID=onetidCmd Type=Hidden Name="Cmd" Value="Save">
+<INPUT ID=onetidIsFormValid type=hidden name="IsFormValid">
+<INPUT ID=onetidFormWasPosted type=hidden name="FormWasPosted">
+<INPUT ID="MustUpdateForm" type=hidden name="MustUpdateForm" value="true">
+<INPUT type=hidden name="NextID" value="-1">
+<INPUT type=hidden name="NextUsing" value="]]></HTML><GetVar Name="Source"/><HTML><![CDATA[">]]></HTML>
+<Identity/>
+</ListFormOpening>
+<ListFormBody>
+<HTML><![CDATA[<TABLE border=0 cellpadding=2>]]></HTML>
+      <Fields>
+    <HTML><![CDATA[<TR><TH valign=top class="ms-formlabel">]]></HTML>
+    <Property Select="DisplayName" HTMLEncode="TRUE" AutoHyperLink="TRUE" AutoNewLine="TRUE"/>
+    <Switch>
+      <Expr><Property Select="Required"/></Expr>
+      <Case Value="TRUE">
+        <HTML><![CDATA[<font color=red> *</font>]]></HTML>
+        <SetVar Scope="Request" Name="HasRequired">TRUE</SetVar>
+      </Case>
+    </Switch>
+    <HTML><![CDATA[</TH><TD class="ms-formbody">]]></HTML>
+    <Field/>
+    <HTML><![CDATA[&nbsp;<br><SPAN class="ms-formdescription">]]></HTML>
+    <Property Select="Description" HTMLEncode="TRUE"/>
+    <HTML><![CDATA[</SPAN></TD></TR>]]></HTML>
+      </Fields>
+<HTML><![CDATA[</TABLE>]]></HTML>
+      <Switch>
+        <Expr><GetVar Name="HasRequired"/></Expr>
+        <Case Value="TRUE"><HTML><![CDATA[
+          <TABLE border=0 cellpadding=2>
+          <TR>
+            <TD class="ms-descriptiontext" colspan=2><br><font color=red>*</font> 
+              ]]></HTML><HTML>markiert ein erforderliches Feld</HTML><HTML><![CDATA[
+            </TD>
+          </TR>
+          </TABLE>
+          ]]></HTML>
+        </Case>
+      </Switch>
+</ListFormBody>
+<ListFormClosing>
+<HTML><![CDATA[
+</Form>
+<SCRIPT>
+</SCRIPT>
+]]></HTML>
+</ListFormClosing>
+                     </Form>
+                   </Forms>
+                   <DefaultDescription>
+                        Geben Sie ein Dokument für Ihre Gruppe frei, indem Sie es der Dokumentbibliothek hinzufügen.
+                   </DefaultDescription>
+               </MetaData>
+            </List>

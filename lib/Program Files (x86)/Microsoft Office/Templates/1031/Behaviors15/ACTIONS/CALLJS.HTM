@@ -1,0 +1,95 @@
+﻿<!-- _LocalBinding -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Skript aufrufen </title>
+		<meta http-equiv="msthemecompatible" content="yes">
+		<meta name="DHTMLScriptName" content="&Skript aufrufen">
+		
+		<meta name="DialogResizable" content="true">
+		
+		<meta name="DialogSize" content="400,115">
+		
+		<style> 
+			button { width: 8em; }					
+
+			table { border: none; border-collapse: collapse }
+		</style>
+		<script type="text/JavaScript">
+			var L_OkFailed_ErrorMessage	= "Geben Sie JavaScript-Text ein oder klicken Sie auf \"Abbrechen\", um fortzufahren.";		// alert message shown on 'Ok'								
+		</script>
+		<script type="text/JavaScript" src="FPLib.js"></script>
+		<script type="text/JavaScript" src="Strings.js"></script>
+		<script type="text/JavaScript" src="CallJs.js"></script>
+	</head>
+	<body onload="initializeForm()">
+		<form id="theForm" name="theForm" onsubmit="onOk(); return false;">
+			<table height="100%" width="100%">
+				<tr>
+					<td width="100%">
+						<table>
+							<tr>
+								<td nowrap>
+									<label accesskey="J" for="edJavaScript">
+										
+										
+										<u>J</u>avaScript/JScript:
+									</label>
+								</td>
+								<td>
+									&nbsp;
+								</td>
+								<td width="100%">
+									<input id="edJavaScript" name="edJavaScript" maxlength="1000" style="width: 100%" tabindex="1" type="text">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<hr>
+					</td>
+				</tr>
+				<tr>
+					<td width="100%">
+						<table width="100%">
+							<tr>
+								<td width="100%">
+									&nbsp;
+								</td>
+								<td>
+									<table>
+										<tr>
+											<td>
+												<button id="btnOk" tabIndex="2" type="submit">
+												
+													OK
+												</button>
+											</td>
+											<td>
+												&nbsp;
+											</td>
+											<td>
+												<button id="btnCancel" onclick="onCancel()" tabIndex="3" type="button">
+																							
+													Abbrechen
+												</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

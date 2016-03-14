@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Neon
+description=Erstellt ein Stylesheet mit neongrünem Text und Überschriften in Verdana, hellgrünen Hyperlinks und schwarzem Hintergrund.
+contributorModeRequirements=AllowCreatingCSSFiles

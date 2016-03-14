@@ -1,0 +1,6 @@
+﻿[info]
+_lcid=1031
+_version=12.0.0000.0
+title=Kopfzeile, Logo, 3 Spalten, Fußzeile
+description=Erstellen Sie ein Seitenlayout, das eine Kopfzeile, ein Logo, drei Spalten und eine Fußzeile enthält.
+contributorModeRequirements=AllowCreatingCSSFiles

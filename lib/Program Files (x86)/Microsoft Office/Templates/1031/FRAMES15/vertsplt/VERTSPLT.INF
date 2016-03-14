@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=11.0.4628.0
+title=Vertikale Teilung
+description=Erstellt nebeneinander angeordnete, unabhängige Frames.
+noframesURL=
+layout=[C(*,*)F("links","Rechts")]
+contributorModeRequirements=AllowCreatingFramesPages

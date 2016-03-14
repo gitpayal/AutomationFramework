@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--_lcid="1031" _version="5013" _dal="1" -->
+<!--_LocalBinding -->
+<Toolbox>
+	<ToolboxItem Type="2" Name="AdRotator" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="AdRotator" />
+	
+	
+	<ToolboxItem Type="2" Name="BulletedList" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="BulletedList" />
+	
+	
+	<ToolboxItem Type="2" Name="Button" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Button" />
+	
+	
+	<ToolboxItem Type="2" Name="Calendar" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Calendar" />
+	
+	
+	<ToolboxItem Type="2" Name="CheckBox" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="CheckBox" />
+	
+	
+	<ToolboxItem Type="2" Name="CheckBoxList" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="CheckBoxList" />
+	
+	
+	<ToolboxItem Type="2" Name="ContentPlaceHolder" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="ContentPlaceHolder" />
+	
+	
+	<ToolboxItem Type="2" Name="DropDownList" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="DropDownList" />
+	
+	
+	<ToolboxItem Type="2" Name="FileUpload" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="FileUpload" />
+	
+	
+	<ToolboxItem Type="2" Name="HiddenField" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="HiddenField" />
+	
+	
+	<ToolboxItem Type="2" Name="HyperLink" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="HyperLink" />
+	
+	
+	<ToolboxItem Type="2" Name="Image" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Image" />
+	
+	
+	<ToolboxItem Type="2" Name="ImageButton" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="ImageButton" />
+	
+	
+	<ToolboxItem Type="2" Name="ImageMap" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="ImageMap" />
+	
+	
+	<ToolboxItem Type="2" Name="Label" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Label" />
+	
+	
+	<ToolboxItem Type="2" Name="LinkButton" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="LinkButton" />
+	
+	
+	<ToolboxItem Type="2" Name="ListBox" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="ListBox" />
+	
+	
+	<ToolboxItem Type="2" Name="Literal" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Literal" />
+	
+	
+	<ToolboxItem Type="2" Name="Localize" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Localize" />
+	
+	
+	<ToolboxItem Type="2" Name="MultiView" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="MultiView" />
+	
+	
+	<ToolboxItem Type="2" Name="Panel" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Panel" />
+	
+	
+	<ToolboxItem Type="2" Name="PlaceHolder" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="PlaceHolder" />
+	
+	
+	<ToolboxItem Type="2" Name="RadioButton" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="RadioButton" />
+	
+	
+	<ToolboxItem Type="2" Name="RadioButtonList" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="RadioButtonList" />
+	
+	
+	<ToolboxItem Type="2" Name="Substitution" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Substitution" />
+	
+	
+	<ToolboxItem Type="2" Name="Table" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Table" />
+	
+	
+	<ToolboxItem Type="2" Name="TextBox" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="TextBox" />
+	
+	
+	<ToolboxItem Type="2" Name="View" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="View" />
+	
+	
+	<ToolboxItem Type="2" Name="Wizard" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Wizard" />
+	
+	
+	<ToolboxItem Type="2" Name="Xml" Description="" Assembly="System.Web" Namespace="System.Web.UI.WebControls" Class="Xml" />
+	
+	
+</Toolbox>

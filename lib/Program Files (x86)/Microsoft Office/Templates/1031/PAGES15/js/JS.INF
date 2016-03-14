@@ -1,0 +1,8 @@
+﻿[info]
+_lcid=1031
+_version=12.0.2804.0
+title=JavaScript
+description=Erstellt eine JavaScript-Datei.
+filename=blkjs.js
+isBlank=true
+contributorModeRequirements=AllowCreatingJavaScriptFiles
