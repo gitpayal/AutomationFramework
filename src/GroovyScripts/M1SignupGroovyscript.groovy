@@ -72,7 +72,7 @@ import GroovyScripts.searchFile;
 import executionengine.DriverScript;
 
 
-public void m1groovy() {
+public void m1groovy(WebDriver driver) {
 int maxTries = 3;
 int countexception =0;
 int teststepid = 1;
@@ -80,7 +80,7 @@ int str = 1;
 String desc;
 try
 {
-   WebDriver driver;
+   //WebDriver driver;
   
    workbook = new HSSFWorkbook();
    sheet = workbook.createSheet("Test Result");
@@ -143,10 +143,10 @@ try
         
    
  
-   File pathfirefox = new File("C:\\Program Files\\Java\\firefox.exe");
-   FirefoxProfile profile = new FirefoxProfile();
-   driver = new FirefoxDriver(new FirefoxBinary(pathfirefox), profile); 
-   driver.get("http://signup-page.dev.up-next.com/");
+  // File pathfirefox = new File("C:\\Program Files\\Java\\firefox.exe");
+   //FirefoxProfile profile = new FirefoxProfile();
+   //driver = new FirefoxDriver(new FirefoxBinary(pathfirefox), profile); 
+   //driver.get("http://signup-page.dev.up-next.com/");
    sleep(5000)
 
    

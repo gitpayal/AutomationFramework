@@ -205,31 +205,14 @@ public class DriverScript {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public static void callm1signup(){
-        try {
-        M1SignupGroovyscript m1 =new M1SignupGroovyscript();
-        m1.m1groovy();
-        }
-        catch(Exception ex)
-        { 
-            System.out.printf("Exception is " +ex);
-        }
-        
-        
-    }
+    
     private static void callM1SignupTestSuite() {
         
       
-        if ("Create Merchant".equals(SelectAction))
-        {
+        
             M1SignupTestSuite m1 = new M1SignupTestSuite();
             m1.LexwareSignUpTestSuite();
-        }
-        else
-        {
-            M1SignupGroovyscript m1 =new M1SignupGroovyscript();
-            m1.m1groovy();
-        }
+       
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 
     }

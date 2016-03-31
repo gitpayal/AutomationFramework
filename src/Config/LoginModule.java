@@ -28,6 +28,7 @@ public class LoginModule {
        // String email = genData.generateEmail(15);
          driver.findElement(By.id("merchant_email")).sendKeys(Keys.chord(Keys.CONTROL, "a"),merchantEmail); 
          driver.findElement(By.id("merchant_email_confirmation")).sendKeys(Keys.chord(Keys.CONTROL, "a"),merchantEmail); 
+         // Start : This piece of code takes data from testdata java class and does testing for each type of data
              // for (String item : TestData.Emaillist ) {
                 //  try {
                  //     driver.findElement(By.id("merchant_email")).sendKeys(Keys.chord(Keys.CONTROL, "a"),item);
@@ -68,7 +69,7 @@ public class LoginModule {
              ////         Logger.getLogger(LoginModule.class.getName()).log(Level.SEVERE, null, ex);
                 //  }
                //     }
-                
+                // End : This piece of code takes data from testdata java class and does testing for each type of data
 		}
     
     public static void Set_EmailConfirmation(){
